@@ -172,7 +172,7 @@ a.add:hover{text-decoration: underline;}
 /*.Icon.go_right:hover{background-position:-30px -80px;}*/
 /*按钮*/
 .Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
-.AppDetail_in .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:86px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
+.AppDetail_in .AppMakeBtn .Btn{border:0;border-right:1px solid #1b365f;width:95px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
 .AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current,.form_bottom .Btn{background:#347cdc;color: #fff;}
 .AppDetail_in .AppMakeBtn .btn-acc{width:45px;margin-left:-1px;border-left:1px solid #2b2b2e;}
 .AppDetail_in .AppMakeBtn .btn-acc .Icon{left:0;top:12px;}
@@ -350,7 +350,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .loading{position:absolute;width:50px;height:50px;top:50%;left:50%;margin:-25px 0 0 -25px;z-index:200;}
 .loading img{width:100%;-webkit-animation:spin 650ms infinite linear;animation:spin 650ms infinite linear;}
 .loading_mini{width:35px;height:35px;margin:-17px 0 0 -17px;}
-.mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:20;}
+.mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:20;background:#000;opacity: 0.1;}
 .sending,.no_data{width:220px;height:170px;margin:-85px 0 0 -110px;background: url("../img/mask70.png") repeat;}
 .sending{position: absolute;top:50%;left:50%;margin:-85px 0 0 -115px;z-index:100;}
 .no_data{position:fixed;width:300px;height:100px;top:50%;left:50%;margin:-50px 0 0 -150px;color:#fff;line-height:100px;z-index:10;border-radius:3px;}
