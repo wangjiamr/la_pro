@@ -403,28 +403,59 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .middle .Wallpaper_box li:hover{width:76px;height:76px;border:2px solid #68a6f9;transition:0.3;}
 /*表单图标*/
 @font-face {
-	font-family: 'icomoon';
-	src:url('oafont.eot?1vlyuc');
-	src:url('oafont.eot?#iefix1vlyuc') format('embedded-opentype'),
-		url('oafont.woff?1vlyuc') format('woff'),
-		url('oafont.ttf?1vlyuc') format('truetype'),
-		url('oafont.svg?1vlyuc#icomoon') format('svg');
+	font-family: 'oafont';
+	src:url('oafont.eot?-h8w4qc');
+	src:url('oafont.eot?#iefix-h8w4qc') format('embedded-opentype'),
+		url('oafont.woff?-h8w4qc') format('woff'),
+		url('oafont.ttf?-h8w4qc') format('truetype'),
+		url('oafont.svg?-h8w4qc#oafont') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
+	font-family: 'oafont';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bdgl:before {
+	content: "\e620";
+}
+
+.icon-dgxx:before {
+	content: "\e621";
+}
+
+.icon-jsgl:before {
+	content: "\e622";
+}
+
+.icon-mbgl:before {
+	content: "\e623";
+}
+
+.icon-sqrz:before {
+	content: "\e624";
+}
+
+.icon-process:before {
+	content: "\e627";
+}
+
+.icon-datalink:before {
+	content: "\e625";
+}
+
+.icon-tjfx:before {
+	content: "\e626";
 }
 
 .icon-locked:before {
@@ -435,15 +466,19 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	content: "\e601";
 }
 
-.icon-search:before {
+.icon-iser:before {
 	content: "\e602";
 }
 
-.icon-settings:before {
+.icon-iset:before {
 	content: "\e603";
 }
 
-.icon-visibility:before {
+.icon-iadd:before {
+	content: "\e628";
+}
+
+.icon-eye2:before {
 	content: "\e604";
 }
 
@@ -523,6 +558,14 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	content: "\e617";
 }
 
+.icon-eye:before {
+	content: "\e000";
+}
+
+.icon-paper-clip:before {
+	content: "\e001";
+}
+
 .icon-1:before {
 	content: "\e022";
 }
@@ -575,6 +618,10 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	content: "\e045";
 }
 
+.icon-square-check:before {
+	content: "\e04a";
+}
+
 .icon-square-plus:before {
 	content: "\e046";
 }
@@ -583,7 +630,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	content: "\e047";
 }
 
-.icon-square-check:before {
+.icon-square-checked:before {
 	content: "\e048";
 }
 
@@ -597,6 +644,18 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 
 .icon-location:before {
 	content: "\e070";
+}
+
+.icon-plus:before {
+	content: "\e114";
+}
+
+.icon-check2:before {
+	content: "\e116";
+}
+
+.icon-cross:before {
+	content: "\e117";
 }
 
 .icon-mail:before {
@@ -630,6 +689,8 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .icon-share:before {
 	content: "\e61f";
 }
+
+
 .form_list [class^="icon-"], [class*=" icon-"]{font-size:45px;color:#fff;}
 .f_icon{margin-bottom:20px;}
 
@@ -679,8 +740,8 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .set_nav .nav_list li{padding-left:20px;}
 .circle_ico{display:inline-block;width:40px;height:40px;border:1px solid #0066cc;border-radius:50%;line-height:40px;text-align: center;color: #0066cc;background:#fff;transition:0.3s;}
 a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transition:0.3s;}
-
-
+.work_list .circle_ico2{font-size:16px;color:#bbb;}
+.icon-square-checked,.icon-drafts{color:#347cdc;}
 /*工作台右侧*/
 .Title{height:40px;line-height:40px;border-bottom:1px solid #aaa;background: none;}
 .Title a{color:#224477;}
