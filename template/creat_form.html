@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>通讯录</title>
+    <title>新建表单</title>
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -10,30 +10,30 @@
 <body>
 <div class="layout">
     <!--left begin-->
-    <div class="layout_left">
+    <div class="layout_left mini_left" style="width:80px;"><!--将左侧变窄加上class   mini_left 并animate改变width为80-->
         <a href="#" class="oa_logo block"><img src="../img/logo.jpg" /></a>
         <div class="nav_tools">
             <ul class="tool_nav font14">
-                <li><a href="javascript:;"><i class="I-con I-con-home"></i>工作台</a></li>
+                <li><a href="javascript:;"><i class="I-con I-con-home"></i><em>工作台</em></a></li>
             </ul>
             <ul class="nav_list font14">
-                <li class="nav_li_first"><a href="javascript:;" class="nobg"><i class="I-con I-con-doc"></i>归档</a></li>
-                <li><a href="javascript:;">我的申请</a></li>
-                <li class="current"><a href="javascript:;">我的审批</a></li>
-                <li><a href="javascript:;">我的经办</a></li>
+                <li class="nav_li_first"><a href="javascript:;" class="nobg"><i class="I-con I-con-doc"></i><em>归档</em></a></li>
+                <li><a href="javascript:;"><em>我的</em>申请</a></li>
+                <li class="current"><a href="javascript:;"><em>我的</em>审批</a></li>
+                <li><a href="javascript:;"><em>我的</em>经办</a></li>
                 <li><a href="javascript:;">传阅</a></li>
             </ul>
         </div>
         <div class="left_bottom">
             <ul class="tool_nav font14">
-                <li><a href="javascript:;"><i class="I-con I-con-apply"></i>发申请</a></li>
-                <li><a href="javascript:;"><i class="I-con I-con-ser"></i>智能搜索</a></li>
-                <li><a href="javascript:;"><i class="I-con I-con-set"></i>管理</a></li>
+                <li><a href="javascript:;"><i class="I-con I-con-apply"></i><em>发申请</em></a></li>
+                <li><a href="javascript:;"><i class="I-con I-con-ser"></i><em>智能搜索</em></a></li>
+                <li><a href="javascript:;"><i class="I-con I-con-set"></i><em>管理</em></a></li>
             </ul>
             <div class="user_info font14 clearfix">
                 <span class="UserImg floatleft marr10 ie-css3"><img src="../img/1.png"></span>
-                <p>欢迎回来</p>
-                <p>悍卒者</p>
+                <p><em>欢迎回来</em></p>
+                <p><em>悍卒者</em></p>
             </div>
         </div>
         <!--管理二级菜单begin-->
@@ -52,8 +52,8 @@
     </div>
     <!--left over-->
     <!--right begin-->
-    <div class="layout_right">
-        <div class="home_page">
+    <div class="layout_right hidden" style="left:81px;"><!--将左侧变窄加上class   mini_left 并animate改变此处的left为81-->
+        <div class="home_page" style="display: none;">
             <div class="work_item">
                 <div class="Title alignright clearfix">
                     <span class="font24 floatleft">我来审批<em class="font18 color-8">(10)</em></span>
@@ -215,111 +215,23 @@
                 </table>
             </div>
         </div>
+        <!--表单创建begin-->
+        <div class="admin_header">
+            <div class="top_nav aligncenter font14">
+                <a href="javascript:;" class="new_btn font12 ie-css3">另存为模板</a>
+                <a href="javascript:;" class="new_btn font12 ie-css3">生成表单</a>
+                <a href="javascript:;" class="new_btn font12 ie-css3">选择模板</a>
+                <a href="javascript:;" class="new_btn font12 ie-css3">清空</a>
+                <a href="javascript:;" class="new_btn bg-waring font12 ie-css3">退出编辑</a>
+            </div>
+        </div>
+        <div class="creat_out">
+            <iframe allowtransparency="true" allowtransparency="true" src="creat.html" width="1105" height="100%" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <!--表单创建over-->
     </div>
     <!--right over-->
-    <div class="mask"></div>
-    <!--右侧滑出的表单详情 附件begin-->
-    <div class="right_main AppDetail" style="right:200px;">
-        <iframe allowtransparency="true" allowtransparency="true" src="list.html" width="800" height="100%" frameborder="0" scrolling="no"></iframe>
-    </div>
-    <!--右侧滑出的表单详情 附件over-->
-    <!--通讯录begin-->
-    <div class="User_list">
-        <p class="User_title aligncenter">请选择您要添加的人员</p>
-        <div class="TopBar mart10">
-            <div class="clearfix">
-                <span class="block Cur_Word marl10 mart5 floatleft">A</span>
-                <div class="search floatright ie-css3 marr10"><!--加 current，显示搜索结果框-->
-                    <input type="text" placeholder="搜索">
-                </div>
-            </div>
-            <!--姓名首字母检索begin-->
-            <table class="CheckWord mart10 clearfix">
-                <tr>
-                    <td>A</td>
-                    <td>B</td>
-                    <td>C</td>
-                    <td>D</td>
-                    <td>E</td>
-                    <td>F</td>
-                    <td>G</td>
-                    <td>H</td>
-                    <td>I</td>
-                    <td>J</td>
-                </tr>
-                <tr>
-                    <td>K</td>
-                    <td>L</td>
-                    <td>M</td>
-                    <td>N</td>
-                    <td>O</td>
-                    <td class="disabled">P</td>
-                    <td>Q</td>
-                    <td>R</td>
-                    <td>S</td>
-                    <td>T</td>
-                </tr>
-                <tr>
-                    <td>U</td>
-                    <td>V</td>
-                    <td>W</td>
-                    <td>X</td>
-                    <td>Y</td>
-                    <td>Z</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-            <!--姓名首字母检索over-->
-            <div class="nav nav_normal clearfix color-8">
-                <em class="borderBt"></em>
-                <a href="#" class="current">姓名</a>
-                <a href="#">角色</a>
-            </div>
-        </div>
-        <div class="jscroll" style="height:400px;">
-            <ul class="User_ul">
-                <li class="clearfix">
-                    <span class="UserImg floatleft ie-css3"><img src="../img/1.png"></span>
-                    <span class="UserName">刘德华</span>
-                    <p class="txt_hidden">明道北明道北京研发中心明道北京研发中心明道北京研发中心京研发中心</p>
-                </li>
-                <li class="clearfix">
-                    <span class="UserImg floatleft ie-css3"><img src="../img/1.png"></span>
-                    <span class="UserName">刘德华</span>
-                    <p class="txt_hidden">明道北京研发中心</p>
-                </li>
-                <li class="clearfix">
-                    <span class="UserImg floatleft ie-css3"><img src="../img/1.png"></span>
-                    <span class="UserName">刘德华</span>
-                    <p class="txt_hidden">明道北京研发中心</p>
-                </li>
-                <li class="clearfix">
-                    <span class="UserImg floatleft ie-css3"><img src="../img/boss.jpg"></span>
-                    <span class="UserName">直属上司</span>
-                    <p class="txt_hidden">明道北京研发中心</p>
-                </li>
-                <li class="clearfix">
-                    <span class="UserImg floatleft ie-css3"><img src="../img/1.png"></span>
-                    <span class="UserName">刘德华</span>
-                    <p class="txt_hidden">明道北京研发中心</p>
-                </li>
-                <li class="clearfix">
-                    <span class="UserImg floatleft ie-css3"><img src="../img/1.png"></span>
-                    <span class="UserName">刘德华</span>
-                    <p class="txt_hidden">明道北京研发中心</p>
-                </li>
-                <li class="clearfix">
-                    <span class="UserImg floatleft ie-css3"><img src="../img/1.png"></span>
-                    <span class="UserName">刘德华</span>
-                    <p class="txt_hidden">明道北京研发中心</p>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!--通讯录over-->
+    <div class="mask" style="display: none"></div>
 </div>
 </body>
 </html>
