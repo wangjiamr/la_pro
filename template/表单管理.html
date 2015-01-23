@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>表单管理</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div class="layout">
+    <!--left begin-->
+    <div class="layout_left mini_left" style="width:80px;">
+        <a href="#" class="oa_logo block"><img src="../img/logo.jpg" /></a>
+        <div class="nav_tools">
+            <ul class="tool_nav font14">
+                <li class="current"><a href="javascript:;"><span class="circle_ico font24"><i class="icon-laptop-chromebook"></i></span><em>工作台</em></a></li>
+            </ul>
+            <ul class="nav_list font14">
+                <li class="nav_li_first"><i class="icon-idoc color-a font24 marl10"></i><em class="marl20">归档</em></li>
+                <li><a href="javascript:;"><em>我的</em>申请</a></li>
+                <li class="current"><a href="javascript:;"><em>我的</em>审批</a></li>
+                <li><a href="javascript:;"><em>我的</em>经办</a></li>
+                <li><a href="javascript:;">传阅</a></li>
+            </ul>
+        </div>
+        <div class="left_bottom">
+            <ul class="tool_nav font14">
+                <li><a href="javascript:;"><span class="circle_ico font20"><i class="icon-iadd"></i></span><em>发申请</em></a></li>
+                <li><a href="javascript:;"><span class="circle_ico font20"><i class="icon-iser"></i></span><em>智能搜索</em></a></li>
+                <li><a href="javascript:;"><span class="circle_ico font20"><i class="icon-iset"></i></span><em>管理</em></a></li>
+            </ul>
+            <div class="user_info font14 clearfix">
+                <span class="UserImg floatleft marr10 ie-css3"><img src="../img/1.png"></span>
+                <p><em>欢迎回来</em></p>
+                <p><em>悍卒者</em></p>
+            </div>
+        </div>
+    </div>
+    <!--left over-->
+    <!--right begin-->
+    <div class="layout_right hidden" style="left:81px;">
+        <div class="home_page" style="display: none;">
+            <div class="work_item">
+                <div class="Title alignright clearfix">
+                    <span class="font24 floatleft">我来审批<em class="font18 color-8">(10)</em></span>
+                    <a href="#">收起列表<i class="toggle_arrow"></i></a>
+                </div>
+                <table class="work_list mart15">
+                    <thead>
+                        <tr>
+                            <th class="width-30"></th>
+                            <th class="width-50 aligncenter"><a href="#">全选</a></th>
+                            <th>
+                                <div class="inner alignright">
+                                    <a href="#">按更新时间排序</a>
+                                    <em>|</em>
+                                    <a href="#" class="current">按申请时间排序</a>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="current">
+                            <th class="noborder nobg"><a href="#"><i class="I-con I-con-mail"></i></a></th>
+                            <th><a href="#"><i class="I-con I-con-check"></i></a></th>
+                            <td>
+                                <div class="inner">
+                                    <a href="javascript:;" class="toggle current"><i class="toggle_arrow"></i></a>
+                                    <p class="color-8"><span>赵晓阳</span>于<span>2015.1.26 12:07:43</span>发起的<span>费用报销申请</span>已在<span>3分钟</span>前被<span>王振佳</span>通过，现等待您的<span>审批</span></p>
+                                    <!--表单预览begin-->
+                                    <div class="Preview p-bt10">
+                                        <div class="form_Preview">
+                                            <em class="toggle_arrow"></em>
+                                            <table>
+                                                <tr>
+                                                    <th>申请人: </th>
+                                                    <td>赵晓阳</td>
+                                                    <th>申请日期: </th>
+                                                    <td>2015.1.26  12:07:43</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>部门: </th>
+                                                    <td>明道北京研发中心</td>
+                                                    <th>金额: </th>
+                                                    <td>1000元</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>备注: </th>
+                                                    <td colspan="3">2015明道北京研发中心交通费报销</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <p class="mart10"><a href="#">查看完整表单</a></p>
+                                        <span class="Btns current mart10">
+                                            <a href="#" class="a_txt">通过</a>
+                                            <em class="toggle"><i class="toggle_arrow"></i></em>
+                                            <ul>
+                                                <li><a href="#">否决</a></li>
+                                                <li><a href="#">专审</a></li>
+                                                <li><a href="#" class="noborder">更多...</a></li>
+                                            </ul>
+                                        </span>
+                                    </div>
+                                    <!--表单预览over-->
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="noborder nobg"><a href="#"><i class="I-con I-con-mail I-con-mailed"></i></a></th>
+                            <th><a href="#"><i class="I-con I-con-check I-con-checked"></i></a></th>
+                            <td>
+                                <div class="inner">
+                                    <p class="color-8"><span>赵晓阳</span>于<span>2015.1.26 12:07:43</span>发起的<span>费用报销申请</span>已在<span>3分钟</span>前被<span>王振佳</span>通过，现等待您的<span>审批</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="work_item">
+                <div class="Title alignright clearfix">
+                    <span class="font24 floatleft">我的申请<em class="font18 color-8">(10)</em></span>
+                    <a href="#">收起列表<i class="toggle_arrow"></i></a>
+                </div>
+                <table class="work_list mart15">
+                    <thead>
+                    <tr>
+                        <th class="width-30"></th>
+                        <th class="width-50 aligncenter"><a href="#">全选</a></th>
+                        <th>
+                            <div class="inner alignright">
+                                <a href="#">按更新时间排序</a>
+                                <em>|</em>
+                                <a href="#">按申请时间排序</a>
+                            </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th class="noborder nobg"><a href="#"><i class="I-con I-con-mail"></i></a></th>
+                        <th><a href="#"><i class="I-con I-con-check"></i></a></th>
+                        <td>
+                            <div class="inner">
+                                <a href="javascript:;" class="toggle"><i class="toggle_arrow"></i></a>
+                                <p class="color-8"><span>赵晓阳</span>于<span>2015.1.26 12:07:43</span>发起的<span>费用报销申请</span>已在<span>3分钟</span>前被<span>王振佳</span>通过，现等待您的<span>审批</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="noborder nobg"><a href="#"><i class="I-con I-con-mail I-con-mailed"></i></a></th>
+                        <th><a href="#"><i class="I-con I-con-check I-con-checked"></i></a></th>
+                        <td>
+                            <div class="inner">
+                                <p class="color-8"><span>赵晓阳</span>于<span>2015.1.26 12:07:43</span>发起的<span>费用报销申请</span>已在<span>3分钟</span>前被<span>王振佳</span>通过，现等待您的<span>审批</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="work_item">
+                <div class="Title alignright clearfix">
+                    <span class="font24 floatleft">我的传阅<em class="font18 color-8">(10)</em></span>
+                    <a href="#">收起列表<i class="toggle_arrow"></i></a>
+                </div>
+                <table class="work_list mart15">
+                    <thead>
+                        <tr>
+                            <th class="width-30"></th>
+                            <th class="width-50 aligncenter"><a href="#">全选</a></th>
+                            <th>
+                                <div class="inner alignright">
+                                    <a href="#">按更新时间排序</a>
+                                    <em>|</em>
+                                    <a href="#">按申请时间排序</a>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="noborder nobg"><a href="#"><i class="I-con I-con-mail"></i></a></th>
+                            <th><a href="#"><i class="I-con I-con-check"></i></a></th>
+                            <td>
+                                <div class="inner">
+                                    <p class="color-8"><span>赵晓阳</span>于<span>2015.1.26 12:07:43</span>发起的<span>费用报销申请</span>已在<span>3分钟</span>前被<span>王振佳</span>通过，现等待您的<span>审批</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="noborder nobg"><a href="#"><i class="I-con I-con-mail I-con-mailed"></i></a></th>
+                            <th><a href="#"><i class="I-con I-con-check I-con-checked"></i></a></th>
+                            <td>
+                                <div class="inner">
+                                    <p class="color-8"><span>赵晓阳</span>于<span>2015.1.26 12:07:43</span>发起的<span>费用报销申请</span>已在<span>3分钟</span>前被<span>王振佳</span>通过，现等待您的<span>审批</span></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--表单列表begin-->
+        <div class="admin_header">
+            <div class="top_nav aligncenter font14">
+                <a href="javascript:;" class="new_btn font12 ie-css3">新建表单</a>
+                <a href="javascript:;" class="new_btn font12 ie-css3">从模板创建表单</a>
+                <a href="javascript:;" class="new_btn bg-waring font12 ie-css3">退出</a>
+            </div>
+        </div>
+        <div class="form_page mart50 p-top20">
+            <div class="nav_bar alignright font14 clearfix">
+                <span class="font24 floatleft" style="margin-top:-5px;">表单管理<em class="font18 marl20 color-6">请选择一个表单操作</em></span>
+                <em class="borderBt" style="right: 0;"></em>
+                <a href="#" class="current">常用表单</a>
+                <a href="#">财务类</a>
+                <a href="#">行政类</a>
+                <a href="#">其他</a>
+            </div>
+            <div class="form_out">
+                <div class="form_list_box">
+                    <ul class="form_list clearfix marl5">
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-1"></span></p>
+                                <p class="font16">资源资源</p>
+                            </a>
+                            <div class="li_cover">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <a href="#" class="btn_edit">
+                                                <i class="icon-pencil"></i><br>
+                                                <span>编 辑</span>
+                                            </a>
+                                        </th>
+                                        <th class="btn_stop">
+                                            <a href="#">
+                                                <i class="icon-block"></i><br>
+                                                <span>停 用</span>
+                                            </a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="#" class="btn_delete">
+                                                <i class="icon-trashcan"></i><br>
+                                                <span>删 除</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-2"></span></p>
+                                <p class="font16">加班申请</p>
+                            </a>
+                            <div class="li_cover">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <a href="#" class="btn_edit">
+                                                <i class="icon-pencil"></i><br>
+                                                <span>编 辑</span>
+                                            </a>
+                                        </th>
+                                        <th class="btn_stop">
+                                            <a href="#">
+                                                <i class="icon-block"></i><br>
+                                                <span>停 用</span>
+                                            </a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="#" class="btn_delete">
+                                                <i class="icon-trashcan"></i><br>
+                                                <span>删 除</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-3"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li id="this_form">
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-4"></span></p>
+                                <p class="font16">出差申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-5"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-6"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-7"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-0"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-1"></span></p>
+                                <p class="font16">资源资源</p>
+                            </a>
+                            <div class="li_cover">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <a href="#" class="btn_edit">
+                                                <i class="icon-pencil"></i><br>
+                                                <span>编 辑</span>
+                                            </a>
+                                        </th>
+                                        <th class="btn_stop">
+                                            <a href="#">
+                                                <i class="icon-block"></i><br>
+                                                <span>停 用</span>
+                                            </a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="#" class="btn_delete">
+                                                <i class="icon-trashcan"></i><br>
+                                                <span>删 除</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-2"></span></p>
+                                <p class="font16">加班申请</p>
+                            </a>
+                            <div class="li_cover">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <a href="#" class="btn_edit">
+                                                <i class="icon-pencil"></i><br>
+                                                <span>编 辑</span>
+                                            </a>
+                                        </th>
+                                        <th class="btn_stop">
+                                            <a href="#">
+                                                <i class="icon-block"></i><br>
+                                                <span>停 用</span>
+                                            </a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="#" class="btn_delete">
+                                                <i class="icon-trashcan"></i><br>
+                                                <span>删 除</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-3"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li id="this_form">
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-4"></span></p>
+                                <p class="font16">出差申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-5"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-6"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-7"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-0"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-1"></span></p>
+                                <p class="font16">资源资源</p>
+                            </a>
+                            <div class="li_cover">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <a href="#" class="btn_edit">
+                                                <i class="icon-pencil"></i><br>
+                                                <span>编 辑</span>
+                                            </a>
+                                        </th>
+                                        <th class="btn_stop">
+                                            <a href="#">
+                                                <i class="icon-block"></i><br>
+                                                <span>停 用</span>
+                                            </a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="#" class="btn_delete">
+                                                <i class="icon-trashcan"></i><br>
+                                                <span>删 除</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-2"></span></p>
+                                <p class="font16">加班申请</p>
+                            </a>
+                            <div class="li_cover">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <a href="#" class="btn_edit">
+                                                <i class="icon-pencil"></i><br>
+                                                <span>编 辑</span>
+                                            </a>
+                                        </th>
+                                        <th class="btn_stop">
+                                            <a href="#">
+                                                <i class="icon-block"></i><br>
+                                                <span>停 用</span>
+                                            </a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="#" class="btn_delete">
+                                                <i class="icon-trashcan"></i><br>
+                                                <span>删 除</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-3"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li id="this_form">
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-4"></span></p>
+                                <p class="font16">出差申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-5"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-6"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-7"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-0"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-1"></span></p>
+                                <p class="font16">资源资源</p>
+                            </a>
+                            <div class="li_cover">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <a href="#" class="btn_edit">
+                                                <i class="icon-pencil"></i><br>
+                                                <span>编 辑</span>
+                                            </a>
+                                        </th>
+                                        <th class="btn_stop">
+                                            <a href="#">
+                                                <i class="icon-block"></i><br>
+                                                <span>停 用</span>
+                                            </a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="#" class="btn_delete">
+                                                <i class="icon-trashcan"></i><br>
+                                                <span>删 除</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-2"></span></p>
+                                <p class="font16">加班申请</p>
+                            </a>
+                            <div class="li_cover">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <a href="#" class="btn_edit">
+                                                <i class="icon-pencil"></i><br>
+                                                <span>编 辑</span>
+                                            </a>
+                                        </th>
+                                        <th class="btn_stop">
+                                            <a href="#">
+                                                <i class="icon-block"></i><br>
+                                                <span>停 用</span>
+                                            </a>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="#" class="btn_delete">
+                                                <i class="icon-trashcan"></i><br>
+                                                <span>删 除</span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-3"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li id="this_form">
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-4"></span></p>
+                                <p class="font16">出差申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-5"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-6"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-7"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="f_icon"><span class="icon-0"></span></p>
+                                <p class="font16">采购申请</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--表单列表over-->
+    </div>
+    <!--right over-->
+    <div class="mask" style="display: none;"></div>
+</div>
+</body>
+</html>
