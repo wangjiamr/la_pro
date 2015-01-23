@@ -221,14 +221,13 @@
         </div>
     </div>
     <!--right over-->
-    <div class="mask" style="display: none;"></div>
     <!--右侧滑出的表单详情 附件begin-->
-    <div class="right_main AppDetail" style="right:200px;display: none;">
+    <div class="right_main AppDetail" style="right:200px;display: ;">
         <iframe allowtransparency="true" allowtransparency="true" src="list.html" width="800" height="100%" frameborder="0" scrolling="no"></iframe>
     </div>
     <!--右侧滑出的表单详情 附件over-->
     <!--附件begin-->
-    <div class="Annex_list" style="display: none;">
+    <div class="Annex_list" style="display: ;">
         <p class="User_title aligncenter">附件列表</p>
         <div class="jscroll" style="height:320px;">
             <ul class="clearfix">
@@ -240,8 +239,8 @@
                         <span>excel文件</span>
                     </p>
                     <div class="btn-make clearfix">
-                        <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
-                        <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        <a href="#" title="查看" class="floatleft"><i class="icon-eye"></i></a>
+                        <a href="#" title="下载" class="floatleft"><i class="icon-file-download"></i></a>
                     </div>
                 </li>
                 <li class="clearfix">
@@ -252,8 +251,8 @@
                         <span>excel文件</span>
                     </p>
                     <div class="btn-make clearfix">
-                        <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
-                        <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        <a href="#" title="查看" class="floatleft"><i class="icon-eye"></i></a>
+                        <a href="#" title="下载" class="floatleft"><i class="icon-file-download"></i></a>
                     </div>
                 </li>
                 <li class="clearfix">
@@ -264,8 +263,8 @@
                         <span>excel文件</span>
                     </p>
                     <div class="btn-make clearfix">
-                        <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
-                        <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        <a href="#" title="查看" class="floatleft"><i class="icon-eye"></i></a>
+                        <a href="#" title="下载" class="floatleft"><i class="icon-file-download"></i></a>
                     </div>
                 </li>
                 <li class="clearfix">
@@ -276,8 +275,8 @@
                         <span>excel文件</span>
                     </p>
                     <div class="btn-make clearfix">
-                        <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
-                        <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        <a href="#" title="查看" class="floatleft"><i class="icon-eye"></i></a>
+                        <a href="#" title="下载" class="floatleft"><i class="icon-file-download"></i></a>
                     </div>
                 </li>
                 <li class="clearfix">
@@ -288,8 +287,8 @@
                         <span>excel文件</span>
                     </p>
                     <div class="btn-make clearfix">
-                        <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
-                        <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        <a href="#" title="查看" class="floatleft"><i class="icon-eye"></i></a>
+                        <a href="#" title="下载" class="floatleft"><i class="icon-file-download"></i></a>
                     </div>
                 </li>
                 <li class="clearfix">
@@ -300,26 +299,41 @@
                         <span>excel文件</span>
                     </p>
                     <div class="btn-make clearfix">
-                        <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
-                        <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        <a href="#" title="查看" class="floatleft"><i class="icon-eye"></i></a>
+                        <a href="#" title="下载" class="floatleft"><i class="icon-file-download"></i></a>
                     </div>
                 </li>
             </ul>
         </div>
     </div>
     <!--附件over-->
+    <div class="mask" style="display:none;"></div>
     <!--通知状态条begin-->
     <div class="message_box" style="display:none;">
-        <div class="message"><p class="font14 color-white">通讯录刷新成功！</p></div><!--每次 fadeout 掉一个div-->
-        <div class="message"><p class="font14 color-white">通讯录刷新成功！</p></div>
-        <div class="message message_error"><p class="font14 color-white">提交失败！</p></div>
-    </div>
-    <div class="message_box" style="display:;">
-        <!--<div class="message"><p class="font14 color-white">通讯录刷新成功！</p></div>&lt;!&ndash;每次 fadeout 掉一个div&ndash;&gt;-->
-        <!--<div class="message message_waring"><p class="font14 color-white">警告！</p></div>-->
-        <div class="message message_error"><p class="font14 color-white">操作失败！请您尝试重新操作！</p></div>
+        <div class="message"><p class="font14 color-white ie-css3"><i class="icon-check2"></i>通讯录刷新成功！</p></div><!--每次 fadeout 掉一个div-->
+        <div class="message message_error" style="display:none;"><p class="font14 color-white"><i class="icon-cross ie-css3"></i>操作失败！请您尝试重新操作！</p></div>
     </div>
     <!--通知状态条over-->
+    <!--confrim begin-->
+    <div class="pop confrim font14" style="display: none;">
+        <a class="off"><i class="icon-cross"></i></a>
+        <p class="p-top10 marl10">请确认</p>
+        <p class="marl30 marr20 p-top20">确认删除此表单？</p>
+        <p class="alignright marr10">
+            <a href="#" class="c_btn sure">确认</a>
+            <a href="#" class="c_btn quit marl10">删除</a>
+        </p>
+    </div>
+    <!--confrim over-->
+    <!--提示框begin-->
+    <div class="pop pop_success" style="display: none">
+        <div class="pop_top aligncenter">
+            <p class="font18 p-top30">提交成功</p>
+            <p class="p-top10">请稍等，10秒后弹窗自动关闭。</p>
+        </div>
+        <p class="aligncenter p-top30"><a href="#" class="btn">确 定</a></p>
+    </div>
+    <!--提示框over-->
 </div>
 </body>
 </html>
