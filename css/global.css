@@ -164,7 +164,7 @@ a.add:hover{text-decoration: underline;}
 .clearfix{zoom:1;}
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
 .ie-css3,.ie-css3 img{behavior: url(../css/PIE.htc);}
-.line{width: 100%;border-bottom: 1px solid;font-size: 0;line-height: 0;margin:30px 0;}
+.line{width: 100%;border-bottom: 1px solid #aaa;font-size: 0;line-height: 0;margin:30px 0;}
 .line-c{border-bottom-color:#ccc!important;}
 /*分页*/
 .pagenation a{display: inline-block;min-width: 20px;height: 20px;line-height: 20px;color:#a0a0a0;border-radius:50em;}
@@ -182,9 +182,11 @@ a.add:hover{text-decoration: underline;}
 /*.Icon.go_right:hover{background-position:-30px -80px;}*/
 /*按钮*/
 .Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
-.AppDetail_in .AppMakeBtn .Btn{border:1px solid #1b365f;border-width:0 1px;margin-left:-1px;width:95px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
+.AppDetail_in .AppMakeBtn .Btn{border:1px solid #1b365f;border-width:0 1px;margin-left:-1px;width:95px;height:40px;line-height:40px;text-align: center;font-size:12px;padding:0;border-radius:0;}
 .AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current,.form_bottom .Btn{background:#347cdc;color: #fff;}
 .AppDetail_in .AppMakeBtn i{position: relative;bottom:-2px;}
+.AppDetail_in .AppMakeBtn .Btn.Btn-40{width:40px;color:#bacbe6;}
+.AppDetail_in .AppMakeBtn .Btn.Btn-40:hover{color:#fff!important;}
 .btn-quit,.btn-sure,.Btn-normal{color:#666;min-width:60px;border-left:1px solid #ccc;border-right:1px solid #ccc;text-align: center;}
 .btn-make:hover,.Btn-normal:hover{color:#fff;}
 .btn-sure{border:0;border-bottom-right-radius:2px;}
@@ -203,7 +205,7 @@ a.add:hover{text-decoration: underline;}
 .ListMain .ListTitle:hover{background-color: #f3f3f3;}
 .border-33619f{border-color:#33619f;}
 .search,.text{border-color:#aaa;}
-.ser_Results,.line,.btn-make:hover,.Title span.floatleft,.Btn-normal:hover{border-color:#347cdc;}
+.ser_Results,.btn-make:hover,.Title span.floatleft,.Btn-normal:hover{border-color:#347cdc;}
 .ListMain .ListTitle,.ListMain .ListTitle span{border-color:#ddd;}
 .border-c{border:1px solid #ccc;}
 .border-solid{border-style: solid!important;}
@@ -441,7 +443,6 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
 .textarea span em{font-family: Constantia, Georgia;font-size:18px;padding:0 3px;color:#347cdc;}
 .user_out{width:1000px;margin: 0 auto;position: relative;overflow-y: hidden;}
 .user_out .r_btn{right:0;}
-.UserList{width:930px;position: absolute;left:25px;}
 .UserList .has-general,.data_link .has-general{width:190px;height:26px;position:absolute;left:75px;box-shadow:0 0 3px #347cdc;}
 .UserList .has-general label.control-label,.data_link .has-general label.control-label{height:24px;line-height:24px;}
 .UserList .has-general .ico-ok{position: absolute;right:-28px;top:0;}
@@ -452,40 +453,6 @@ div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto
 .UserList li .int.set_user{border-color:#ccc;}
 .bg-waring{background:#e9505f!important;}
 .bg-eda026{background:#eda026!important;}
-.color_0,.color_0 .card_title,.color_0 span.process_bar_in{background-color:#ffa700;}
-.list_doing .card_list li.color_0 p i{color:#ffa700;}
-.color_1,.color_1 .card_title,.color_1 span.process_bar_in{background-color:#5f8c63;}
-.list_doing .card_list li.color_1 p i{color:#5f8c63;}
-.color_2,.color_2 .card_title,.color_2 span.process_bar_in{background-color:#006566;}
-.list_doing .card_list li.color_2 p i{color:#006566;}
-.color_3,.color_3 .card_title,.color_3 span.process_bar_in{background-color:#ff1f5e;}
-.list_doing .card_list li.color_3 p i{color:#ff1f5e;}
-.color_4,.color_4 .card_title,.color_4 span.process_bar_in{background-color:#fd5129;}
-.list_doing .card_list li.color_4 p i{color:#fd5129;}
-.color_5,.color_5 .card_title,.color_5 span.process_bar_in{background-color:#00cf77;}
-.list_doing .card_list li.color_5 p i{color:#00cf77;}
-.color_6,.color_6 .card_title,.color_6 span.process_bar_in{background-color:#3ab9f0;}
-.list_doing .card_list li.color_6 p i{color:#3ab9f0;}
-.color_7,.color_7 .card_title,.color_7 span.process_bar_in{background-color:#70d4d4;}
-.list_doing .card_list li.color_7 p i{color:#3ab9f0;}
-.color_8,.color_8 .card_title,.color_8 span.process_bar_in{background-color:#a13e96;}
-.list_doing .card_list li.color_8 p i{color:#a13e96;}
-.color_9,.color_9 .card_title,.color_9 span.process_bar_in{background-color:#c594d5;}
-.list_doing .card_list li.color_9 p i{color:#c594d5;}
-.color_10,.color_10 .card_title,.color_10 span.process_bar_in{background-color:#e69942;}
-.list_doing .card_list li.color_10 p i{color:#e69942;}
-.color_11,.color_11 .card_title,.color_11 span.process_bar_in{background-color:#4e78b0;}
-.list_doing .card_list li.color_11 p i{color:#4e78b0;}
-.color_0{background: url("../img/bg0.jpg");background-size: cover;}
-.color_1{background: url("../img/bg1.jpg");background-size: cover;}
-.color_2{background: url("../img/bg2.jpg");background-size: cover;}
-.color_3{background: url("../img/bg3.jpg");background-size: cover;}
-.color_4{background: url("../img/bg4.jpg");background-size: cover;}
-.color_5{background: url("../img/bg5.jpg");background-size: cover;}
-.color_6{background: url("../img/bg6.jpg");background-size: cover;}
-.color_7{background: url("../img/bg7.jpg");background-size: cover;}
-.color_8{background: url("../img/bg8.jpg");background-size: cover;}
-.color_9{background: url("../img/bg9.jpg");background-size: cover;}
 pre {
     white-space: pre-wrap; /* css-3 */
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
