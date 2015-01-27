@@ -192,7 +192,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .right_main,.right_main_2{width:800px;background:#fff;position:absolute;top:0;right:0;bottom:0;border-left:1px solid #8b8b8b;z-index:200;}
 .right_main_2{width:300px;top:40px;}
 .right_main a{color:#333;}
-.AppDetail_in{width:100%;height:100%;position: relative;margin-top:-10px;}
+.AppDetail_in{width:100%;height:100%;position: relative;}/*margin-top:-10px;*/
 .AppMakeBtn a{color:#fff;}
 .AppDetailmain{margin:0 20px 0 20px;}
 .AppMakeBtn{background:#224477;border-left:1px solid #3d3d42;z-index:30;}
@@ -892,14 +892,15 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .nav_bar{border-bottom:1px solid #ccc;height:30px;line-height:30px;position: relative;}
 .nav_bar a{display: inline-block;width:80px;padding:0 5px;text-align:center;line-height:30px;color:#666;}
 .nav_bar a.current{color:#337ddc;}
-.form_list_box{}
+
 /*创建表单*/
 .creat_out{width:1105px;margin:0 auto;position: absolute;top:50px;bottom:0;left:50%;margin-left:-552px;}
 .form_out{position:absolute;top:105px;right:10px;bottom:0;left:80px;overflow-y: auto;}
-
-
-
-
+.admin_list{top:0;right:0;left:0;}
+.admin_list .form_list{position: absolute;width:1000px;height:600px;top:50%;left:50%;margin:-250px 0 0 -500px;}
+.admin_list .form_list li{width:23%;height:35%;}
+.admin_list .form_list li a{height:100%;padding:0;}
+.admin_list .form_list li a .f_icon{margin-top:25%;}
 
 
 
