@@ -213,8 +213,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 /*.list_doing .form_box .card_box_in{width:910px;left:50%;margin-left:-455px;}*/
 /*.list_doing .form_box .card_box{width:100%;margin: 0;}*/
 .form_box .r_btn{right:-5px;bottom:0;}
-.form_list li:nth-child(2n){-webkit-animation: fadeInRight .5s .2s ease-in-out both;animation: fadeInRight .5s .2s ease-in-out both;}
-.form_list li:nth-child(2n-1){-webkit-animation: fadeInLeft .5s .2s ease-in-out both;animation: fadeInLeft .5s .2s ease-in-out both;}
+.form_list.show li:nth-child(2n){-webkit-animation: fadeInRight .5s .2s ease-in-out both;animation: fadeInRight .5s .2s ease-in-out both;}
+.form_list.show li:nth-child(2n-1){-webkit-animation: fadeInLeft .5s .2s ease-in-out both;animation: fadeInLeft .5s .2s ease-in-out both;}
 .li_cover{position:absolute;width:100%;height:100%;background:#f4f4f4;top:0;left:0;transition:0.3s;display:none;}
 .form_list .li_cover table,.form_list .li_cover table tbody{width:100%;height:100%;}
 .form_list .li_cover table th,.form_list .li_cover table td{border:1px solid #ddd;border-width:0 1px 1px 0;text-align: center;width:50%;height:50%;color:#333;}
@@ -877,8 +877,8 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .work_list tbody td .inner .toggle{position: absolute;right:5px;top:-6px;padding:10px;}
 .work_list tbody td .inner .toggle.current .icon-arrow-drop-down,.work_list tbody td .inner .toggle .icon-arrow-drop-up,a.current .icon-arrow-drop-down,a .icon-arrow-drop-up{display: none;}
 .work_list tbody td .inner .toggle.current .icon-arrow-drop-up,.work_list tbody td .inner .toggle .icon-arrow-drop-down,a.current .icon-arrow-drop-up,a .icon-arrow-drop-down{display:inline-block;}
-/*.work_list tbody td .inner .toggle_arrow{border:0;border-top:6px solid #fff;border-bottom:6px solid #fff;border-left:6px solid #aaa;}*/
-/*.work_list tbody td .inner .toggle.current .toggle_arrow{border:0;border-left:6px solid #fff;border-right:6px solid #fff;border-bottom:6px solid #aaa;top:-2px;}*/
+.work_list tbody td .inner .toggle_arrow{border:0;border-top:6px solid #fff;border-bottom:6px solid #fff;border-left:6px solid #aaa;}
+.work_list tbody td .inner .toggle.current .toggle_arrow{border:0;border-left:6px solid #fff;border-right:6px solid #fff;border-bottom:6px solid #aaa;top:-2px;}
 .work_list tbody tr:hover td,.work_list tbody tr:hover th{background-color:#eee}
 .work_list tbody td .inner p.color-8{height:50px;line-height:50px;}
 .form_Preview{width:60%;padding:5px 15px;background: #fff;position: relative;}
@@ -888,6 +888,7 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .form_Preview table th,.form_Preview table td,.work_list tbody tr.current .form_Preview table th{padding:0;border:0;background:none;height:30px;vertical-align: inherit;}
 .form_Preview table th{width:60px;text-align: left;color:#888;}
 .work_list tbody tr:hover .form_Preview table tr td{background:none;}
+.list_item tbody th,.list_item tbody td{border:1px solid #d5d5d5;}
 /*表单*/
 .nav_bar{border-bottom:1px solid #ccc;height:30px;line-height:30px;position: relative;}
 .nav_bar a{display: inline-block;width:80px;padding:0 5px;text-align:center;line-height:30px;color:#666;}
