@@ -426,6 +426,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .icon-printer:before {
 	content: "\e954";
 }
+
 .icon-undo:before {
 	content: "\e965";
 }
@@ -660,6 +661,10 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 
 .icon-play-install:before {
 	content: "\e63c";
+}
+
+.icon-sync:before {
+	content: "\e63e";
 }
 
 .icon-people:before {

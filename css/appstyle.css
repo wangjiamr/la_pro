@@ -217,8 +217,8 @@ td .search{width:auto;}
 
 
 .item_box,.drag-box{padding:15px 0 0 10px;border:1px dashed #ccc;position:relative;margin-bottom:30px;line-height:30px;color:#333;border-radius:3px;}
-.item_box:hover,.drag-box{background-color:#fefef1;border-color:#347cdc;}
-.item_box.has-touch{border-color:#2d9012;background-color:#f3fef1;}
+.drag-box{background-color:#fefef1;border-color:#347cdc;}
+.item_box:hover,.item_box.has-touch{border-color:#2d9012;background-color:#f3fef1;}
 .item_box span:hover{text-decoration: underline;cursor: pointer;}
 .item_box span.title{position: absolute;top:-10px;background-color: #fff;padding:5px 10px;line-height:10px;}
 .item_box span.title:hover{text-decoration: none;color:#333;}
@@ -240,7 +240,8 @@ td .search{width:auto;}
 .item_box .change{background:#fff;position:absolute;top:-10px;right:15px;height:20px;line-height:20px;}
 .item_box .search .ser_Results{width:160%;top:inherit;bottom:25px;overflow: hidden;z-index:-100;}
 .item_box .ser_Results span{display:block;}
-
+.item_box a{display:inline-block;line-height:30px;height:30px;font-size:14px;}
+.item_box a.add{font-size:12px;}
 /*条件配置右侧弹出*/
 .cond span{display:inline-block;width:130px;margin:15px 0 0 5px;cursor: pointer;}
 .cond span em{font-family: arial;}
@@ -336,6 +337,7 @@ td .search{width:auto;}
 .form_tab_title span.first{border-right:1px dashed #ccc;width:49.9%;}
 .score li{line-height:18px;text-align:left;margin:7px 0 7px 2px;word-break: break-all;word-wrap: break-word;}
 .module table .radio{position: relative;top:7px;}
+.module .ico-add{line-height:20px;height:20px;position: relative;vertical-align: middle;margin-left:3px;}
 .Number{display:block;width:21px;position:absolute;left:-21px;top:0;bottom:0;text-align: center;;background:#e3e3e3;color:#666;outline: 1px dashed #ccc;outline-width:1px 0;}
 .Number em{width:100%;height:20px;line-height:20px;top:50%;margin-top:-10px;left:0;position: absolute;}
 
