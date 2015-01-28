@@ -933,7 +933,7 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .bottom_app .new_btn{padding:0 20px;height:30px;line-height:30px;border-radius:2px;position:relative;bottom:-10px;}
 .work_list tbody tr:hover .inner .R-btns,.work_list tbody tr:hover .inner .Btns_r{width:50px;transition:0.3s;}
 .work_list tbody tr:hover .inner .Btns_r{width:80px;}
-.work_list tbody tr:hover .inner .R-btns i{line-height:0.1;}
+.work_list tbody tr .inner .R-btns i{line-height:3;}
 /*表单*/
 .nav_bar{border-bottom:1px solid #ccc;height:30px;line-height:30px;position: relative;}
 .nav_bar a{display: inline-block;width:80px;padding:0 5px;text-align:center;line-height:30px;color:#666;}
