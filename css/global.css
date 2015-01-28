@@ -1,19 +1,9 @@
 @charset "utf-8"; 
 /* CSS Document */
 /*reset*/
-@font-face {
-font-family:hirag;
-src: url('HiraginoSansGBW3.eot'); /* IE9 Compat Modes */
-src: url('HiraginoSansGBW3.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('HiraginoSansGBW3.woff') format('woff'), /* Modern Browsers */
-  url('HiraginoSansGBW3.ttf')  format('truetype'), /* Safari, Android, iOS */
-  url('HiraginoSansGBW3.svg') format('svg'); /* Legacy iOS */
-    font-weight: normal;
-    font-style: normal;
-}
 html{height:100%;}
 body{position:relative;background: #f5f5f5;color:#333;overflow:hidden;height:100%;}
-body, div, td,font,em{font-size:12px;line-height:1.2em;font-family:"hirag","Microsoft YaHei",Tahoma,Arial,"宋体","黑体";}
+body, div, td,font,em{font-size:12px;line-height:1.2em;font-family:"Microsoft YaHei",Tahoma,Arial,"宋体","黑体";}
 body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td, dl, dt, dd{margin: 0;padding: 0;}
 table{border-collapse:collapse;border-spacing:0;}
 img{border:none;}

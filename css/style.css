@@ -874,7 +874,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Btns_r a.a_txt{width:60px;height:50px;line-height:50px;}
 .Btns_r .toggle{height:50px;line-height:50px;}
 .Btns_r ul{top:50px;}
-
+.Btns_r.current{overflow: hidden;}
 
 .Btns.current .toggle .toggle_arrow{border-top:0!important;border-bottom:5px solid #d1e8d2!important;top:-2px;left:-1px;}
 .UserImg,.UserImg img{width:40px;height:40px;border-radius:50%;background:#fff;}
@@ -913,8 +913,8 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .work_list tbody tr:hover td,.work_list tbody tr:hover th{background-color:#eee}
 .work_list tbody td .inner p.color-8,.work_list tbody td .inner p.color-8 span{height:50px;line-height:50px;}
 .work_list tbody td .inner p.color-8 span{display: inline-block;}
-.work_list tbody td .inner p.color-8 span.username{min-width:50px;}
-.work_list tbody td .inner p.color-8 span.applyname{min-width:100px;}
+.work_list tbody td .inner p.color-8 span.username{width:60px;}
+.work_list tbody td .inner p.color-8 span.applyname{width:100px;}
 .work_list.list_item tbody td .inner p.color-8{height:50px;line-height:50px;}
 .form_Preview{width:60%;padding:5px 15px;background: #fff;position: relative;}
 /*.work_list tbody td .inner .form_Preview .toggle_arrow{position:absolute;left:30px;top:-14px;border:0;border:7px solid #fff;border-right:7px solid #fff;border-bottom:7px solid #f5f8fd;}*/
@@ -925,11 +925,12 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .work_list tbody tr:hover .form_Preview table tr td{background:none;}
 .list_item tbody th,.list_item tbody td{border:1px solid #d5d5d5;background:#fff;}
 .work_list tbody td .inner .R-btns{width:0;line-height:55px;overflow:hidden;background-color:#aaa;color:#fff;right:0;transition:0.3s;}
-.bottom_app{height:60px;border-top:1px solid #224477;position:fixed;left:200px;bottom:0;right:0;background:#fff;overflow: hidden;}
+.bottom_app{height:60px;border-top:1px solid #224477;position:fixed;left:200px;bottom:0;right:0;background:#fff;overflow: hidden;z-index:20;}
 .bottom_app .int-txt{width:30%;border-width:0 1px 0 0;height:50px;padding:5px;background:}
 .bottom_app .new_btn{padding:0 20px;height:30px;line-height:30px;border-radius:2px;position:relative;bottom:-10px;}
 .work_list tbody tr:hover .inner .R-btns,.work_list tbody tr:hover .inner .Btns_r{width:50px;transition:0.3s;}
 .work_list tbody tr:hover .inner .Btns_r{width:80px;}
+.work_list tbody tr:hover .inner .R-btns i{line-height:0.1;}
 /*表单*/
 .nav_bar{border-bottom:1px solid #ccc;height:30px;line-height:30px;position: relative;}
 .nav_bar a{display: inline-block;width:80px;padding:0 5px;text-align:center;line-height:30px;color:#666;}
