@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>表单</title>
     <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
     <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
@@ -39,7 +40,7 @@
     </div>
     <!--left over-->
     <!--right begin-->
-    <div class="layout_right">
+    <div class="layout_right hidden">
         <div class="home_page" style="display: none;">
             <div class="work_item">
                 <div class="Title alignright clearfix">
@@ -265,9 +266,554 @@
             </div>
         </div>
         <!--表单列表over-->
+        <!--填写内容第一步begin-->
+        <div class="form_edit_box" style="display: none;">
+            <div class="form_in">
+                <ul class="form_top alignright clearfix">
+                    <li class="current"><em>1</em>填写表单</li>
+                    <li><em>2</em>选择流程</li>
+                    <li><em>3</em>正在提交</li>
+                </ul>
+                <!--表单详情begin-->
+                <div class="jscroll">
+                    <div class="form-main">
+                        <p class="font18 aligncenter">报销申请</p>
+                        <div class="form-edit mart45">
+                            <table class="form-top">
+                                <tr>
+                                    <th>申请人</th>
+                                    <td style="width:219px;">
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入角色名称...">
+                                            <label class="tips">每月</label>
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <th>申请日期</th>
+                                    <td style="width:219px;">
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="form-top">
+                                <tr>
+                                    <th>申请部门</th>
+                                    <td style="width:219px;">
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入角色名称...">
+                                            <label class="tips">每月</label>
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <th>支付方式</th>
+                                    <td style="width:219px;">
+                                        <select class="int">
+                                            <option>现金支付</option>
+                                            <option>银行转账</option>
+                                            <option>支票</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="form-top">
+                                <tr>
+                                    <th>收款方</th>
+                                    <td colspan="3">
+                                        <div class="has-general has-error">
+                                            <input type="text" class="int" placeholder="请输入角色名称...">
+                                            <label class="tips">每月</label>
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="form-top">
+                                <tr>
+                                    <th>人物性别</th>
+                                    <td style="width:219px;">
+                                        <div class="has-general has-error options">
+                                            <label><input type="radio" name="qb" value="">男</label>
+                                            <label><input type="radio" name="qb" value="">男</label>
+                                            <label><input type="radio" name="qb" value="">男</label>
+                                            <label><input type="radio" name="qb" value="">男</label>
+                                            <label><input type="radio" name="qb" value="">男</label>
+                                            <label><input type="radio" name="qb" value="">男</label>
+                                            <label><input type="radio" name="qb" value="">男</label>
+                                        </div>
+                                    </td>
+                                    <th>多选择</th>
+                                    <td style="width:219px;">
+                                        <label><input type="checkbox" name="a">选项1</label>
+                                        <label><input type="checkbox" name="a">选项2</label>
+                                        <label><input type="checkbox" name="a">选项3</label>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="form-top">
+                                <tr>
+                                    <th>加班时间</th>
+                                    <td  style="width:219px;">
+                                       <select class="int width-80">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                       </select>
+                                       <span>:</span>
+                                       <select class="int width-80">
+                                            <option>00</option>
+                                            <option>01</option>
+                                            <option>02</option>
+                                       </select>
+                                    </td>
+                                    <th>费用类型</th>
+                                    <td style="width:219px;">
+                                        <select class="int">
+                                            <option>行政费用</option>
+                                            <option>财务费用</option>
+                                            <option>交通费用</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="form-top">
+                                <tr>
+                                    <th>报销金额</th>
+                                    <td  style="width:219px;"><span>1000,000</span></td>
+                                    <th>金额大写</th>
+                                    <td style="width:219px;"><span>壹仟元</span></td>
+                                </tr>
+                            </table>
+                            <table class="form-top">
+                                <tr>
+                                    <th style="">上传附件</th><!--当附件显示的时候给 th加   vertical-align: top-->
+                                    <td colspan="3">
+                                        <div><a href="#" class="add"><i class="Icon ico-acc"></i> 添加附件</a></div>
+                                        <div class="mart10 p-bt10" style="display: ;">
+                                            <div class="Annex_list">
+                                                <ul class="clearfix">
+                                                    <li class="clearfix">
+                                                        <span class="an_logo floatleft"><img src="../img/fu_docx.gif"></span>
+                                                        <p class="mart5 txt_hidden edit" contenteditable="true">2014年第一季度产品规划.xls</p>
+                                                        <p class="color-8 clearfix marr10 alignright">
+                                                            <span class="floatleft">34M</span>
+                                                            <span>
+                                                                <a href="">重命名</a>
+                                                                <a href="">删除</a>
+                                                            </span>
+                                                        </p>
+                                                        <div class="process_box alignright clearfix">
+                                                            <div class="process_bar floatleft">
+                                                                <span class="process_bar_in" style="width:40%;"></span>
+                                                            </div>
+                                                            <span class="floatleft">40%</span>
+                                                            <a href="#">取消</a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <span class="an_logo floatleft"><img src="../img/fu_mp3.gif"></span>
+                                                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                                                        <p class="color-8 clearfix marr10 alignright">
+                                                            <span class="floatleft">34M</span>
+                                                            <span>
+                                                                <a href="">重命名</a>
+                                                                <a href="">删除</a>
+                                                            </span>
+                                                        </p>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <span class="an_logo floatleft"><img src="../img/fu_pdf.gif"></span>
+                                                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                                                        <p class="color-8 clearfix marr10 alignright">
+                                                            <span class="floatleft">34M</span>
+                                                            <span>
+                                                                <a href="">重命名</a>
+                                                                <a href="">删除</a>
+                                                            </span>
+                                                        </p>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <span class="an_logo floatleft"><img src="../img/fu_rar.gif"></span>
+                                                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                                                        <p class="color-8 clearfix marr10 alignright">
+                                                            <span class="floatleft">34M</span>
+                                                            <span>
+                                                                <a href="">重命名</a>
+                                                                <a href="">删除</a>
+                                                            </span>
+                                                        </p>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <span class="an_logo floatleft"><img src="../img/fu_qita.gif"></span>
+                                                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                                                        <p class="color-8 clearfix marr10 alignright">
+                                                            <span class="floatleft">34M</span>
+                                                            <span>
+                                                                <a href="">重命名</a>
+                                                                <a href="">删除</a>
+                                                            </span>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!--上传的图片begin-->
+                                            <ul class="acc_list clearfix" style="display: ">
+                                                  <li>
+                                                    <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                    <div class="block ie-css3"><p></p></div>
+                                                    <div class="process_box alignright clearfix">
+                                                        <div class="process_bar floatleft">
+                                                            <span class="process_bar_in" style="width:40%;"></span>
+                                                        </div>
+                                                        <a href="#">取消</a>
+                                                    </div>
+                                                  </li>
+                                                  <li>
+                                                    <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                    <div class="block ie-css3"><p><img src="../img/img1.png"></p></div>
+                                                  </li>
+                                              <li>
+                                                <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                <div class="block ie-css3"><p><img src="../img/img1.png"></p></div>
+                                              </li>
+                                              <li>
+                                                <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                <div class="block ie-css3"><p><img src="../img/img1.png"></p></div>
+                                              </li>
+                                              <li>
+                                                <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                <div class="block ie-css3"><p><img src="../img/img1.png"></p></div>
+                                              </li>
+                                              <li>
+                                                <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                <div class="block ie-css3"><p><img src="../img/img1.png"></p></div>
+                                              </li>
+                                              <li>
+                                                <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                <div class="block ie-css3"><p><img src="../img/img1.png"></p></div>
+                                              </li>
+                                        </ul>
+                                        <!--上传的图片over-->
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="form-top">
+                                <tr>
+                                    <th style="vertical-align: top">备注</th>
+                                    <td colspan="3">
+                                        <div class="textarea has-general">
+                                            <textarea class="int" placeholder="请输入备注..."></textarea>
+                                            <label class="control-label">提示信息</label>
+                                            <span>你还可以输入<em>140</em>个字</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="form-txt mart20">
+                            <thead>
+                                <tr>
+                                    <th class="width-40">编号</th>
+                                    <th class="width-120">列一</th>
+                                    <th class="width-120">列二</th>
+                                    <th class="width-120">列三</th>
+                                    <th class="width-120">列四</th>
+                                    <th class="width-120">列五</th>
+                                    <th class="width-40">操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <!--<tr>-->
+                                    <!--<td colspan="4">-->
+                                        <!--<div class="has-general">-->
+                                            <!--<label class="tips tips_txt">备注：</label>-->
+                                            <!--<div class="int int_txt" contenteditable="true"></div>-->
+                                        <!--</div>-->
+                                    <!--</td>-->
+                                <!--</tr>-->
+                                <tr>
+                                    <td colspan="6" class="aligncenter nopadding"><a href="javascript:;"  class="add">添加一条明细</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <p class="font18 mart50 aligncenter">明细信息</p>
+                        <p class="font18 mart50 aligncenter">评分</p>
+                        <table class="form-txt score mart20">
+                            <thead>
+                                <tr>
+                                    <th class="width-40">编号</th>
+                                    <th class="width-120">指标描述</th>
+                                    <th>指标类型</th>
+                                    <th class="width-120">得分</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>类型一</td>
+                                    <td>
+                                        <ul class="score-list">
+                                            <li>1. 很好</li>
+                                            <li>2. 一般</li>
+                                            <li>3. 不好</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>类型二</td>
+                                    <td>
+                                        <ul class="score-list">
+                                            <li>1. 很好</li>
+                                            <li>2. 一般</li>
+                                            <li>3. 不好</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <p class="mart5"><label><input type="radio"> A</label></p>
+                                        <p class="mart5"><label><input type="radio"> B</label></p>
+                                        <p class="mart5"><label><input type="radio"> C</label></p>
+                                        <p class="mart5"><label><input type="radio"> D</label></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>类型三</td>
+                                    <td>
+                                        <ul class="score-list">
+                                            <li>1. 很好</li>
+                                            <li>2. 一般</li>
+                                            <li>3. 不好</li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <div class="has-general has-error">
+                                            <textarea style="height:50px;"></textarea>
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot><tr><th colspan="4"><span class="floatright">总计：3分</span></th></tr></tfoot>
+                        </table>
+                    </div>
+                </div>
+                <!--表单详情over-->
+                <div class="form_bottom aligncenter">
+                    <a href="javascript:;" class="Btn btn-quit">取消发送</a>
+                    <a href="javascript:;" class="Btn">下一步</a>
+                </div>
+            </div>
+        </div>
+        <!--填写内容第一步over-->
+        <!--填写内容第二步begin-->
+        <div class="form_edit_box">
+            <div class="form_in">
+                <ul class="form_top alignright clearfix">
+                    <li><em>1</em>填写表单</li>
+                    <li class="current"><em>2</em>选择流程</li>
+                    <li><em>3</em>正在提交</li>
+                </ul>
+                <!--表单详情begin-->
+                <div class="jscroll">
+                    <div class="form-main">
+                        <p class="font18 aligncenter">报销申请</p>
+                        <div class="process_choose mart30 p-top10 clearfix">
+                            <div class="process_left floatleft">
+                                <div class="search ie-css3 select width-auto marr10 mart10"><!--加 current，显示下拉列表框-->
+                                    <span class="Choosed">选择报销申请标准流程</span>
+                                    <span class="ico-select"><i class="icon-unfold-more"></i></span>
+                                    <!--搜索结果begin-->
+                                    <div class="ser_Results ie-css3">
+                                        <ul>
+                                            <li>选择报销申请标准流程</li>
+                                            <li>选择报销申请标准流程</li>
+                                            <li>选择报销申请标准流程</li>
+                                        </ul>
+                                    </div>
+                                    <!--搜索结果over-->
+                                </div>
+                                <p class="font14 color-3 mart30">流程明细 :</p>
+                                <div class="mart20">
+                                    <ul class="process_li">
+                                        <li class="clearfix">
+                                            <span class="floatleft">1.</span>
+                                            <span class="UserImg  inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span class="">刘德华</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="floatleft">2.</span>
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span class="">刘德华</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="floatleft">3.</span>
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span class="">刘德华</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="floatleft">4.</span>
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span class="">刘德华</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="font14 color-3 mart30">
+                                    <p>执行人 :</p>
+                                    <ul class="process_li mart20 marl20">
+                                        <li class="clearfix">
+                                            <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                            <span class="">刘德华</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="process_right floatleft marl30">
+                                <p class="font14 color-3 p-top10 p-bt20">推送设置</p>
+                                <p class="mart10"><span class="check"><i class="icon-square-checked font16"></i>置顶在TA的待审列表中</span></p>
+                                <p class="mart10"><span class="check"><i class="icon-square-check font16"></i>经办完成后请通知我确认</span></p>
+                                <!--<p class="mart10"><span class="check"><i class="Icon ico-check marr10"></i>超过24小时开启提醒</span></p>-->
+                                <p class="mart10 marl25">
+                                    <span class="check"><i class="icon-radio-button-off font16"></i>自动</span>
+                                    <span class="check marl10"><i class="icon-radio-button-on font16"></i>手动</span>
+                                </p>
+                                <!--添加转阅begin-->
+                                <p class="font14 color-3 mart30 p-bt20">选择转阅成员</p>
+                                <div class="turn_box" style="width: 240px;">
+                                    <div class="relative inlineblock">
+                                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                    </div>
+                                    <div class="relative inlineblock">
+                                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                    </div>
+                                    <div class="relative inlineblock">
+                                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                    </div>
+                                    <div class="relative inlineblock">
+                                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                    </div>
+                                    <div class="relative inlineblock">
+                                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                        <!--提示框begin-->
+                                        <div class="prompt_box" style="left:-85px;">
+                                            <span class="Icon prompt_top"></span>
+                                            <div class="prompt_main">
+                                                <div class="prompt_title clearfix alignright">
+                                                    <div class="floatleft">
+                                                         <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                                         <span>张睿</span>
+                                                    </div>
+                                                </div>
+                                                <div class="marl10 color-6 mart10">
+                                                    <p>上海万企明道软件有限公司上海万企明道软件有限公司</p>
+                                                    <p>北京研发中心</p>
+                                                    <p>产品经理</p>
+                                                </div>
+                                                <p><a href="#" class="Btn current marl10 mart5 btn-make">从列表中移除</a></p>
+                                            </div>
+                                            <span class="Icon prompt_bt"></span>
+                                        </div>
+                                        <!--提示框over-->
+                                    </div>
+                                    <div class="relative inlineblock">
+                                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+
+                                    </div>
+                                    <div class="relative inlineblock">
+                                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                    </div>
+                                    <div class="relative inlineblock">
+                                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                    </div>
+                                    <div class="relative inlineblock">
+                                        <span class="UserImg inlineblock ie-css3" title="添加转阅成员"></span>
+                                    </div>
+                                </div>
+                                <!--添加转阅over-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--表单详情over-->
+                <div class="form_bottom aligncenter">
+                    <a href="javascript:;" class="Btn">上一步</a>
+                    <a href="javascript:;" class="Btn Btn-commit">提交申请</a>
+                </div>
+                <!--提交状态提示图begin-->
+                <div class="sending">
+                    <p title="等待提交" style="display: none;"><img src="../img/waiting_send.gif"></p>
+                    <p title="这在提交"><img src="../img/sending.gif"></p>
+                    <p title="提交成功" style="display: none;"><img src="../img/sending_success.gif"></p>
+                    <p title="提交失败" style="display: none;"><img src="../img/sending_error.gif"></p>
+                </div>
+                <!--提交状态提示图over-->
+            </div>
+        </div>
+        <!--填写内容第二步over-->
     </div>
     <!--right over-->
-    <div class="mask" style="display: none;"></div>
+    <div class="mask" style="display: ;"></div>
 </div>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    $(function() {
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        Jscroll();
+    });
+</script>
 </body>
 </html>
