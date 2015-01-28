@@ -2,16 +2,18 @@
 /* CSS Document */
 /*reset*/
 @font-face {
-font-family:hir;
-src: url('hiraginosansgbw3.eot'); /* IE9 Compat Modes */
-src: url('hiraginosansgbw3.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('hiraginosansgbw3.woff') format('woff'), /* Modern Browsers */
-  url('hiraginosansgbw3.ttf')  format('truetype'), /* Safari, Android, iOS */
-  url('hiraginosansgbw3.svg') format('svg'); /* Legacy iOS */
+font-family:hirag;
+src: url('HiraginoSansGBW3.eot'); /* IE9 Compat Modes */
+src: url('HiraginoSansGBW3.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('HiraginoSansGBW3.woff') format('woff'), /* Modern Browsers */
+  url('HiraginoSansGBW3.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('HiraginoSansGBW3.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
 }
 html{height:100%;}
 body{position:relative;background: #f5f5f5;color:#333;overflow:hidden;height:100%;}
-body, div, td,font,em{font-size:12px;line-height:1.2em;font-family:'hir',"Microsoft YaHei",Tahoma,Arial,"宋体","黑体";}
+body, div, td,font,em{font-size:12px;line-height:1.2em;font-family:"hirag","Microsoft YaHei",Tahoma,Arial,"宋体","黑体";}
 body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td, dl, dt, dd{margin: 0;padding: 0;}
 table{border-collapse:collapse;border-spacing:0;}
 img{border:none;}
@@ -22,7 +24,7 @@ h1, h2, h3, h4, h5, h6{font-size: 100%;font-weight: normal;vertical-align:baseli
 input, textarea, select, button{font-size: 12px;font-weight: inherit; vertical-align:middle;}
 input[type=radio],input[type=checkbox]{vertical-align: -2px;}
 textarea{resize:none; overflow-x:hidden;overflow-y:auto; outline:medium none; word-wrap:break-word;}
-a{text-decoration:none;color: #0066cc;}
+a{text-decoration:none;color:#0066cc;}
 a:focus{outline-style: none;outline-width: 0;outline: none;}
 /*a{_blr:expression(this.onFocus=this.blur());}*/
 a:link, a:visited, a:active{text-decoration: none;}
