@@ -11,7 +11,13 @@
 <div class="layout">
     <!--left begin-->
     <div class="layout_left">
-        <a href="#" class="oa_logo block"><img src="../img/logo.jpg" /></a>
+        <div class="oa_logo">
+            <a href="#" class="block mart20 marl20">
+                <p class="logo_txt"><img src="../img/logo_1.png" /></p>
+                <p class="logo_img"><img src="../img/logo_2.png" /></p>
+                <p class="p-top10 color-3">上海万企明道软件有限公司</p>
+            </a>
+        </div>
         <div class="nav_tools">
             <ul class="tool_nav font14">
                 <li class="current"><a href="javascript:;"><span class="circle_ico font24"><i class="icon-laptop-chromebook"></i></span><em>工作台</em></a></li>
@@ -33,7 +39,7 @@
             <div class="user_info font14 clearfix">
                 <span class="UserImg floatleft marr10 ie-css3"><img src="../img/1.png"></span>
                 <p><em>欢迎回来</em></p>
-                <p><em>悍卒者</em></p>
+                <p class="font12"><a href="#">注销登录</a></p>
             </div>
         </div>
     </div>
@@ -42,7 +48,7 @@
     <div class="layout_right">
         <!--快速审批操作begin-->
         <div class="bottom_app">
-            <textarea class="int-txt" placeholder="输入审批意见..."></textarea>
+            <textarea class="int-txt" placeholder="输入审批意见..." style="margin-left:-31%;"></textarea>
             <a href="javascript:;" class="new_btn aligncenter bg-success font12 marr10 marl20">通 过</a>
             <a href="javascript:;" class="new_btn aligncenter bg-waring font12">否 决</a>
         </div>
@@ -371,4 +377,12 @@
     <!--提示框over-->
 </div>
 </body>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('.bg-success').click(function(){
+            $('.int-txt').animate({marginLeft:0},300);
+        });
+    });
+</script>
 </html>

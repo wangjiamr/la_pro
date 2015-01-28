@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6{font-size: 100%;font-weight: normal;vertical-align:baseli
 input, textarea, select, button{font-size: 12px;font-weight: inherit; vertical-align:middle;}
 input[type=radio],input[type=checkbox]{vertical-align: -2px;}
 textarea{resize:none; overflow-x:hidden;overflow-y:auto; outline:medium none; word-wrap:break-word;}
-a{text-decoration:none;color: #224477;}
+a{text-decoration:none;color: #0066cc;}
 a:focus{outline-style: none;outline-width: 0;outline: none;}
 /*a{_blr:expression(this.onFocus=this.blur());}*/
 a:link, a:visited, a:active{text-decoration: none;}
