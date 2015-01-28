@@ -182,6 +182,7 @@ a.add:hover{text-decoration: underline;}
 .go_left{left:0;}
 .go_right{right:0;}
 .go_left i,.go_right i{line-height: 1;}
+.go_left i{margin-left:-20px;}
 /*按钮*/
 .Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
 .AppDetail_in .AppMakeBtn .Btn{border:1px solid #1b365f;border-width:0 1px;margin-left:-1px;width:95px;height:40px;line-height:40px;text-align: center;font-size:12px;padding:0;border-radius:0;}

@@ -202,12 +202,20 @@ td .search{width:auto;}
 .process-main .form-main{margin:0 auto;height:100%;}
 .process-content{position:relative;overflow:hidden;height:100%;}
 .LineBt{background-position: 0 bottom;}
-.processlist{width:270px;padding:10px;padding-top:70px;margin:0 4px 0 7px;border:0;position: relative;border-radius:4px;background: url("../img/mask70.png") repeat;}
-.processlist_inner{background:#fff;padding:20px 10px;border-radius:4px;margin-right:20px;}
+.processlist{width:288px;border:2px solid #ccc;padding:10px 2px 0 10px;padding-top:70px;margin:70px 20px 0 0;position: relative;border-radius:4px;background:#fff;}
+.processlist.current{border-color:#06c;}
+.processlist_inner{background:#fff;padding:20px 0;border-radius:4px;}
 .process-in{position:absolute;width:9999px;}
 .process-in:hover .ico-delete4{display: inline-block;}
-.pro_title{margin-top:-60px;margin-left:25px;margin-bottom:10px;}
+.pro_title{margin-top:-110px;margin-left:25px;margin-bottom:20px;}
 .pro_title .int{border-radius:4px;background:url("../img/mask10.png") repeat;border:0;}
+.pro_title a{padding:5px;color:#aaa;}
+.processlist.current .pro_title .int{border:1px solid #06c;background:#fff;}
+.processlist.current .pro_title a{color:#06c;}
+.processlist .pro_title a i,.processlist.current .pro_title a .icon-unlocked,.processlist.current .pro_title a .icon-lock{display: none;}
+.processlist.current .pro_title a .icon-unlocked,.processlist .pro_title a i.icon-lock{display: inline-block;}
+
+
 .item_box,.drag-box{padding:15px 0 0 10px;border:1px dashed #ccc;position:relative;margin-bottom:30px;line-height:30px;color:#333;border-radius:3px;}
 .item_box:hover,.drag-box{background-color:#fefef1;border-color:#347cdc;}
 .item_box.has-touch{border-color:#2d9012;background-color:#f3fef1;}
