@@ -405,6 +405,15 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	-moz-osx-font-smoothing: grayscale;
 }
 .normal_set [class^="icon-"],.normal_set  [class*=" icon-"]{line-height:1;top:0;}
+
+.icon-image:before {
+	content: "\e90d";
+}
+
+.icon-images:before {
+	content: "\e90e";
+}
+
 .icon-printer:before {
 	content: "\e954";
 }
@@ -587,7 +596,6 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 
 .icon-keyboard-alt:before {
 	content: "\e641";
-    color:#06c;
 }
 
 .icon-keyboard-arrow-left:before {
@@ -612,6 +620,14 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 
 .icon-edit:before {
 	content: "\e610";
+}
+
+.icon-rotate-left:before {
+	content: "\e642";
+}
+
+.icon-rotate-right:before {
+	content: "\e643";
 }
 
 .icon-local-print-shop:before {
@@ -722,6 +738,14 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	content: "\e036";
 }
 
+.icon-zoom-in:before {
+	content: "\e037";
+}
+
+.icon-zoom-out:before {
+	content: "\e038";
+}
+
 .icon-circle-plus:before {
 	content: "\e040";
 }
@@ -768,6 +792,10 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 
 .icon-shuffle:before {
 	content: "\e057";
+}
+
+.icon-cloud-download2:before {
+	content: "\e067";
 }
 
 .icon-location:before {
@@ -824,6 +852,10 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 
 .icon-share:before {
 	content: "\e61f";
+}
+
+.icon-images2:before {
+	content: "\e644";
 }
 
 
@@ -943,10 +975,10 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .admin_list .form_list li{width:23%;height:35%;}
 .admin_list .form_list li a{height:100%;padding:0;}
 .admin_list .form_list li a .f_icon{margin-top:25%;}
-
-
-
-
+/*文件预览*/
+.doc_preview{position:fixed;top:0;left:0;right:0;bottom:0;background: url("../img/mask90.png") repeat;}
+.doc_preview .header{height:50px;line-height:50px;background:#000;border:0;color:#fff;position: relative;text-indent:30px;}
+.doc_preview .header .off{right:20px;top:3px;}
 
 
 
