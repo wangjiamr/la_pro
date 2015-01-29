@@ -47,7 +47,7 @@
     <!--right begin-->
     <div class="layout_right">
         <!--快速审批操作begin-->
-        <div class="bottom_app">
+        <div class="bottom_app current">
             <textarea class="int-txt" placeholder="输入审批意见..." style="margin-left:-31%;"></textarea>
             <a href="javascript:;" class="new_btn aligncenter bg-success font12 marr10 marl20">通 过</a>
             <a href="javascript:;" class="new_btn aligncenter bg-waring font12">否 决</a>
@@ -246,7 +246,7 @@
     </div>
     <!--right over-->
     <!--右侧滑出的表单详情 附件begin-->
-    <div class="right_main AppDetail" style="right:0;display:none;">
+    <div class="right_main AppDetail" style="right:0;display:;">
         <iframe allowtransparency="true" allowtransparency="true" src="list.html" width="800" height="100%" frameborder="0" scrolling="no"></iframe>
     </div>
     <!--右侧滑出的表单详情 附件over-->
@@ -333,9 +333,10 @@
     <!--附件over-->
     <div class="mask" style="display:none;"></div>
     <!--通知状态条begin-->
-    <div class="message_box" style="display:none;">
+    <div class="message_box" style="display:;">
         <div class="message aligncenter" style="display:none;"><p class="font14 color-white ie-css3"><i class="icon-check2"></i>通讯录刷新成功！</p></div><!--每次 fadeout 掉一个div-->
-        <div class="message aligncenter message_error"><p class="font14 color-white"><i class="icon-cross ie-css3"></i>操作失败！请您尝试重新操作！</p></div>
+        <div class="message aligncenter message_waring" style="display:;"><p class="font14 color-white ie-css3"><i class="icon-info font20"></i>请谨慎操作！</p></div><!--每次 fadeout 掉一个div-->
+        <div class="message aligncenter message_error" style="display: none;"><p class="font14 color-white"><i class="icon-cross ie-css3"></i>操作失败！请您尝试重新操作！</p></div>
     </div>
     <!--通知状态条over-->
     <!--confrim begin-->
@@ -366,7 +367,7 @@
         </div>
         <p class="aligncenter p-top30"><a href="#" class="btn">确 定</a></p>
     </div>
-    <div class="pop pop_error" style="display:">
+    <div class="pop pop_error" style="display:none;">
         <div class="pop_top aligncenter">
             <p class="aligncenter p-top20"><img src="../img/waring2.png"/></p>
             <p class="font18 p-top20">很抱歉，您不能登录，请您续费后使用</p>
@@ -380,8 +381,9 @@
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript">
     $(function() {
+        var $int_txt = $('.int-txt');
         $('.bg-success').click(function(){
-            $('.int-txt').animate({marginLeft:0},300);
+            $int_txt.animate({marginLeft:0},300);
         });
     });
 </script>
