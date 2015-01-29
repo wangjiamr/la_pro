@@ -1,25 +1,12 @@
 ﻿.layout{width:100%;height:100%;position: relative;overflow:hidden;z-index:10;min-width:1024px;}
-/*.layout a{color:#fff;}*/
 .top_header,.admin_header{width:100%;height:49px;background-color:#e8e8e8;border-bottom:1px solid #bbb;position: absolute;top:0;left:0;color:#d7d7d7;z-index:21;min-width:1024px;}
-.new_btn{display:inline-block;background:#347cdc;border-radius:4px;color:#fff;height:24px;line-height:24px;padding:0 10px;min-width:50px;}
+.new_btn{display:inline-block;background:#06c;border-radius:4px;color:#fff;height:24px;line-height:24px;padding:0 10px;min-width:50px;}
 .top_nav{width:700px;height:50px;top:0;position:absolute;left:50%;margin-left:-350px;line-height:50px;}
 .top_nav a{display:inline-block;color:#d7d7d7;margin:0 10px;line-height:40px;padding:0 10px;}
 .top_nav a.current{color:#59a7f9;}
 .top_nav a.new_btn{height:24px;line-height:24px;color:#fff;margin:0 5px;margin-top:8px;}
 .top_nav_bg a{padding:0 20px;}
 .top_nav_bg a.current{color:#fff;background-color:#347cdc;}
-.top_set{min-width:70px;height:24px;padding-left:10px;border-left:1px solid #505052;position: relative;top:8px;*margin-top:-40px;}
-.top_set a{color:#fff;margin:0 6px 0 4px;}
-.top_set a.current{color:#347cdc;}
-.ico-bg,.ico-home2,.ico-search,.ico-buy{width:22px;height:22px;background-position:-155px -428px;margin:0 5px 0 5px;}
-.ico-buy{background-position:-133px -428px;}
-.ico-home2{background-position:-177px -428px;}
-.ico-search{background-position:-199px -427px;}
-.current.ico-bg{background-position:-22px -372px;}
-.current.ico-buy{background-position:0 -372px;}
-.current.ico-home2{background-position:-44px -372px;}
-.current.ico-search{background-position:-66px -371px;}
-
 .r_btn{width:40px;position: absolute;bottom:6px;right:40px;z-index: 20;}
 .ico-prev,.ico-next,.ico-re{width:40px;height:40px;background-position:-40px -650px;}
 .ico-re{background-position:0 -650px;margin-bottom:10px;margin-top:90px;}
@@ -596,6 +583,11 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 
 .icon-file-download:before {
 	content: "\e60d";
+}
+
+.icon-keyboard-alt:before {
+	content: "\e641";
+    color:#06c;
 }
 
 .icon-keyboard-arrow-left:before {

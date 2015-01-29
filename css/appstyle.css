@@ -167,8 +167,7 @@ td .search{width:auto;}
 
 .refresh,.CheckWord li.refresh:hover{border:1px solid #aaa;border-radius:3px;color: #888;background-color: #fff;}
 .contact .nodata{position: absolute;top:50%;left:50%;line-height: 20px;margin:-30px 0 0 -85px;padding-top: 0;color:#666;}
- .nodata a{color:#347cdc;padding:0 3px;}
-
+ .nodata a{padding:5px 35px;}
 /*角色*/
 .UserList li{float:left;width:293px;height:80px;background:#fff;margin:5px;color: #333;}
 .UserList li div.clearfix{width:293px;height:65px;padding-top:15px;position: relative;overflow: hidden;}
