@@ -380,11 +380,11 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .pop_tip .btn{background-color:#f3a818;border-radius:4px;}
 .pop_tip_r .btn{background:#eee;border-radius:0;margin:0;padding:0;width:50%;float: left;color:#888;border-top:1px solid #d3d4d5;}
 .pop_tip_r .btn.current{border-color:#347cdc;}
-.pop_ie{width:700px;height:410px;margin:-205px 0 0 -350px;border:none;box-shadow:0 0 10px #aaa;background:#232324;}
-.explorer{background:#333334;margin:0;position:relative;border-radius:5px;}
+.pop_ie{width:700px;height:410px;margin:-205px 0 0 -350px;border:none;background:#888;}
+.explorer{background:#999;margin:0;position:relative;border-radius:5px;}
 .explorer a{display: inline-block;margin:10px 25px;position:relative;height:110px;}
 .explorer a img{vertical-align: bottom;margin-bottom:-10px;}
-.arrow-t{display:inline-block;width:0;border-left:10px solid #232324;border-right: 10px solid #232324;border-bottom: 10px solid #333334;position: absolute;top:-10px;left:50%;margin-left:-5px;}
+.arrow-t{display:inline-block;width:0;border-left:10px solid #888;border-right: 10px solid #888;border-bottom: 10px solid #999;position: absolute;top:-10px;left:50%;margin-left:-5px;}
 .c_btn{display:inline-block;height:24px;line-height:24px;padding:0 10px;border:1px solid #ccc;border-radius:3px;color: #888;font-size:12px;}
 .sure{background:#0066cc;color:#fff;border-color:#06c;}
 .confrim{width:320px;height:120px;border-radius:4px;margin:-60px 0 0 -160px;}
