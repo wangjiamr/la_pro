@@ -411,7 +411,7 @@ td .search{width:auto;}
 .tab_nav li a:hover{background-color: #cbe2fa;}
 .tab_nav li.current a{background-color: #347cdc;color:#fff;}
 .account_de{width:98%;}
-.account_de thead th{line-height:40px;border-top:1px solid #aaa;border-bottom:1px solid #aaa;color:#333;background-color:#f2f2f2;}
+.account_de thead th{line-height:40px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;color:#333;background-color:#eee;}
 .account_de th,.account_de td{padding-left:10px;}
 .account_de td{height:40px;border-bottom:1px solid #ddd;}
 .account_de td span{color:#eb6100;}
