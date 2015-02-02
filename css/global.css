@@ -102,6 +102,7 @@ a.tags:hover{text-decoration:underline;}
 .width-130{width:130px!important;}
 .width-140{width:140px!important;}
 .width-145{width:145px!important;}
+.width-149{width:149px!important;}
 .width-150{width:150px!important;}
 .width-155{width:155px!important;}
 .width-160{width:160px!important;}
@@ -381,8 +382,8 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .pop_tip .btn{background-color:#f3a818;border-radius:4px;}
 .pop_tip_r .btn{background:#eee;border-radius:0;margin:0;padding:0;width:50%;float: left;color:#888;border-top:1px solid #d3d4d5;}
 .pop_tip_r .btn.current{border-color:#347cdc;}
-.pop_ie{width:700px;height:410px;margin:-205px 0 0 -350px;border:none;background:#888;}
-.explorer{background:#999;margin:0;position:relative;border-radius:5px;}
+.pop_ie{width:700px;height:410px;margin:-230px 0 0 -350px;border:none;background:none;}
+.explorer{background:#aaa;margin:0;position:relative;border-radius:5px;}
 .explorer a{display: inline-block;margin:10px 25px;position:relative;height:110px;}
 .explorer a img{vertical-align: bottom;margin-bottom:-10px;}
 .arrow-t{display:inline-block;width:0;border-left:10px solid #888;border-right: 10px solid #888;border-bottom: 10px solid #999;position: absolute;top:-10px;left:50%;margin-left:-5px;}

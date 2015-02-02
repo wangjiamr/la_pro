@@ -1,11 +1,12 @@
 ﻿.layout{width:100%;height:100%;position: relative;overflow:hidden;z-index:10;min-width:1024px;}
-.top_header,.admin_header{width:100%;height:49px;background-color:#f5f5f5;border-bottom:1px solid #bbb;position: absolute;top:0;left:0;color:#d7d7d7;z-index:21;min-width:1024px;}
+.top_header,.admin_header{width:100%;height:49px;background-color:#e8e8e8;border-bottom:1px solid #bbb;position: absolute;top:0;left:0;color:#d7d7d7;z-index:21;min-width:1024px;}
 .location{line-height:50px;color:#333;}
 .location a{color:#06c;}
 
 .new_btn{display:inline-block;background:#06c;border-radius:2px;color:#fff;height:24px;line-height:24px;padding:0 10px;min-width:50px;}
 .top_nav{width:700px;height:50px;top:0;position:absolute;right:10px;}
-.top_nav_mid{left:50%;margin-left:-350px;}
+.top_nav_mid{left:50%;margin-left:-350px;border:0;}
+.top_nav_mid a{display: inline-block;width: 80px;}
 .top_nav a{display:inline-block;color:#d7d7d7;margin:0 10px;line-height:40px;padding:0 10px;text-align: center;}
 .top_nav a.current{color:#59a7f9;}
 .top_nav a.new_btn{height:24px;line-height:24px;color:#fff;margin:0 5px;margin-top:12px;}
@@ -137,14 +138,13 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .list_doing .card_list li.waiting .card_title,.list_doing .card_list li.waiting span.process_bar_in{background:#404040;}
 .list_doing .card_list li.waiting p i{color:#404040;}
 /*list*/
-.list_main{width:1000px;position: relative;}
+.list_main{width:1100px;position: relative;margin:0 auto;}
 .list_table_box{position: relative;overflow: hidden;}
 .list_table_in{position: absolute;left:50%;margin-left:-400px;}
 .list_table{width:800px;margin:0 auto;}
-.list_table thead th{color:#fff;height:30px;background:url("../img/mask40.png") repeat;text-indent:20px;}
-.list_table tbody td,.list_table tbody th{border-bottom:1px solid #c7c7c7;background:#fff;color:#444;}
-.list_table tbody tr:last-child td,.list_table tbody tr:last-child th{border-bottom:0;}
-.list_table tbody tr:hover td,.list_table tbody tr.current td,.list_table tbody tr:hover th{background:#f2f2f2;}
+.list_table thead th{color:#333;height:40px;background:#eee;text-indent:20px;}
+.list_table tbody td,.list_table tbody th{border-bottom:1px solid #ddd;background:#fff;color:#444;}
+.list_table tbody tr:hover td,.list_table tbody tr.current td,.list_table tbody tr:hover th{background:#eee;}
 .list_table tbody div.inner_td{height:40px;line-height:40px;padding-left:20px;position: relative;}
 .list_table tbody div.inner_td span.txt_hidden{vertical-align: middle;}
 .list_table tbody th{border-right:1px solid #ccc;height:40px;}
@@ -187,7 +187,10 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .app_p .Btn{height:29px;line-height:29px;border-radius:0;}
 .MakeBtn{position: absolute;top:0;right:0;background:#b6b6b6;bottom:0;width:0;overflow: hidden;}
 .MakeBtn a{display: inline-block;width:40px;height:40px;text-align: center;line-height:40px;float: left;position: relative;}
-.list_table_tj .MakeBtn{width:80px;right:-80px;}
+.list_table_tj .MakeBtn{width:80px;right:-80px;transition:0.3s;}
+.list_table_tj .MakeBtn a{font-size:18px;color:#fff;}
+.list_table_tj .MakeBtn a:hover{background:#eda026;}
+.list_table_tj tr:hover .MakeBtn{width:80px;right:0;transition:0.3s;}
 .delete{background:#e65c5c;}
 .ico-delete{width:16px;height:16px;background-position: -177px -268px;vertical-align: middle;}/*垃圾箱*/
 .processlist_inner .ico-delete{width:10px;height:10px;background-position: -132px -60px;top:-2px;}
@@ -283,13 +286,13 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Re_item ul li:hover,.Re_item ul li.current{background:#e8e8e8;}
 .Re_item ul li a{display:block;padding-left:10px;color:#555;height:30px;line-height:30px;}
 .Re_item ul li a em{width:20px;text-align:right;float: right;line-height:30px;padding-right:10px;}
-.search_r{width:300px;position:absolute;top:40px;bottom:0;right:0;background: url("../img/mask70.png") repeat;}
+.search_r{width:300px;position:absolute;top:50px;bottom:0;right:0;background:#eee;border-left:1px solid #ddd;padding-top:20px;}
 .Re_item .clander{width:95px;}
 .Re_item .clander input{border-radius:4px;color: #333;}
 .Re_item .tab_nav li{float: left;margin:0 10px;padding:0;}
 .Re_item .tab_nav li a{display: inline-block;min-width:40px;height:22px;line-height: 22px;padding:0 6px;color: #aaa;text-align: center;}
 .Re_item .tab_nav li:hover{background:none;}
-.Re_item .tab_nav li a:hover{color: #fff;}
+.Re_item .tab_nav li a:hover{color: #333;background:none;}
 .Re_item .tab_nav li.current a{background-color: #347cdc;color:#fff;}
 .Re_item .tab_nav li.current{background:none;}
 .Re_item .ser_Results li{margin-left:3px;}
@@ -314,9 +317,9 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .back_md li a{display: block;height:40px;line-height:40px;color:#fff;}
 .back_md li a:hover{background: url("../img/mask70.png") repeat;}
 /*统计*/
-.high_table{width:800px;margin:0 auto;overflow: hidden;}
+.high_table{width:1008px;margin:0 auto;overflow: hidden;}
 .table_left,.table_right{width:30%;min-height:300px;overflow: hidden;}
-.table_right{width:70%;}
+.table_right{width:706px;margin-left:-1px;}
 .table_head{width:100%;height:30px;position:relative;margin:0 auto;overflow: hidden;}
 .table_head .list_table,.table_main .list_table{width:auto;min-width:100%;position: absolute;left:0;top:0;transition:0.5s;}
 .table_main{min-width:100%;position: relative;overflow: hidden;}
@@ -329,6 +332,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .high_table .table_head .list_table th,.high_table .table_head{min-height:40px;background:#f5f5f5;color: #333;}
 .high_table th,.high_table td{border:1px solid #ddd;color:#333;}
 .high_table .table_head .list_table th .inner_td,.high_table .table_main .list_table td .inner_td{width:120px;height:40px;line-height:40px;overflow: hidden;text-indent: 0;}
+.table_bottom{border-bottom:1px solid #ddd;}
 /*help*/
 .help_box{width:670px;height:450px;background: url("../img/mask70.png") repeat;position: absolute;top:50%;left:50%;margin:-225px 0 0 -335px;border-radius:3px;z-index:220;}
 .help_inner{position: relative;width: 100%;height:100%;color:#fff;}
@@ -349,9 +353,9 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .help_mask{width:424px;height:228px;position: absolute;top:50%;left:50%;margin:-125px 0 0 -212px;z-index:20;}
 /*data_link*/
 .data_link{width:615px;margin:0 auto;}
-.data_left,.data_right{width:300px;color:#333;position: relative;border:1px solid #999;}
+.data_left,.data_right{width:300px;color:#333;position: relative;border:1px solid #ddd;background:#fff;}
 .data_link ul li{line-height:39px;height:39px;border-bottom:1px solid #eee;text-indent:20px;position: relative;}
-.data_link ul li:hover,.data_link ul li.current{background-color:#ddd;}
+.data_link ul li:hover,.data_link ul li.current{background-color:#eee;}
 .data_right ul li:hover{background:none;}
 .data_right ul li a,.data_left li a{display: none;}
 .data_right ul li:hover a,.data_right ul li a.a_delete,.data_left li:hover a{display: inline;color:#aaa;margin:0 4px;}
@@ -367,12 +371,14 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_link .MakeBtn .edit{border:0;background:#347cdc;}
 .data_link .MakeBtn a,.data_link li:hover .MakeBtn a{display:inline-block;margin:0;text-indent: 0;font-size:14px;color:#fff;}
 .data_left li{padding-right:45px;}
-.data_link .has-general{width:140px;left:20px;top:6px;}
-.data_link .has-general .int{width:138px;}
+.data_link .has-general{width:140px;left:20px;top:8px;}
+.data_link .has-general .int{width:138px;background:#fff;}
 .data_link ul li .ico-arrow{width:7px;height:12px;background-position:-70px -478px;position: absolute;left:inherit;right:-1px;top:15px;display: none;}
 .data_link ul li.current .ico-arrow{display: inline-block;}
 .data_left .jspVerticalBar{display: none;}
 .data_link .nav_bar a{width:}
+.R_arrow{display:inline-block;width:7px;height:12px;background: url("../img/li_left.png");position:absolute;left:-7px;top:14px;}
+
 /*适配1024屏幕*/
 .mini .top_nav a{margin:0 2px;padding:0 5px;}
 .mini .ico-bg,.mini .ico-home2,.mini .ico-search{margin-left:10px;}
@@ -986,8 +992,11 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .nav_bar{border-bottom:1px solid #ccc;height:30px;line-height:30px;position: relative;}
 .nav_bar a{display: inline-block;width:80px;padding:0 5px;text-align:center;line-height:30px;color:#666;}
 .nav_bar a.current{color:#337ddc;}
-.data_link .nav_bar a{border-bottom:2px solid #f5f5f5;}
-.data_link .nav_bar a.current{border-color:#06c;}
+.top_nav_mid.nav_bar a{height:47px;line-height:47px;border-color: transparent;}
+.data_link .nav_bar a,.top_nav_mid a{border-bottom:2px solid #f5f5f5;}
+.data_link .nav_bar a.current,.top_nav_mid a.current{border-color:#06c;font-weight: bold;}
+.top_nav_mid.nav_bar{height:50px;line-height:50px;position: inherit;}
+
 
 /*创建表单*/
 .creat_out{width:1105px;margin:0 auto;position: absolute;top:50px;bottom:0;left:50%;margin-left:-552px;}

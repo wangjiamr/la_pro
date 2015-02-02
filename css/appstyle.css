@@ -41,7 +41,7 @@
 .search .ser_Results{left:-1px;top:26px;z-index:200;display:none;padding:5px 0;}
 .search .ser_Results.groupList{top:inherit;bottom:26px;padding:0;}
 .ser_Results li{line-height: 26px;padding-left:10px;color:#888;cursor: pointer;display: block;}
-.ser_Results li:hover,.ser_Results li.current,.ser_Results li:hover em{color:#333;background:#ccc!important;}
+.ser_Results li:hover,.ser_Results li.current,.ser_Results li:hover em{color:#333;background:#e8e8e8!important;}
 .ser_Results li.current em{color:red;}
 .ser_Results li:hover,.ser_Results li.current{background-color: #ccc;}
 .ser_Results li em{padding: 0 3px;}
@@ -406,6 +406,9 @@ td .search{width:auto;}
 .account_tab th{width:60px;}
 .account_tab th,.account_tab td{padding:10px 0 10px 20px;color:#666;height:10px;}
 .account_tab .check{display:inline-block;margin-right:10px;min-width:60px;}
+.Re_item .account_tab{width:auto;right:0;background:none;}
+.Re_item .account_tab td span{margin-bottom:10px;}
+
 .tab_nav li{float: left;margin-right:10px;}
 .tab_nav li a{display: inline-block;min-width:60px;height:28px;line-height: 28px;padding:0 6px;color: #666;text-align: center;}
 .tab_nav li a:hover{background-color: #cbe2fa;}
