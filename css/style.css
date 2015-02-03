@@ -5,7 +5,7 @@
 
 .new_btn{display:inline-block;background:#06c;border-radius:2px;color:#fff;height:24px;line-height:24px;padding:0 10px;min-width:50px;}
 .top_nav{width:700px;height:50px;top:0;position:absolute;right:10px;}
-.top_nav_mid{left:50%;margin-left:-350px;border:0;}
+.top_nav_mid{width:300px;left:50%;margin-left:-150px;border:0;z-index:100;}
 .top_nav_mid a{display: inline-block;width: 80px;}
 .top_nav a{display:inline-block;color:#d7d7d7;margin:0 10px;line-height:40px;padding:0 10px;text-align: center;}
 .top_nav a.current{color:#59a7f9;}
