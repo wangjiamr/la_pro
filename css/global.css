@@ -237,7 +237,6 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .search .ico-select{position: absolute;top:3px;right:0;}
 .down .ico-upd{transform:rotate(180deg);behavior: url(../css/PIE.htc);}
 .ListTitle span:hover .ico-upd,.up .ico-upd,.down .ico-upd,.ico-select .ico-upd{display: inline-block;}
-.item_box .ico-select .ico-upd{vertical-align:-16px;}
 .ico-print,.ico-croose,.ico-carried{width:25px;height:25px;}
 .ico-print{width:16px;height:14px;background-position:-199px -122px;top:3px;}
 .ico-croose{background-position:-66px -93px;}

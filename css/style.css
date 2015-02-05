@@ -400,7 +400,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"],.ico-upd{
 	font-family: 'oafont';
 	speak: none;
 	font-style: normal;
@@ -408,7 +408,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1.8;
-
+    background:none;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -666,7 +666,10 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	content: "\e617";
 }
 
-.icon-unfold-more:before {
+.icon-unfold-more:before,.ico-upd:before {
+    font-size: 12px;
+    line-height: normal;
+    vertical-align: inherit;
 	content: "\e63f";
 }
 
