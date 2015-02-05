@@ -202,7 +202,7 @@ td .search{width:auto;}
 .process-in{position:absolute;width:9999px;}
 .process-in:hover .ico-delete4{display: inline-block;}
 .pro_title{margin-top:-110px;margin-left:25px;margin-bottom:20px;}
-.pro_title .int{border-radius:4px;background:url("../img/mask10.png") repeat;border:0;}
+.pro_title .int{border-radius:4px;background:url("../img/mask10.png") repeat;border:1px solid transparent;}
 .pro_title a{padding:5px;color:#aaa;}
 .processlist.current .pro_title .int{border:1px solid #06c;background:#fff;}
 .processlist.current .pro_title a{color:#06c;}
@@ -210,11 +210,11 @@ td .search{width:auto;}
 .processlist.current .pro_title a .icon-unlocked,.processlist .pro_title a i.icon-lock{display: inline-block;}
 
 
-.item_box,.drag-box{padding:15px 0 0 10px;border:1px dashed #ccc;position:relative;margin-bottom:30px;line-height:30px;color:#333;border-radius:3px;}
+.item_box,.drag-box{padding:15px 0 0 10px;border:1px dashed #ccc;position:relative;margin:0 7px 30px 0;line-height:30px;color:#333;border-radius:3px;}
 .drag-box{background-color:#fefef1;border-color:#347cdc;}
-.item_box:hover,.item_box.has-touch{border-color:#2d9012;background-color:#f3fef1;}
+.item_box:hover,.item_box.has-touch{border-color:#2d9012;background-color:#fff;}
 .item_box span:hover{text-decoration: underline;cursor: pointer;}
-.item_box span.title{position: absolute;top:-10px;background-color: #fff;padding:5px 10px;line-height:10px;}
+.item_box span.title{position: absolute;top:-10px;background:#fff;padding:5px 10px;line-height:10px;}
 .item_box span.title:hover{text-decoration: none;color:#333;}
 .item_box ul li{height:28px;line-height:28px;overflow: hidden;position: relative;}
 .drag-box{position: absolute;z-index:20;width:260px;box-shadow: 0 0 6px #aaa;cursor:move;padding:0;margin:0;color:#888;}
