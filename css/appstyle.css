@@ -182,6 +182,7 @@ td .search{width:auto;}
 .Title .Title_a{display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;border-left:1px solid #dbdbdb;color:#999;}
 .Title .Title_a:hover{color:#06c;}
 .Item{padding:5px 10px;}
+.Item span i{vertical-align: middle;position: relative;top:-3px;}
 .Item span.txt_hidden{width:100px;color:#888;}
 .Item .UserImg,.Item .UserImg img{width:32px;height:32px;vertical-align:middle;}
 .ProcessOut{width:670px;overflow: hidden;height:36px;margin-left:2px;}
