@@ -185,7 +185,7 @@ td .search{width:auto;}
 .Item span i{vertical-align: middle;position: relative;top:-3px;}
 .Item span.txt_hidden{width:100px;color:#888;}
 .Item .UserImg,.Item .UserImg img{width:32px;height:32px;vertical-align:middle;}
-.ProcessOut{width:670px;overflow: hidden;height:36px;margin-left:2px;}
+.ProcessOut{width:660px;overflow: hidden;height:36px;margin-left:2px;}
 .ProcessLi{width:9999px;}
 .Item span{height:32px;line-height:32px;}
 .Item .inlineblock span{display:inline-block;line-height: normal;}
