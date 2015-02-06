@@ -901,7 +901,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .layout_left{width:159px;border-right:1px solid #bbb;background-color: #e8e8e8;}
 .layout_right{left:160px;right:0;overflow-y: auto;}
 .layout_left em{font-size:12px;transition:all 0.1s ease-in-out;}
-.home_page{padding:10px 90px;}
+.home_page{padding:10px 50px;}
 .form_page{padding:10px 50px;}
 .nav_tools{border-top:1px solid #d6d6d6;padding:30px 0 100px 0;}
 .tool_nav li{margin-bottom:15px;position: relative;}

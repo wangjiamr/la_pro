@@ -367,7 +367,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .pop_tip_txt{width:240px;line-height:20px;}
 .pop .title{background:#eee;border-bottom:1px solid #ccc;border-radius:4px 4px 0 0;}
 .pop_btn{border-top:1px solid #ccc;padding:10px;}
-.pop_success,.pop_error,.pop_waring{width:400px;height:260px;background-color:#f9f9f9;border-radius:0;border:1px solid #e4e4e4;margin:-200px 0 0 -200px;}
+.pop_success,.pop_error,.pop_waring{width:400px;height:260px;background-color:#f9f9f9;border-radius:0;border:1px solid #ccc;margin:-200px 0 0 -200px;}
 .pop_top{height:180px;background:#fff;}
 .pop_error .btn{background:#da5c5c;}
 .pop_success .btn{background:#4cb605;}
@@ -389,6 +389,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .sure{background:#0066cc;color:#fff;border-color:#06c;}
 .confrim{width:320px;height:120px;border-radius:4px;margin:-60px 0 0 -160px;}
 .confrim p.marr10{position: absolute;bottom:10px;width: 100%;right:0;}
+.confrim_pay{width:500px;min-height:200px;margin:-100px 0 0 -250px;}
 /*控件*/
 .Iframe{width:99.5%;float:right;}
 .text{border-width:1px;border-style: solid;}
