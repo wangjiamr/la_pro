@@ -900,7 +900,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .layout_left,.layout_right{position: absolute;top:0;bottom:0;background-color: #f5f5f5;transition:all 0.4s ease-in-out;}
 .layout_left{width:159px;border-right:1px solid #bbb;background-color: #e8e8e8;}
 .layout_right{left:160px;right:0;overflow-y: auto;}
-.layout_left em{font-size:12px;transition:all 0.4s ease-in-out;}
+.layout_left em{font-size:12px;transition:all 0.1s ease-in-out;}
 .home_page{padding:10px 90px;}
 .form_page{padding:10px 50px;}
 .nav_tools{border-top:1px solid #d6d6d6;padding:30px 0 100px 0;}
@@ -909,8 +909,9 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .tool_nav li a .circle_ico{margin:0 10px 0 30px;border-color:#aaa;}
 .tool_nav li.apply_ico a .circle_ico{border-color:#06c;}
 .title_tip{position: absolute;background: url("../img/mask70.png") repeat;border-radius:3px;width:50px;height:30px;line-height:30px;
-    padding:0 10px;left:55px;top:0px;font-size:12px;color:#fff;z-index:20;text-align: center;display: none;}
+    padding:0 10px;left:55px;top:50%;margin-top:-15px;font-size:12px;color:#fff;z-index:50;text-align: center;display: none;}
 .title_tip .toggle_arrow{border:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:5px solid #000;position: absolute;left:-10px;top:10px;opacity: 0.7;}
+
 
 li.nav_a a .circle_ico{background:none;border-color:#e8e8e8;color:#aaa;}
 li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;color:#fff;background:#06c;}
@@ -957,16 +958,16 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .set_nav{width:110px;border:1px solid #224477;border-width:1px 1px 0 0;position:absolute;right:0;display:none;bottom:-1px;background: #fff;padding-top:10px;}
 .set_nav .nav_list li{padding-left:20px;}
 .icon-square-checked,.icon-drafts{color:#347cdc;}
-.mini_left em{display: none;transition:all 0.4s ease-in-out;}
+.mini_left em{display: none;transition:all 0.1s ease-in-out;}
 .mini_left .tool_nav li a .circle_ico{margin:0 10px 0 13px;}
-.mini_left .nav_list li,.mini_left .nav_list li.nav_li_first{padding-left:10px;transition:0.3s;}
+.mini_left .nav_list li,.mini_left .nav_list li.nav_li_first{padding-left:10px;transition:0.1s;}
 .mini_left .nav_list li.nav_li_first{padding:0;}
 .oa_logo{height:40px;color:#333;}
 .oa_logo img{vertical-align:bottom;}
 .oa_logo .logo_img img{width:30px;margin:-5px 0 0 -15px;}
 .oa_logo .logo_img,.mini_left .oa_logo .logo_txt,.mini_left .oa_logo .color-3,.mini_left .user_info p,.mini_left .user_info span{display: none;}
 .mini_left .oa_logo .logo_img,.mini_left .user_info a.font20{display:inline-block;}
-.mini_left .user_info{padding:0;padding-top:10px;text-align: center;line-height:40px;}
+.mini_left .user_info{padding:0;padding-top:10px;text-align: center;line-height:40px;position: relative;}
 /*工作台右侧*/
 .Title{height:40px;line-height:40px;border-bottom:1px solid #aaa;background: none;}
 .Title a{color:#224477;}

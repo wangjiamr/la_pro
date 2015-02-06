@@ -71,7 +71,7 @@ td .search{width:auto;}
 .Li_span4 font{color:#888;padding-left: 5px;}
 .Li_span4 em{padding-right:10px;display: inline-block;width:60px;}
 .AppDetail{width:805px;position:fixed;top:72px;right:-805px;bottom:0;z-index: 20;}
-.AppDetailIn{color: #333;overflow: hidden;background:#fff;}
+.AppDetailIn{color: #333;overflow: hidden;background:#fff;padding:60px 0 30px 0;}
 .AppTable{width: 100%;border: 1px solid #666;border-width:1px 0;}
 .AppTable th{background: #f2f2f2;}
 .AppTable  tr th,.AppTable tr td{height:30px;line-height: 30px;border: 1px dotted #6b6b6b;border-bottom:0;padding:0 5px 0 10px;word-break: break-all;word-wrap: break-word;}
