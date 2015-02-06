@@ -153,7 +153,7 @@ a.tags:hover{text-decoration:underline;}
 .no_indent{text-indent: 0!important;}
 .txt_hidden,.ser_Results li,.UserName,.prompt_main p,.high_table .table_head .list_table th .inner_td,.high_table .table_main .list_table td .inner_td
 ,.form_list li p.font16,.list_table.search_list tbody div.inner_td{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
-.Titillium{font-family: Titillium;font-weight:bold;}
+/*.Titillium{font-family: Titillium;font-weight:bold;}*/
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix{zoom:1;}
@@ -352,7 +352,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-6{background-position:-109px -110px;}
 .ico-7{background-position:-109px -132px;}
 /*弹出*/
-.loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:200;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
+.loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:202;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
 .loading img{width:35px;height:35px;margin-bottom:8px;}
 .mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:30;background:url("../img/mask40.png");}
 .sending,.no_data{width:220px;height:170px;margin:-85px 0 0 -110px;}
