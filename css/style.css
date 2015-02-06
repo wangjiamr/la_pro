@@ -962,7 +962,7 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .UserImg,.UserImg img{width:40px;height:40px;border-radius:50%;background:#fff;}
 .nav_list li{padding-left:10px;}
 .nav_list li a .circle_ico{margin:0 0 0 32px;}
-.nav_list li:hover a,.nav_list li.current a,.nav_list li:hover a .circle_ico{color:#06c;}
+.nav_list li:hover a,.nav_list li.current a,.nav_list li:hover a .circle_ico,.nav_list li.current a .circle_ico{color:#06c;}
 .left_bottom{position:absolute;bottom:0;left:0;width:100%;border-top:1px solid #d6d6d6;padding-top:20px;}
 .user_info{height:50px;padding:10px 0 0 30px;border-top:1px solid #d6d6d6;}
 .user_info p{line-height:20px;}
