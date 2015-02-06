@@ -891,6 +891,21 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .icon-input:before {
 	content: "\e647";
 }
+.icon-upload:before {
+	content: "\e961";
+}
+.icon-clipboard:before {
+	content: "\e9b8";
+}
+.icon-upload2:before {
+	content: "\e9c6";
+}
+.icon-eye-plus:before {
+	content: "\e9cf";
+}
+.icon-exit:before {
+	content: "\ea14";
+}
 .form_list [class^="icon-"]{font-size:60px;line-height:1;color:#0066cc;}
 .f_icon{margin-bottom:20px;}
 
@@ -945,12 +960,9 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .BtnRevoke a.a_txt{width:80px;text-align: center;background:#e9505f;}
 .Btns.current .toggle .toggle_arrow{border-top:0!important;border-bottom:5px solid #d1e8d2!important;top:-2px;left:-1px;}
 .UserImg,.UserImg img{width:40px;height:40px;border-radius:50%;background:#fff;}
-.nav_list li{padding-left:70px;margin-top:10px;}
-.nav_list li.nav_li_first{padding-left:0;margin-bottom:30px;}
-.nav_list li.nav_li_first em,.nav_list li.nav_li_first a{font-size:14px;padding:0;}
-.nav_list li a{color:#333;display: block;line-height:25px;height:25px;padding-left:20px;font-size:12px;}
-.nav_list li a em{font-size:12px;}
-.nav_list li:hover a,.nav_list li.current a{color:#0066cc;}
+.nav_list li{padding-left:10px;}
+.nav_list li a .circle_ico{margin:0 0 0 32px;}
+.nav_list li:hover a,.nav_list li.current a,.nav_list li:hover a .circle_ico{color:#06c;}
 .left_bottom{position:absolute;bottom:0;left:0;width:100%;border-top:1px solid #d6d6d6;padding-top:20px;}
 .user_info{height:50px;padding:10px 0 0 30px;border-top:1px solid #d6d6d6;}
 .user_info p{line-height:20px;}
@@ -960,7 +972,7 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .icon-square-checked,.icon-drafts{color:#347cdc;}
 .mini_left em{display: none;transition:all 0.1s ease-in-out;}
 .mini_left .tool_nav li a .circle_ico{margin:0 10px 0 13px;}
-.mini_left .nav_list li,.mini_left .nav_list li.nav_li_first{padding-left:10px;transition:0.1s;}
+.mini_left .nav_list li{padding-left:0;transition:0.1s;}
 .mini_left .nav_list li.nav_li_first{padding:0;}
 .oa_logo{height:40px;color:#333;}
 .oa_logo img{vertical-align:bottom;}
