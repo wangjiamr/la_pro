@@ -235,6 +235,8 @@ em.color_2{color:#bbb;background:none;}
 .nav_normal .borderBt{width:50%;}
 .nav_normal a{border:0;width:50%;}
 .nav_normal a.current,.nav_normal a:hover{color:#337ddc;background:none;}
+.nav_normal a.No_click{color:#ccc;}
+.nav_normal a.No_click:hover{background:#eee;color:#ccc;}
 .form_right .nav_normal a,.form_right .nav_normal  .borderBt{width:33.6%;}
 .form_right .nav_normal.nav_50 a,.form_right .nav_normal.nav_50 .borderBt{width:50%;}
 /*填写表单*/

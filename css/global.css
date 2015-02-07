@@ -189,7 +189,7 @@ a.tags:hover{text-decoration:underline;}
 .btn-sure{border:0;border-bottom-right-radius:2px;}
 .btn_right{position:absolute;right:10px;top:13px;}
 .step_btn{width:100px;height:30px;line-height:30px;text-align: center;background-color:#3478d3;color:#fff;border-radius:3px;}
-.No_click{background-color:#ccc;cursor: default;}
+.No_click{background-color:#eee;cursor: default;color:#ccc;}
 .form_left .Btn{background:#fff;}
 .renew,.free_use,.now_buy{display:inline-block;width:100px;height:32px;background: url("../img/ico.png");background-position:0 -403px;}
 .renew:hover{background-position:0 -437px;}
