@@ -149,7 +149,7 @@ a.tags:hover{text-decoration:underline;}
 .font26{font-size:26px!important;}
 .font28{font-size:28px!important;}
 .font30{font-size:30px!important;}
-.l_th{text-decoration:line-through!important;}
+.l_th,.l_th *{text-decoration:line-through!important;}
 .no_indent{text-indent: 0!important;}
 .txt_hidden,.ser_Results li,.UserName,.prompt_main p,.high_table .table_head .list_table th .inner_td,.high_table .table_main .list_table td .inner_td
 ,.form_list li p.font16,.list_table.search_list tbody div.inner_td{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
@@ -189,7 +189,7 @@ a.tags:hover{text-decoration:underline;}
 .btn-sure{border:0;border-bottom-right-radius:2px;}
 .btn_right{position:absolute;right:10px;top:13px;}
 .step_btn{width:100px;height:30px;line-height:30px;text-align: center;background-color:#3478d3;color:#fff;border-radius:3px;}
-.No_click{background-color:#eee;cursor: default;color:#ccc;}
+.No_click{background-color:#eee!important;cursor: default!important;color:#ccc!important;}
 .form_left .Btn{background:#fff;}
 .renew,.free_use,.now_buy{display:inline-block;width:100px;height:32px;background: url("../img/ico.png");background-position:0 -403px;}
 .renew:hover{background-position:0 -437px;}
@@ -262,7 +262,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-cut{width:15px;height:15px;background-position:-131px -165px;}
 .ico-acc{width:15px;height:15px;background-position:-131px -180px;vertical-align:-2px;}
 .Btn .ico-acc{width:15px;height:15px;background-position:-48px -215px;vertical-align:-2px;}
-.ico-delete4{position:absolute;left:2px;top:2px;display: none;}
+.ico-delete4{position:absolute;right:-10px;top:-12px;display: none;}
 .acc_list .ico-delete4{display: block;left: inherit;right:3px;}
 .td_inner .ico-delete4{right:-8px;display: none;}
 .ico-all{width:21px;height:48px;background:#ccc;position: absolute;left:-21px;top:-1px;display:none;text-align: center;}
