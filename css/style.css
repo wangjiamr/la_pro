@@ -33,16 +33,6 @@
 .color_1.Icon{background-color:#8fc31f;}
 em.color_1{color:#8fc31f;background:none;}
 em.color_2{color:#bbb;background:none;}
-
-@font-face {
-font-family:Titillium;
-src: url('TitilliumTitle01-Thin.eot'); /* IE9 Compat Modes */
-src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('TitilliumTitle01-Thin.woff') format('woff'), /* Modern Browsers */
-  url('TitilliumTitle01-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
-  url('TitilliumTitle01-Thin.svg') format('svg'); /* Legacy iOS */
-}
-.Titillium{font-family: Titillium!important;font-weight:bold;}
 .Btn-normal{display:inline-block;color:#333;min-width:50px;border:1px solid #ccc;border-radius:2px;padding:0 10px;height:22px;line-height:22px;}
 
 .top_header .UserImg{position: relative;top:8px;margin-right:10px;}
@@ -258,7 +248,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_top li em{display: inline-block;width:16px;line-height:16px;text-align:center;background:#bbb;color:#fff;border-radius:50%;margin-right:5px;}
 .form_top li.current em{background:#0066cc;}
 .form_top li.current{color:#333;}
-.form_bottom{height:49px;position: absolute;left:0;right:0;bottom:0;background:#f5f5f5;}
+.form_bottom{height:49px;position: absolute;left:0;right:0;bottom:0;background:#f5f5f5;z-index: 30;}
 .form_bottom a.add{float:left;margin:20px 0 0 20px;}
 .form_logo{width:40px;height:41px;line-height:41px;position: relative;color: #fff;font-size: 22px;}
 .form_logo em{font-size:26px;position: relative;top:-3px;}
@@ -270,6 +260,12 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_bottom .Btn{height:30px;line-height:30px;width:80px;margin:12px 5px 0;}
 .form_bottom .Btn.Btn-commit{background:#54c34e;}
 .form_bottom .btn-quit{background:#bbb;}
+.form_edit_box .Approval{position: absolute;z-index:10;right:0;left:0;bottom:50px;top:100%;padding:0 20px;width:760px;}
+.form_edit_box .Approval table{height:auto;margin:0;width:100%;}
+.form_edit_box .Approval ul{padding:10px 0;}
+.form_edit_box .Approval ul li{margin:10px 9px 0 0;}
+.form_edit_box .Approval ul.acc_list li{margin:10px 19px 0 10px;}
+.form_edit_box .Approval .Approval_inner{border:0;width:100%;}
 /*编辑流程*/
 .process_out{width:1100px;}
 div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10px!important;}

@@ -153,7 +153,6 @@ a.tags:hover{text-decoration:underline;}
 .no_indent{text-indent: 0!important;}
 .txt_hidden,.ser_Results li,.UserName,.prompt_main p,.high_table .table_head .list_table th .inner_td,.high_table .table_main .list_table td .inner_td
 ,.form_list li p.font16,.list_table.search_list tbody div.inner_td{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
-/*.Titillium{font-family: Titillium;font-weight:bold;}*/
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix{zoom:1;}
@@ -174,7 +173,7 @@ a.tags:hover{text-decoration:underline;}
 .switch a:hover,.switch a.current{color:#347cdc;border:1px solid #347cdc;}
 .pagenation a.prev,.pagenation a.next{border:0;}
 .go_left,.go_right{display:block;width:40px;height:70px;line-height:70px;font-size:40px;color:#333;position: absolute;top:50%;margin-top:-35px;z-index:100;}
-.go_left{left:0;}
+.go_left{left:0;text-align: right;}
 .go_right{right:0;}
 .go_left i,.go_right i{line-height: 1;}
 .go_left i{margin-left:-20px;}
