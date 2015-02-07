@@ -264,7 +264,7 @@ em.color_2{color:#bbb;background:none;}
 .form_edit_box .Approval table{height:auto;margin:0;width:100%;}
 .form_edit_box .Approval ul{padding:10px 0;}
 .form_edit_box .Approval ul li{margin:10px 9px 0 0;}
-.form_edit_box .Approval ul.acc_list li{margin:10px 19px 0 10px;}
+.form_edit_box .Approval ul.acc_list li{margin:0 19px 10px 10px;}
 .form_edit_box .Approval .Approval_inner{border:0;width:100%;}
 /*编辑流程*/
 .process_out{width:1100px;}
@@ -788,7 +788,9 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .icon-2:before {
 	content: "\e045";
 }
-
+.icon-8:before {
+	content: "\e042";
+}
 .icon-square-check:before {
 	content: "\e04a";
 }
