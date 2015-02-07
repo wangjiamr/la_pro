@@ -1056,14 +1056,14 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 
 
 .doc_list{width:300px;position:absolute;top:50px;right:0;bottom:0;background:#e8e8e8;}
-.doc_list_inner{position:absolute;top:50px;bottom:50px;left:20px;right:20px;overflow: hidden;width:auto;border:0;}
-.doc_list_main{width:100%;position: absolute;}
+.doc_list_inner{position:absolute;top:0;bottom:0;left:8px;right:10px;padding-right:10px;overflow: hidden;width:auto;border:0;}
 .doc_btn{height:20px;line-height:18px;background:#d4d4d4;text-align:center;position:absolute;left:20px;right:20px;font-size:24px;}
 .doc_btn i{display: inline-block;line-height:1;}
-.doc_list_ul li{border:1px solid #ccc;margin-bottom:10px;background:#fff;cursor: pointer;}
+.doc_list_ul li{border:1px solid #ccc;margin-top:10px;background:#fff;cursor: pointer;}
 .doc_list_ul li .btn-make{width:50px;}
-.doc_img_list li{border:1px solid #ccc;width:123px;height:68px;overflow:hidden;float: left;margin:0 10px 10px 0;cursor: pointer;}
-.doc_img_list li img{width:123px;}
+.doc_img_list{padding-bottom:10px;}
+.doc_img_list li{border:1px solid #ccc;width:131px;height:68px;overflow:hidden;float: left;margin:10px 10px 0 0;cursor: pointer;}
+.doc_img_list li img{width:131px;}
 
 
 

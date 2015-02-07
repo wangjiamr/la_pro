@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>文件预览</title>
     <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
     <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
@@ -79,88 +80,96 @@
         <!--左侧文件区域over-->
         <!--右侧文件列表begin-->
         <div class="doc_list">
-            <a href="javascript:;" class="doc_btn block" style="top:20px;"><i class="icon-arrow-drop-up"></i></a>
-            <a href="javascript:;" class="doc_btn block" style="bottom:20px;"><i class="icon-arrow-drop-down"></i></a>
-            <div class="Annex_list doc_list_inner">
-                <div class="doc_list_main" style="top:-30px;">
-                    <ul class="doc_list_ul clearfix">
-                        <li class="clearfix">
-                            <span class="an_logo floatleft"><img src="../img/fu_docx.gif"></span>
-                            <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
-                            <p class="color-8 clearfix">
-                                <span class="floatleft">34M</span>
-                            </p>
-                            <div class="btn-make clearfix">
-                                <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
-                            </div>
-                        </li>
-                        <li class="clearfix">
-                            <span class="an_logo floatleft"><img src="../img/fu_mp3.gif"></span>
-                            <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
-                            <p class="color-8 clearfix marr10">
-                                <span>excel文件</span>
-                            </p>
-                            <div class="btn-make clearfix">
-                                <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
-                            </div>
-                        </li>
-                        <li class="clearfix">
-                            <span class="an_logo floatleft"><img src="../img/fu_img.gif"></span>
-                            <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
-                            <p class="color-8 clearfix marr10">
-                                <span>34M</span>
-                            </p>
-                            <div class="btn-make clearfix">
-                                <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
-                            </div>
-                        </li>
-                        <li class="clearfix">
-                            <span class="an_logo floatleft"><img src="../img/fu_rar.gif"></span>
-                            <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
-                            <p class="color-8 clearfix marr10">
-                                <span>34M</span>
-                            </p>
-                            <div class="btn-make clearfix">
-                                <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
-                            </div>
-                        </li>
-                        <li class="clearfix">
-                            <span class="an_logo floatleft"><img src="../img/fu_pptx.gif"></span>
-                            <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
-                            <p class="color-8 clearfix marr10">
-                                <span>34M</span>
-                            </p>
-                            <div class="btn-make clearfix">
-                                <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
-                            </div>
-                        </li>
-                        <li class="clearfix">
-                            <span class="an_logo floatleft"><img src="../img/fu_rar.gif"></span>
-                            <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
-                            <p class="color-8 clearfix marr10">
-                                <span>34M</span>
-                            </p>
-                            <div class="btn-make clearfix">
-                                <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="doc_img_list clearfix">
-                        <li><img src="../img/img1.png"/></li>
-                        <li class="nomarr"><img src="../img/ico_pro.png"/></li>
-                        <li><img src="../img/img1.png"/></li>
-                        <li class="nomarr"><img src="../img/ico_pro.png"/></li>
-                        <li><img src="../img/img1.png"/></li>
-                        <li class="nomarr"><img src="../img/ico_pro.png"/></li>
-                        <li><img src="../img/img1.png"/></li>
-                        <li class="nomarr"><img src="../img/ico_pro.png"/></li>
-                    </ul>
-                </div>
+            <div class="Annex_list doc_list_inner jscroll">
+                <ul class="doc_list_ul clearfix">
+                    <li class="clearfix">
+                        <span class="an_logo floatleft"><img src="../img/fu_docx.gif"></span>
+                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                        <p class="color-8 clearfix">
+                            <span class="floatleft">34M</span>
+                        </p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft"><img src="../img/fu_mp3.gif"></span>
+                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                        <p class="color-8 clearfix marr10">
+                            <span>excel文件</span>
+                        </p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft"><img src="../img/fu_img.gif"></span>
+                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                        <p class="color-8 clearfix marr10">
+                            <span>34M</span>
+                        </p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft"><img src="../img/fu_rar.gif"></span>
+                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                        <p class="color-8 clearfix marr10">
+                            <span>34M</span>
+                        </p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft"><img src="../img/fu_pptx.gif"></span>
+                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                        <p class="color-8 clearfix marr10">
+                            <span>34M</span>
+                        </p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft"><img src="../img/fu_rar.gif"></span>
+                        <p class="mart5 txt_hidden">2014年第一季度产品规划.xls</p>
+                        <p class="color-8 clearfix marr10">
+                            <span>34M</span>
+                        </p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="下载" class="floatleft"><i class="icon-cloud-download"></i></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="doc_img_list clearfix">
+                    <li><img src="../img/img1.png"/></li>
+                    <li class="nomarr"><img src="../img/ico_pro.png"/></li>
+                    <li><img src="../img/img1.png"/></li>
+                    <li class="nomarr"><img src="../img/ico_pro.png"/></li>
+                    <li><img src="../img/img1.png"/></li>
+                    <li class="nomarr"><img src="../img/ico_pro.png"/></li>
+                    <li><img src="../img/img1.png"/></li>
+                    <li class="nomarr"><img src="../img/ico_pro.png"/></li>
+                </ul>
             </div>
         </div>
         <!--右侧文件列表over-->
     </div>
     <!--文件预览over-->
 </div>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    }
+    Jscroll();
+</script>
 </body>
 </html>
