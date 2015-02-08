@@ -141,7 +141,7 @@
         </div>
         <!--表单列表over-->
         <!--填写内容第一步begin-->
-        <div class="form_edit_box" style="display:;position: absolute;top: 0;bottom:0;left:50%;margin-left:-400px;z-index: 100;">
+        <div class="form_edit_box" style="display:none;position: absolute;top: 0;bottom:0;left:50%;margin-left:-400px;z-index: 100;">
             <div class="form_in">
                 <ul class="form_top alignright clearfix">
                     <li class="current"><em>1</em>填写表单</li>
@@ -603,7 +603,7 @@
         </div>
         <!--填写内容第一步over-->
         <!--填写内容第二步begin-->
-        <div class="form_edit_box" style="display:none;position: absolute;top: 0;bottom:0;left:50%;margin-left:-400px;z-index: 100;">
+        <div class="form_edit_box" style="display:;position: absolute;top: 0;bottom:0;left:50%;margin-left:-400px;z-index: 100;">
             <div class="form_in">
                 <ul class="form_top alignright clearfix">
                     <li><em>1</em>填写表单</li>
@@ -612,7 +612,7 @@
                 </ul>
                 <!--表单详情begin-->
                 <div class="jscroll">
-                    <div class="form-main">
+                    <div class="form-main" style="display: none;">
                         <p class="font18 aligncenter">报销申请</p>
                         <div class="process_choose mart30 p-top10 clearfix">
                             <div class="process_left floatleft">
@@ -729,6 +729,59 @@
                             </div>
                         </div>
                     </div>
+                    <!--自拟流程begin-->
+                    <div class="form-main">
+                        <p class="font18 aligncenter">报销申请</p>
+                        <div class="process_choose mart30 p-top10 clearfix">
+                            <div class="process_left marl20 floatleft" style="width:45%;">
+                                <p class="font14 color-3 mart30">自定义流程明细 :</p>
+                                <div class="mart20">
+                                    <ul class="process_li">
+                                        <li class="clearfix">
+                                            <span class="floatleft">1.</span>
+                                            <div class="has-general has-error floatleft width-140">
+                                                <input type="text" class="int" readonly="" placeholder="请输入角色名称...">
+                                            </div>
+                                            <a href="javascript:;" title="替换审批人"><i class="icon-sync"></i></a>
+                                            <a href="javascript:;" title="删除审批人"><i class="icon-circle-minus"></i></a>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="floatleft">2.</span>
+                                            <div class="has-general floatleft width-140">
+                                                <input type="text" class="int" readonly="" placeholder="请输入角色名称...">
+                                            </div>
+                                            <a href="javascript:;" title="替换审批人"><i class="icon-sync"></i></a>
+                                            <a href="javascript:;" title="删除审批人"><i class="icon-circle-minus"></i></a>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="floatleft">3.</span>
+                                            <div class="has-general floatleft width-140">
+                                                <input type="text" class="int" readonly="" placeholder="请输入角色名称...">
+                                            </div>
+                                            <a href="javascript:;" title="添加审批人"><i class="icon-circle-plus"></i></a>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="floatleft">4.</span>
+                                            <span class="floatleft">刘德华</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="process_right floatright">
+                                <div class="font14 color-3 mart30">添加执行人 :</div>
+                                <ul class="process_li mart20">
+                                    <li class="clearfix">
+                                        <div class="has-general has-error floatleft width-140">
+                                            <input type="text" class="int" placeholder="请输入角色名称...">
+                                            <label class="control-label">审批角色名称不能为空</label>
+                                        </div>
+                                        <a href="javascript:;" title="替换执行人"><i class="icon-sync"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--自拟流程over-->
                 </div>
                 <!--表单详情over-->
                 <div class="form_bottom aligncenter">
@@ -736,7 +789,7 @@
                     <a href="javascript:;" class="Btn Btn-commit">提交申请</a>
                 </div>
                 <!--提交状态提示图begin-->
-                <div class="sending" style="display: ;">
+                <div class="sending" style="display:none;">
                     <p title="等待提交" style="display: none;"><img src="../img/waiting_send.gif"></p>
                     <p title="这在提交"><img src="../img/sending.gif"></p>
                     <p title="提交成功" style="display: none;"><img src="../img/sending_success.gif"></p>

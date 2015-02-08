@@ -246,7 +246,7 @@ td .search{width:auto;}
 .process_left{width:55%;padding-right:10px;border-right:1px solid #ddd;}
 .process_li{width:300px;}
 .process_li li{margin:5px 0 10px 10px}
-.process_li li a .Icon{position: relative;top:7px;margin-left:10px;}
+.process_li li a{display: inline-block;padding:0 5px;height:30px;line-height:30px;font-size:16px;}
 .process_li li span.floatleft{display: inline-block;line-height:30px;margin-right:10px;}
 .ul_page li{display:block;margin-bottom:40px;}
 .ul_page li p.font16{border-bottom:1px dotted #aaa;padding-bottom:10px;margin-right:10px;}
