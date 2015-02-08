@@ -399,13 +399,14 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	line-height: 1.8;
+	line-height: inherit;
     background:none;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 .normal_set [class^="icon-"],.normal_set  [class*=" icon-"]{line-height:1;top:0;}
+.Btn-40 [class^="icon-"],.Btn-40 [class*=" icon-"]{line-height: 2.3}
 .icon-image:before {
 	content: "\e90d";
 }
@@ -903,6 +904,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .icon-eye_no:before {
 	content: "\e648";
 }
+.icon-eye-plus,.icon-exit{position: relative;bottom:-2px;}
 .form_list [class^="icon-"]{font-size:60px;line-height:1;color:#0066cc;}
 .f_icon{margin-bottom:20px;}
 /*home page*/
@@ -961,6 +963,7 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .left_bottom{position:absolute;bottom:0;left:0;width:100%;border-top:1px solid #d6d6d6;padding-top:20px;}
 .user_info{height:50px;padding:10px 0 0 30px;border-top:1px solid #d6d6d6;}
 .user_info p{line-height:20px;}
+.user_info p em{display:inline-block;padding-top:5px;}
 .user_info a.font20{display: none;}
 .set_nav{width:110px;border:1px solid #224477;border-width:1px 1px 0 0;position:absolute;right:0;display:none;bottom:-1px;background: #fff;padding-top:10px;}
 .set_nav .nav_list li{padding-left:20px;}
