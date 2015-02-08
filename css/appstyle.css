@@ -226,6 +226,7 @@ td .search{width:auto;}
 .process_tab{width:100%;}
 .process_tab th{width:75px;color:#888;font-size:14px;}
 .process_tab td{line-height:30px;}
+.process_tab th.aligncenter{line-height:20px;}
 .item_box .choosedlist li{width:120px;border:0;padding:0;margin-right:2px;text-indent:3px;position: relative;}
 .item_box .choosedlist li .txt_hidden{width:100%;}
 .item_box .choosedlist li a{background: #75a5db;width:11px;height:27px;line-height:25px;display:none;padding:0;color:#fff;text-align: center;position:absolute;right:0;top:0;text-indent: 0;}
