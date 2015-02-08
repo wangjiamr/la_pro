@@ -1005,8 +1005,6 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .work_list.list_item tbody td .inner p.color-8{height:50px;line-height:50px;}
 .form_Preview{width:60%;padding:5px 15px;background: #fff;position: relative;}
 /*.work_list tbody td .inner .form_Preview .toggle_arrow{position:absolute;left:30px;top:-14px;border:0;border:7px solid #fff;border-right:7px solid #fff;border-bottom:7px solid #f5f8fd;}*/
-.Preview{height:0;overflow:hidden;transition:0.3;}
-.work_list tbody tr.current .Preview{display: block;height:auto;overflow:visible;transition:0.3;}
 .work_list tbody tr.current th{vertical-align: top;padding-top:18px;}
 .form_Preview table{width:100%;}
 .form_Preview table th,.form_Preview table td,.work_list tbody tr.current .form_Preview table th{padding:0;border:0;background:none;height:30px;vertical-align: inherit;}
