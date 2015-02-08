@@ -406,6 +406,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .message.message_waring{background: url("../img/mesbg_waring.png") no-repeat;}
 .off{position: absolute;top:-3px;right:6px;font-weight: bold;font-size:20px;color:#aaa;cursor: pointer;}
 .pop_tip .off{width:27px;height:25px;background-position: -199px -215px;top:0;}
+.pop .off{top:3px;right:3px;}
 .search_mini{display:inline-block;width:198px;height:24px;line-height:24px;border:1px solid #ccc;background:#fff;border-radius:2px;position: relative;}
 .search_mini input{border:0;height:24px;line-height: normal;width:175px;text-indent:5px;position: absolute;left:0;top:0;}
 .search_mini a.serbtn{display:inline-block;width:23px;line-height:23px;text-align: center;color:#565656;position: absolute;right:0;top:0;margin:0;padding:0;border:0;}
