@@ -992,7 +992,7 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .work_list tbody td .inner{min-height:50px;padding:0 20px;position:relative;}
 .work_list.list_item tbody td .inner{min-height:50px;overflow:hidden;}
 .work_list tbody td .inner p.color-8 span{color:#333;padding:0 6px;}
-.work_list tbody td .inner .toggle{position: absolute;right:5px;top:-6px;padding:10px;}
+.work_list tbody td .inner .toggle{position: absolute;right:5px;top:6px;padding:10px;}
 .work_list tbody td .inner .toggle.current .icon-arrow-drop-down,.work_list tbody td .inner .toggle .icon-arrow-drop-up,a.current .icon-arrow-drop-down,a .icon-arrow-drop-up{display: none;}
 .work_list tbody td .inner .toggle.current .icon-arrow-drop-up,.work_list tbody td .inner .toggle .icon-arrow-drop-down,a.current .icon-arrow-drop-up,a .icon-arrow-drop-down{display:inline-block;}
 .work_list tbody td .inner .toggle_arrow{border:0;border-top:5px solid #fff;border-bottom:5px solid #fff;border-left:5px solid #aaa;}
@@ -1005,7 +1005,9 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .work_list.list_item tbody td .inner p.color-8{height:50px;line-height:50px;}
 .form_Preview{width:60%;padding:5px 15px;background: #fff;position: relative;}
 /*.work_list tbody td .inner .form_Preview .toggle_arrow{position:absolute;left:30px;top:-14px;border:0;border:7px solid #fff;border-right:7px solid #fff;border-bottom:7px solid #f5f8fd;}*/
-.work_list tbody tr.current th{vertical-align: top;padding-top:10px;}
+.Preview{height:0;overflow:hidden;transition:0.3;}
+.work_list tbody tr.current .Preview{display: block;height:auto;overflow:visible;transition:0.3;}
+.work_list tbody tr.current th{vertical-align: top;padding-top:18px;}
 .form_Preview table{width:100%;}
 .form_Preview table th,.form_Preview table td,.work_list tbody tr.current .form_Preview table th{padding:0;border:0;background:none;height:30px;vertical-align: inherit;}
 .form_Preview table th{width:60px;text-align: left;color:#888;}

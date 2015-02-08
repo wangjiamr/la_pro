@@ -149,7 +149,8 @@ a.tags:hover{text-decoration:underline;}
 .font26{font-size:26px!important;}
 .font28{font-size:28px!important;}
 .font30{font-size:30px!important;}
-.l_th,.l_th *{text-decoration:line-through!important;}
+.l_th,.l_th *{text-decoration:line-through;}
+.l_th i,.l_th ul,.l_th ul li,.l_th ul li a{text-decoration: none;}
 .no_indent{text-indent: 0!important;}
 .txt_hidden,.ser_Results li,.UserName,.prompt_main p,.high_table .table_head .list_table th .inner_td,.high_table .table_main .list_table td .inner_td
 ,.form_list li p.font16,.list_table.search_list tbody div.inner_td{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
