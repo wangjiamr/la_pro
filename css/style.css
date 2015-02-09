@@ -574,6 +574,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 
 .icon-markunread:before {
 	content: "\e609";
+    color:#06c;
 }
 
 .icon-remove:before {
@@ -968,7 +969,7 @@ a:hover .circle_ico,.current .circle_ico{background:#0066cc;color:#fff;transitio
 .user_info a.font20{display: none;}
 .set_nav{width:110px;border:1px solid #224477;border-width:1px 1px 0 0;position:absolute;right:0;display:none;bottom:-1px;background: #fff;padding-top:10px;}
 .set_nav .nav_list li{padding-left:20px;}
-.icon-square-checked,.icon-drafts{color:#347cdc;}
+.icon-square-checked{color:#347cdc;}
 .mini_left em{display: none;transition:all 0.1s ease-in-out;}
 .mini_left .tool_nav li a .circle_ico{margin:0 10px 0 13px;}
 .mini_left .nav_list li{padding-left:0;transition:0.1s;}
