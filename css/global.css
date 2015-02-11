@@ -149,11 +149,11 @@ a.tags:hover{text-decoration:underline;}
 .font26{font-size:26px!important;}
 .font28{font-size:28px!important;}
 .font30{font-size:30px!important;}
-.l_th{text-decoration:line-through!important;}
+.l_th,.l_th *{text-decoration:line-through;}
+.l_th i,.l_th ul,.l_th ul li,.l_th ul li a{text-decoration: none;}
 .no_indent{text-indent: 0!important;}
 .txt_hidden,.ser_Results li,.UserName,.prompt_main p,.high_table .table_head .list_table th .inner_td,.high_table .table_main .list_table td .inner_td
 ,.form_list li p.font16,.list_table.search_list tbody div.inner_td{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
-.Titillium{font-family: Titillium;font-weight:bold;}
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix{zoom:1;}
@@ -174,13 +174,13 @@ a.tags:hover{text-decoration:underline;}
 .switch a:hover,.switch a.current{color:#347cdc;border:1px solid #347cdc;}
 .pagenation a.prev,.pagenation a.next{border:0;}
 .go_left,.go_right{display:block;width:40px;height:70px;line-height:70px;font-size:40px;color:#333;position: absolute;top:50%;margin-top:-35px;z-index:100;}
-.go_left{left:0;}
+.go_left{left:0;text-align: right;}
 .go_right{right:0;}
 .go_left i,.go_right i{line-height: 1;}
 .go_left i{margin-left:-20px;}
 /*按钮*/
 .Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
-.AppDetail_in .AppMakeBtn .Btn{border:1px solid #1b365f;border-width:0 1px;margin-left:-1px;width:95px;height:40px;line-height:40px;text-align: center;font-size:12px;padding:0;border-radius:0;}
+.AppDetail_in .AppMakeBtn .Btn{border:1px solid #1b365f;border-width:0 1px;margin-left:-1px;width:95px;height:40px;line-height:35px;text-align: center;font-size:12px;padding:0;border-radius:0;}
 .AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current,.form_bottom .Btn{background:#347cdc;color: #fff;text-align: center;}
 .AppDetail_in .AppMakeBtn i{position: relative;bottom:-2px;}
 .AppDetail_in .AppMakeBtn .Btn.Btn-40{width:40px;color:#bacbe6;}
@@ -190,7 +190,7 @@ a.tags:hover{text-decoration:underline;}
 .btn-sure{border:0;border-bottom-right-radius:2px;}
 .btn_right{position:absolute;right:10px;top:13px;}
 .step_btn{width:100px;height:30px;line-height:30px;text-align: center;background-color:#3478d3;color:#fff;border-radius:3px;}
-.No_click{background-color:#ccc;cursor: default;}
+.No_click{background-color:#eee!important;cursor: default!important;color:#ccc!important;}
 .form_left .Btn{background:#fff;}
 .renew,.free_use,.now_buy{display:inline-block;width:100px;height:32px;background: url("../img/ico.png");background-position:0 -403px;}
 .renew:hover{background-position:0 -437px;}
@@ -263,7 +263,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-cut{width:15px;height:15px;background-position:-131px -165px;}
 .ico-acc{width:15px;height:15px;background-position:-131px -180px;vertical-align:-2px;}
 .Btn .ico-acc{width:15px;height:15px;background-position:-48px -215px;vertical-align:-2px;}
-.ico-delete4{position:absolute;left:2px;top:2px;display: none;}
+.ico-delete4{position:absolute;right:-10px;top:-12px;display: none;}
 .acc_list .ico-delete4{display: block;left: inherit;right:3px;}
 .td_inner .ico-delete4{right:-8px;display: none;}
 .ico-all{width:21px;height:48px;background:#ccc;position: absolute;left:-21px;top:-1px;display:none;text-align: center;}
@@ -352,11 +352,12 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-6{background-position:-109px -110px;}
 .ico-7{background-position:-109px -132px;}
 /*弹出*/
-.loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:200;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
+.loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:202;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
 .loading img{width:35px;height:35px;margin-bottom:8px;}
-.mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:200;background:url("../img/mask40.png");}
+.mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:30;background:url("../img/mask40.png");}
 .sending,.no_data{width:220px;height:170px;margin:-85px 0 0 -110px;}
 .sending{position: absolute;top:50%;left:50%;margin:-85px 0 0 -115px;z-index:100;}
+.sending p{width:200px;height:200px;position: absolute;left:50%;top:50%;margin:-100px 0 0 -100px;}
 .no_data{position:fixed;width:300px;height:100px;top:50%;left:50%;margin:-50px 0 0 -150px;color:#fff;line-height:100px;z-index:10;border-radius:3px;}
 .contact .mask{width:60px;height:60px;line-height:60px;text-align: center;color: #fff;border-radius: 3px;position: absolute;font-size: 30px;top:50%;left:50%;margin:-30px 0 0 -30px;}
 .pop{position:absolute;border-radius:4px;z-index:201;left:50%;top:50%;width:700px;margin:-275px 0 0 -350px;background-color: #fff;border:1px solid #347cdc;}
@@ -367,7 +368,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .pop_tip_txt{width:240px;line-height:20px;}
 .pop .title{background:#eee;border-bottom:1px solid #ccc;border-radius:4px 4px 0 0;}
 .pop_btn{border-top:1px solid #ccc;padding:10px;}
-.pop_success,.pop_error,.pop_waring{width:400px;height:260px;background-color:#f9f9f9;border-radius:0;border:1px solid #e4e4e4;margin:-200px 0 0 -200px;}
+.pop_success,.pop_error,.pop_waring{width:400px;height:260px;background-color:#f9f9f9;border-radius:0;border:1px solid #ccc;margin:-200px 0 0 -200px;}
 .pop_top{height:180px;background:#fff;}
 .pop_error .btn{background:#da5c5c;}
 .pop_success .btn{background:#4cb605;}
@@ -385,10 +386,11 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .explorer a{display: inline-block;margin:10px 25px;position:relative;height:110px;}
 .explorer a img{vertical-align: bottom;margin-bottom:-10px;}
 .arrow-t{display:inline-block;width:0;border-left:10px solid #888;border-right: 10px solid #888;border-bottom: 10px solid #999;position: absolute;top:-10px;left:50%;margin-left:-5px;}
-.c_btn{display:inline-block;height:24px;line-height:24px;padding:0 10px;border:1px solid #ccc;border-radius:3px;color: #888;font-size:12px;}
+.c_btn{display:inline-block;min-width:50px;height:24px;line-height:24px;padding:0 10px;border:1px solid #ccc;border-radius:3px;color: #888;font-size:12px;text-align:center;}
 .sure{background:#0066cc;color:#fff;border-color:#06c;}
 .confrim{width:320px;height:120px;border-radius:4px;margin:-60px 0 0 -160px;}
 .confrim p.marr10{position: absolute;bottom:10px;width: 100%;right:0;}
+.confrim_pay{width:500px;min-height:220px;margin:-100px 0 0 -250px;}
 /*控件*/
 .Iframe{width:99.5%;float:right;}
 .text{border-width:1px;border-style: solid;}
@@ -404,6 +406,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .message.message_waring{background: url("../img/mesbg_waring.png") no-repeat;}
 .off{position: absolute;top:-3px;right:6px;font-weight: bold;font-size:20px;color:#aaa;cursor: pointer;}
 .pop_tip .off{width:27px;height:25px;background-position: -199px -215px;top:0;}
+.pop .off{top:3px;right:3px;}
 .search_mini{display:inline-block;width:198px;height:24px;line-height:24px;border:1px solid #ccc;background:#fff;border-radius:2px;position: relative;}
 .search_mini input{border:0;height:24px;line-height: normal;width:175px;text-indent:5px;position: absolute;left:0;top:0;}
 .search_mini a.serbtn{display:inline-block;width:23px;line-height:23px;text-align: center;color:#565656;position: absolute;right:0;top:0;margin:0;padding:0;border:0;}
