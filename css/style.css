@@ -1001,7 +1001,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .work_list tbody td .inner .toggle_arrow{border:0;border-top:5px solid #fff;border-bottom:5px solid #fff;border-left:5px solid #aaa;}
 .work_list tbody tr:hover td,.work_list tbody tr:hover th{background-color:#eee}
 .work_list tbody td .inner p.color-8,.work_list tbody td .inner p.color-8 span{height:50px;line-height:50px;}
-.work_list tbody td .inner p.color-8 span{display:inline-block;overflow:hidden;vertical-align: -20px;[;vertical-align:inherit;]}
+.work_list tbody td .inner p.color-8 span{overflow:hidden;}
 
 .work_list tbody td .inner p.color-8 span.username{width:60px;}
 .work_list tbody td .inner p.color-8 span.applyname{width:100px;}
