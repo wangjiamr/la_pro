@@ -317,7 +317,7 @@ p.color-3{border-bottom:1px solid #ddd;padding-bottom:10px;}
 .form_box table{width:100%;}
 .form_box table th{width:90px;height:35px;color:#666;}
 .form_box table th div{width:90px;}
-.form_box table td{color:#333;text-align: right;}
+.form_box table td{color:#333;text-align: right;font-size:12px;word-wrap:break-word;word-break: break-all;}
 .process_main{top:45px;left:0;right:0;bottom:60px;}
 .item_list li{min-height:48px;border-top:1px solid #ddd;margin-top:9px;position:relative;}
 .item_list li textarea{width:99%;height:100px;border:0;margin-top:4px;}
