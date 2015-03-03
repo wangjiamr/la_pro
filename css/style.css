@@ -371,6 +371,8 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_left .jspVerticalBar{display: none;}
 .data_link .nav_bar a{width:}
 .R_arrow{display:inline-block;width:7px;height:12px;background: url("../img/li_left.png");position:absolute;left:-7px;top:14px;}
+.data_link .txt_hidden{width:270px;margin-left:-20px;}
+.data_right .txt_hidden{width:160px;margin-left:-10px;}
 
 /*适配1024屏幕*/
 .mini .top_nav a{margin:0 2px;padding:0 5px;}
