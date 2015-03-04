@@ -266,7 +266,7 @@
                                     <th style="vertical-align: top">备注</th>
                                     <td colspan="3">
                                         <div class="textarea has-general">
-                                            <textarea class="int" placeholder="请输入备注..." style="overflow-y:visible"></textarea>
+                                            <textarea class="int" placeholder="请输入备注..." onpropertychange='this.style.posHeight=this.scrollHeight' id=textarea onfocus='textarea.style.posHeight=this.scrollHeight'></textarea>
                                             <label class="control-label">提示信息</label>
                                             <span>你还可以输入<em>140</em>个字</span>
                                         </div>

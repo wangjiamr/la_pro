@@ -371,10 +371,10 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_left .jspVerticalBar{display: none;}
 .data_link .nav_bar a{width:}
 .R_arrow{display:inline-block;width:7px;height:12px;background: url("../img/li_left.png");position:absolute;left:-7px;top:14px;}
-.data_link .txt_hidden{width:240px;margin-left:-20px;}
+.data_link .txt_hidden{width:240px;text-align: left;}
 .data_link li:hover .txt_hidden{width:160px;}
-.data_right .txt_hidden{width:160px;margin-left:-10px;}
-
+.data_right .txt_hidden{width:210px;}
+.data_right  li:hover .txt_hidden{width:140px;}
 
 
 /*适配1024屏幕*/
