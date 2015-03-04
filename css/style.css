@@ -373,8 +373,8 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .R_arrow{display:inline-block;width:7px;height:12px;background: url("../img/li_left.png");position:absolute;left:-7px;top:14px;}
 .data_link .txt_hidden{width:240px;text-align: left;}
 .data_link li:hover .txt_hidden{width:160px;}
-.data_right .txt_hidden{width:210px;}
-.data_right  li:hover .txt_hidden{width:140px;}
+.data_right .txt_hidden{width:200px;}
+.data_right  li:hover .txt_hidden{width:130px;}
 
 
 /*适配1024屏幕*/

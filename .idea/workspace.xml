@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e4237f5-1e65-499d-b28a-9e4a135fc734" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/global.css" afterPath="$PROJECT_DIR$/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/data_link.html" afterPath="$PROJECT_DIR$/template/data_link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="la_pro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,12 +46,12 @@
       <file leaf-file-name="data_link.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/data_link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.7916665" vertical-offset="722" max-vertical-offset="1410">
-              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state vertical-scroll-proportion="-8.041667" vertical-offset="722" max-vertical-offset="1410">
+              <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -77,20 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5051" max-vertical-offset="16365">
-              <caret line="349" column="129" selection-start-line="349" selection-start-column="129" selection-end-line="349" selection-end-column="129" />
+            <state vertical-scroll-proportion="0.8573508" vertical-offset="5051" max-vertical-offset="16365">
+              <caret line="376" column="42" selection-start-line="376" selection-start-column="42" selection-end-line="376" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4206696" vertical-offset="6491" max-vertical-offset="9255">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6491" max-vertical-offset="9255">
               <caret line="452" column="32" selection-start-line="452" selection-start-column="32" selection-end-line="452" selection-end-column="32" />
               <folding />
             </state>
@@ -149,10 +150,10 @@
         <option value="$PROJECT_DIR$/view/附件查看.html" />
         <option value="$PROJECT_DIR$/view/form.html" />
         <option value="$PROJECT_DIR$/css/mstyles.css" />
-        <option value="$PROJECT_DIR$/template/data_link.html" />
         <option value="$PROJECT_DIR$/template/apply.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/global.css" />
+        <option value="$PROJECT_DIR$/template/data_link.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -601,14 +602,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6491" max-vertical-offset="9255">
+          <caret line="452" column="32" selection-start-line="452" selection-start-column="32" selection-end-line="452" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/data_link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.7916665" vertical-offset="722" max-vertical-offset="1410">
-          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        <state vertical-scroll-proportion="-8.041667" vertical-offset="722" max-vertical-offset="1410">
+          <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -616,16 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5051" max-vertical-offset="16365">
-          <caret line="349" column="129" selection-start-line="349" selection-start-column="129" selection-end-line="349" selection-end-column="129" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4206696" vertical-offset="6491" max-vertical-offset="9255">
-          <caret line="452" column="32" selection-start-line="452" selection-start-column="32" selection-end-line="452" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.8573508" vertical-offset="5051" max-vertical-offset="16365">
+          <caret line="376" column="42" selection-start-line="376" selection-start-column="42" selection-end-line="376" selection-end-column="42" />
           <folding />
         </state>
       </provider>
