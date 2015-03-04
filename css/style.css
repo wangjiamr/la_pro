@@ -347,7 +347,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 /*data_link*/
 .data_link{width:615px;margin:0 auto;}
 .data_left,.data_right{width:300px;color:#333;position: relative;border:1px solid #ddd;background:#fff;}
-.data_link ul li{line-height:39px;height:39px;border-bottom:1px solid #eee;text-indent:20px;position: relative;}
+.data_link ul li{line-height:39px;height:39px;border-bottom:1px solid #eee;text-indent:20px;position: relative;overflow: hidden;}
 .data_link ul li:hover,.data_link ul li.current{background-color:#eee;}
 .data_right ul li:hover{background:none;}
 .data_right ul li a,.data_left li a{display: none;}
