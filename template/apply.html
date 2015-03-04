@@ -266,8 +266,8 @@
                                     <th style="vertical-align: top">备注</th>
                                     <td colspan="3">
                                         <div class="textarea has-general">
-                                            <!--<textarea class="int" placeholder="请输入备注..." clearInterval(this.clock);"></textarea>-->
-                                            <textarea class="int" style="overflow: hidden;" rows="4" cols="30" onfocus="javascript:ResizeTextarea(this,4);" onclick="javascript:ResizeTextarea(this,4);" onkeyup="javascript:ResizeTextarea(this,4);"></textarea>
+                                            <!--<textarea class="int" placeholder="请输入备注..."></textarea>-->
+                                            <div class="int" contenteditable="true"></div>
                                             <label class="control-label">提示信息</label>
                                             <span>你还可以输入<em>140</em>个字</span>
                                         </div>
@@ -850,28 +850,6 @@
             $Approval.animate({top:$top_n},200);
         });
 
-        var agt = navigator.userAgent.toLowerCase();
-        var is_op = (agt.indexOf("opera") != -1);
-        var is_ie = (agt.indexOf("msie") != -1) && document.all && !is_op;
-        function ResizeTextarea(a,row){
-            if(!a){return}
-            if(!row)
-                row=5;
-            var b=a.value.split("\n");
-            var c=is_ie?1:0;
-            c+=b.length;
-            var d=a.cols;
-            if(d<=20){d=40}
-            for(var e=0;e<b.length;e++){
-                if(b[e].length>=d){
-                    c+=Math.ceil(b[e].length/d)
-                }
-            }
-            c=Math.max(c,row);
-            if(c!=a.rows){
-                a.rows=c;
-            }
-        }
     });
 </script>
 
