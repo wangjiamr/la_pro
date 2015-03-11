@@ -466,7 +466,7 @@ a.no{cursor:default;}
 .search label{display: block;}
 .search label.city_choose input{width:auto;height:auto;margin:0 5px 0 -5px;}
 .choose_city_list p{line-height:20px;padding-bottom:10px;;}
-
+.Re_item .ico-add{position: relative;top:5px;}
 
 
 
