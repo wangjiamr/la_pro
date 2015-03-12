@@ -242,6 +242,7 @@ td .search{width:auto;}
 .process_li li a{display: inline-block;padding:0 5px;height:30px;line-height:30px;font-size:16px;}
 .process_li li span.floatleft{display: inline-block;line-height:30px;margin-right:10px;}
 .ul_page li{display:block;margin-bottom:40px;}
+.ul_page li .ser_Results ul li{margin-bottom:0!important;}
 .ul_page li p.font16{border-bottom:1px dotted #aaa;padding-bottom:10px;margin-right:10px;}
 .contact .btn-sure{width:100%;height:40px;line-height:40px;background:#ccc;display: block;position: absolute;left:-10px;padding-left: 10px;color: #fff;}
 .contact .btn-sure.current,.pop_tip .btn.current{background-color:#347cdc;color:#fff;}
