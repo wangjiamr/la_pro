@@ -468,7 +468,7 @@ a.no{cursor:default;}
 .search label.city_choose input{width:auto;height:auto;margin:0 5px 0 -5px;}
 .choose_city_list p{line-height:20px;padding-bottom:10px;}
 .choose_city_list p a{position:relative;top: -7px;}
-.choose_city_list p b{width: 170px;padding-bottom:3px;}
+.choose_city_list p b{width: 160px;padding-bottom:3px;}
 .choose_city_list p span em{vertical-align:8px;}
 .Re_item .ico-add{position: relative;top:5px;}
 /*统计表*/
