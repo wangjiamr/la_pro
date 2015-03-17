@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>统计分析</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div class="layout">
+    <!--right begin-->
+    <div class="layout_right hidden" style="left:0;">
+        <div class="admin_header aligncenter">
+            <div class="location font14 floatleft marl20">
+                <a href="#">首页</a>
+                <em>&gt;</em>
+                <a href="#">管理</a>
+                <em>&gt;</em>
+                <span>系统日志</span>
+            </div>
+            <div class="top_nav nav_bar top_nav_mid noborder aligncenter font14">
+                <a href="#" class="current">统计分析</a>
+                <a href="#">统计记录</a>
+                <a href="#">统计权限</a>
+            </div>
+            <div class="top_nav alignright font14">
+                <a href="javascript:;" class="new_btn bg-waring font12 ie-css3">退出</a>
+            </div>
+        </div>
+        <div class="form_page mart50">
+            <div class="list_main p-top40">
+                <p class="aligncenter font16">报销申请统计表</p>
+                <div class="md-plus-pop mart30">
+                    <div class="md-plus-pop-inner">
+                        <div class="md-pop-main">
+                            <!--统计表begin-->
+                            <div class="scrollTable mart10">
+                                <!--左右动begin-->
+                                <span class="GLeft"></span>
+                                <span class="GRight"></span>
+                                <!--左右动over-->
+                                <table class="TheadTop" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:100px;">
+                                                <div class="th-select">
+                                                    <span>按部门统计</span>
+                                                    <em class="th-tip"></em>
+                                                    <ul>
+                                                        <li>按部门统计</li>
+                                                        <li>按人统计</li>
+                                                    </ul>
+                                                </div>
+                                            </th>
+                                            <th>统计值</th>
+                                            <th style="width:100px;">
+                                                <div class="th-select">
+                                                    <span>考勤类别</span>
+                                                    <em class="th-tip"></em>
+                                                    <ul>
+                                                        <li>行政费用</li>
+                                                        <li>差旅费用</li>
+                                                        <li>吃喝嫖赌费</li>
+                                                    </ul>
+                                                </div>
+                                            </th>
+                                            <th colspan="11">
+                                                <div class="headr-in clearfix alignleft marl30">
+                                                    <label class="floatleft mart5"><input type="checkbox"/> 只统计通过审批的申请</label>
+                                                    <span class="btn-group1 floatright">
+                                                        <a href="#" class="current btn2">天</a>
+                                                        <a href="#" class="btn2">月</a>
+                                                        <a href="#" class="btn2">周</a>
+                                                    </span>
+                                                </div>
+                                            </th>
+                                            <th colspan="2">
+                                                <!--时间筛查 begin-->
+                                                    <div class="md-clander floatright marl10">
+                                                        <div class="clander-m clearfix">
+                                                            <div class="has-general floatleft width-125">
+                                                                <input type="text" class="int width-120" placeholder="开始日期...">
+                                                                <label class="control-label">提示信息</label>
+                                                                <a href="javascript:;" class="Icon ico-clander"></a>
+                                                            </div>
+                                                            <div class="has-general floatleft width-125">
+                                                                <input type="text" class="int width-120" placeholder="结束日期...">
+                                                                <label class="control-label">提示信息</label>
+                                                                <a href="javascript:;" class="Icon ico-clander"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                <!--时间筛查 over-->
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <table class="Tablebody noborder mart10">
+                                    <tr>
+                                        <td width="300" class="noborder">
+                                            <table class="Thead" style="width: 300px;">
+                                                <thead>
+                                                    <tr>
+                                                        <th width="100">
+                                                            <div class="th-select">
+                                                                <em class="th-tip"></em>
+                                                                <span>部门</span>
+                                                                <ul>
+                                                                    <li>行政部</li>
+                                                                    <li>技术研发中心</li>
+                                                                    <li>技术研发中心</li>
+                                                                </ul>
+                                                            </div>
+                                                        </th>
+                                                        <th width="100">
+                                                            <div class="th-select">
+                                                                <span>费用类别</span>
+                                                                <em class="th-tip"></em>
+                                                                <ul>
+                                                                    <li>行政费用</li>
+                                                                    <li>差旅费用</li>
+                                                                    <li>吃喝嫖赌费</li>
+                                                                </ul>
+                                                            </div>
+                                                        </th>
+                                                        <th width="100">
+                                                            <div class="th-select">
+                                                                <span>费用项目</span>
+                                                                <em class="th-tip"></em>
+                                                                <ul>
+                                                                    <li>办公用品</li>
+                                                                    <li>水费</li>
+                                                                    <li>电费</li>
+                                                                </ul>
+                                                            </div>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </td>
+                                        <td class="noborder">
+                                            <div class="InDiv">
+                                                <div class="InMain">
+                                                    <table class="Thead" width="100%">
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <col width="50px"></col>
+                                                        <tr>
+                                                            <th>1</th>
+                                                            <th>2</th>
+                                                            <th>3</th>
+                                                            <th>4</th>
+                                                            <th>5</th>
+                                                            <th>6</th>
+                                                            <th>7</th>
+                                                            <th>8</th>
+                                                            <th>9</th>
+                                                            <th>10</th>
+                                                            <th>11</th>
+                                                            <th>12</th>
+                                                            <th>13</th>
+                                                            <th>14</th>
+                                                            <th>15</th>
+                                                            <th>16</th>
+                                                            <th>17</th>
+                                                            <th>18</th>
+                                                            <th>19</th>
+                                                            <th>20</th>
+                                                            <th>21</th>
+                                                            <th>22</th>
+                                                            <th>23</th>
+                                                            <th>24</th>
+                                                            <th>25</th>
+                                                            <th>26</th>
+                                                            <th>27</th>
+                                                            <th>28</th>
+                                                            <th>29</th>
+                                                            <th>30</th>
+                                                            <th>31</th>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="noborder" width="70">
+                                            <table class="Thead" style="width:70px;left:-17px;position: relative;"><!--当出现Y轴滚动条的时候加这里的  left:-17px; 滚动条的宽度+1 最合适-->
+                                                <thead>
+                                                    <tr>
+                                                        <th>TOTAL</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="noborder" colspan="3">
+                                            <div class="scrollTable-y" style="width: 957px;height:380px;"><!--当出现Y轴滚动条的时候加这里的宽度加滚动条宽度; 滚动条的宽度+1 最合适-->
+                                                <table class="Tablebody">
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td class="no-td">0000</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td><span class="CanClick">85555555</span></td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="noborder">
+                                                            <table class="Tablebody" style="width: 300px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="100">行政部</td>
+                                                                        <td width="100">行政费用</td>
+                                                                        <td width="100">办公用品</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                        <td class="noborder">
+                                                            <div class="InDiv">
+                                                                <div class="InMain" style="left:-50px;">
+                                                                    <table class="Tablebody">
+                                                                        <tbody>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <col width="50px"></col>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>2</td>
+                                                                                <td>3</td>
+                                                                                <td>4</td>
+                                                                                <td>5</td>
+                                                                                <td>6</td>
+                                                                                <td>7</td>
+                                                                                <td>8</td>
+                                                                                <td>9</td>
+                                                                                <td>10</td>
+                                                                                <td>11</td>
+                                                                                <td>12</td>
+                                                                                <td>13</td>
+                                                                                <td>14</td>
+                                                                                <td>15</td>
+                                                                                <td>16</td>
+                                                                                <td>17</td>
+                                                                                <td>18</td>
+                                                                                <td>19</td>
+                                                                                <td>20</td>
+                                                                                <td>21</td>
+                                                                                <td>22</td>
+                                                                                <td>23</td>
+                                                                                <td>24</td>
+                                                                                <td>25</td>
+                                                                                <td>26</td>
+                                                                                <td>27</td>
+                                                                                <td>28</td>
+                                                                                <td>29</td>
+                                                                                <td>30</td>
+                                                                                <td>31</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="noborder" width="70">
+                                                            <table class="Tablebody" style="width:70px;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1009900</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--统计表over-->
+                        </div>
+                        <div class="data-bt clearfix">
+                            <!--左侧图标按钮begin-->
+                            <div class="btn-group floatleft">
+                                <a href="#"><em></em>汇总</a>
+                                <a href="#"><em></em>明细</a>
+                                <a href="#"><em></em>图表</a>
+                                <a href="#"><em></em>导出</a>
+                            </div>
+                            <!--左侧图标按钮over-->
+                            <!--检索begin-->
+                            <div class="data-ser floatleft">
+                                <span>再按</span>
+                                <select>
+                                    <option>按人</option>
+                                    <option>按部门</option>
+                                </select>
+                                <span>分组</span>
+                                <a>关键字</a>
+                                <input type="text"/>
+                            </div>
+                            <!--检索over-->
+                            <!--时间选择begin-->
+                            <div class="timecheck floatright">
+                                <a href="#">上一年</a>
+                                <select>
+                                    <option>2014年-1月</option>
+                                    <option>2014年-2月</option>
+                                    <option>2014年-3月</option>
+                                    <option>2014年-4月</option>
+                                </select>
+                                <a href="#">下一年</a>
+                            </div>
+                            <!--时间选择over-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--right over-->
+    <div class="mask" style="display: none;"></div>
+</div>
+<link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/Mutual.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    });
+</script>
+</body>
+</html>
