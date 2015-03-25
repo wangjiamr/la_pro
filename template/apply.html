@@ -175,6 +175,13 @@
                             </table>
                             <table class="form-top">
                                 <tr>
+                                    <th class="color-8">
+                                        <p class="line">申请人详细信息</p>
+                                    </th>
+                                </tr>
+                            </table>
+                            <table class="form-top">
+                                <tr>
                                     <th>申请部门</th>
                                     <td style="width:219px;">
                                         <div class="has-general">
@@ -266,8 +273,8 @@
                                     <th style="vertical-align: top">备注</th>
                                     <td colspan="3">
                                         <div class="textarea has-general">
-                                            <!--<textarea class="int" placeholder="请输入备注..."></textarea>-->
-                                            <div class="int" contenteditable="true"></div>
+                                            <textarea class="int textarea" placeholder="请输入备注..."></textarea>
+                                            <!--<div class="int" contenteditable="true"></div>-->
                                             <label class="control-label">提示信息</label>
                                             <span>你还可以输入<em>140</em>个字</span>
                                         </div>
@@ -849,7 +856,9 @@
         $('#slideup').click(function(){
             $Approval.animate({top:$top_n},200);
         });
-
+        $('.textarea').onchange(function(){
+            $(this).height(this.scrollHeight);
+        });
     });
 </script>
 
