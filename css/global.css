@@ -134,6 +134,7 @@ a.tags:hover{text-decoration:underline;}
 .p-top40{padding-top:40px!important;}
 .p-bt5{padding-bottom:5px!important;}
 .p-bt10{padding-bottom:10px!important;}
+.p-bt15{padding-bottom:15px!important;}
 .p-bt20{padding-bottom:20px!important;}
 .p-left20{padding-left:20px!important;}
 .p-left40{padding-left:40px!important;}
@@ -443,7 +444,7 @@ label.tips_txt{left:0;right:inherit;}
 .has-success input:focus{border-color:#468847;}
 select.int,textarea.int{outline: none;text-indent:0;border:1px solid #ccc;background:#fff;}
 .textarea{border:0;position: relative;}
-textarea.int,div.int{min-height:60px;line-height:20px;color:#888;}
+textarea.int,div.int{min-height:20px;line-height:20px;color:#888;*min-height:50px;}
 div.int{height:auto;min-height:20px;padding-bottom:25px;word-wrap: break-word;overflow-x: hidden;verflow-y: auto;}
 div.int_txt{border-width:0 0 1px 0;text-indent: 40px;min-height:30px;height:auto;line-height:18px;overflow-y: visible;}
 .textarea span{position: absolute;right:2px;bottom:1px;background:#fff;color:#666;}
