@@ -81,8 +81,8 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 a.add:hover,a.more:hover{text-decoration: underline;}
 .more,.top_nav a.more{color:#06c;}
 .color-info{color:#e60012;}
-.tags{color: #f11b1b;}
-a.tags:hover{text-decoration:underline;}
+.tags,.keywords{color: #f11b1b;}
+a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .Re_item li.nodata{padding-top:0;}
 .Re_item li.nodata a:hover,.Re_item li.nodata:hover{padding-top:0;cursor:default;background:none;}
 .Re_item li.nodata a em,.Re_item li.nodata a{color:#aaa;}
