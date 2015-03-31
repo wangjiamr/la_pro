@@ -280,9 +280,11 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .switch.on em{background:#347cdc;}
 .form_name{height:40px;line-height:40px;color:#fff;margin-left:10px;}
 /*搜索*/
-.Results{width:200px;}
-.Re_item{padding:10px 0 10px 10px;color:#333;}
+.Results{width:100px;}
+.Re_item{padding:5px 0;color:#333;}
 .Re_item em{color:#f11b1b;padding:0 5px;}
+.Re_item a{display: block;line-height:30px;text-indent:10px;}
+.Re_item a:hover,.Re_item a.current{background:#ddd;}
 .Re_item ul li{height:30px;line-height:30px;margin-left:30px;}
 .Re_item ul li:hover,.Re_item ul li.current{background:#e8e8e8;}
 .Re_item ul li a{display:block;padding-left:10px;color:#555;height:30px;line-height:30px;}
@@ -297,7 +299,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Re_item .tab_nav li.current a{background-color: #347cdc;color:#fff;}
 .Re_item .tab_nav li.current{background:none;}
 .Re_item .ser_Results li{margin-left:3px;}
-.Results_r{border-left:1px solid #ccc;width:799px;}
+.Results_r{border-left:1px solid #ccc;width:888px;}
 /*.account_tab{width:100%;color: #fff;}*/
 /*.account_tab th,.account_tab td{padding:0 0 10px 0;color:#fff;height:10px;}*/
 /*.account_tab th{padding-left:10px;}*/
