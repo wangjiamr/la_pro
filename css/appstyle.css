@@ -545,20 +545,18 @@ a.no{cursor:default;}
 .IntW .ask-pop{width:240px;background:none;background-color:#fff;border:1px solid #ccc;border-radius:4px;padding:5px;height:auto;color:#666;box-shadow:-1px 1px 1px #ccc;}
 
 /*下载二维码*/
-.oa_apk,.oa_ios{display:none;position: absolute;width:140px;height:140px;right:-141px;z-index:100;top:50%;margin-top:-100px;}
-.oa_apk img,.oa_ios img{width:140px;height:140px;}
-.tool_nav li.download a{display: inline-block;width:40px;height:40px;margin-right:12px;}
-.tool_nav li.download a.ios:hover .oa_ios{display: block;}
-.tool_nav li.download a.apk:hover .oa_apk{display: block;}
-.mini_left .tool_nav li.download a{height:30px;margin-right:8px;}
-
-
-
-
-
-
-
-
+.download a{margin-left:20px;}
+.mini_left .download a{margin:0;}
+.download_box{width:400px;height:470px;position: absolute;left:50%;top:50%;margin:-235px 0 0 -215px;}
+.download_box ul li{width:40%;height:50px;line-height:50px;border-bottom:2px solid transparent;margin-bottom:-1px;position: relative;}
+.download_box ul li.current{border-bottom:2px solid #337ddc;}
+.download_box ul li a{color:#aaa;}
+.download_box ul li.current a{color:#337ddc;}
+.code_box{border:1px solid #aaa;height:400px;background:#fff;}
+.download_box ul li em{display:none;border-right:7px solid transparent;border-left:7px solid transparent;border-top:7px solid #337ddc;position: absolute;bottom:-7px;left:50%;margin-left:-3px;}
+.download_box ul li.current em{display:inline-block;}
+.code_box dd{display: none;}
+.code_box dd img{margin-top:65px;}
 
 
 

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>OA移动端下载</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div class="layout">
+    <!--left begin-->
+    <div class="layout_left mini_left" style="width:59px;">
+        <div class="oa_logo">
+            <a href="#" class="block mart20 marl30">
+                <p class="logo_txt"><img src="../img/logo_1.png" /></p>
+                <p class="logo_img"><img src="../img/logo_2.png" /></p>
+            </a>
+        </div>
+        <div class="nav_tools">
+            <ul class="tool_nav font14">
+                <li class="current">
+                    <a href="javascript:;"><span class="circle_ico font18"><i class="icon-laptop-chromebook"></i></span><em>工作台</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>工作台</span>
+                </li>
+            </ul>
+            <p class="line"></p>
+            <ul class="tool_nav nav_list font14">
+                <li>
+                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-upload2"></i></span><em>申请</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>申请</span>
+                </li>
+                <li>
+                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-clipboard"></i></span><em>审批</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>审批</span>
+                </li>
+                <li class="current">
+                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-exit marl5"></i></span><em>经办</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>经办</span>
+                </li>
+                <li>
+                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-eye-plus"></i></span><em>传阅</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>传阅</span>
+                </li>
+            </ul>
+        </div>
+        <div class="left_bottom">
+            <ul class="tool_nav font14">
+                <li>
+                    <a href="javascript:;">
+                        <span class="circle_ico font16"><i class="icon-iadd"></i></span>
+                        <em>发申请</em>
+                    </a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>发申请</span>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span class="circle_ico font16"><i class="icon-iser"></i></span>
+                        <em>智能搜索</em>
+                    </a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>智能搜索</span>
+                </li>
+                <li>
+                    <a href="javascript:;"><span class="circle_ico font16"><i class="icon-iset"></i></span><em>管理</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>管理</span>
+                </li>
+                <li>
+                    <a href="javascript:;"><span class="circle_ico font12"><i class="icon-stats-dots"></i></span><em>统计</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>统计</span>
+                </li>
+                <li class="download" style="border-top:1px solid #ccc;margin-bottom:10px;padding-top:8px;">
+                    <a href="javascript:;" class="">
+                        <span class="marl20 marr5"><img src="../img/phone.png" style="vertical-align: middle;"></span>
+                        <em>移动端下载</em>
+                    </a>
+                </li>
+            </ul>
+            <div class="user_info font14 clearfix">
+                <span class="UserImg floatleft marr10 ie-css3"><img src="../img/1.png"></span>
+                <p><em>欢迎回来</em></p>
+                <p class="font12"><a href="#">退出登录</a></p>
+                <a href="javascript:;" class="font20 color-6"><i class="icon-input"></i></a>
+                <span class="title_tip"><i class="toggle_arrow"></i>退出</span>
+            </div>
+        </div>
+    </div>
+    <!--left over-->
+    <!--right begin-->
+    <div class="layout_right" style="left:60px;">
+        <div class="download_box">
+            <ul class="clearfix aligncenter font20">
+                <li class="floatleft current"><em></em><a href="javascript:;">苹果手机下载</a></li>
+                <li class="floatright"><em></em><a href="javascript:;">安卓手机下载</a></li>
+            </ul>
+            <div class="code_box aligncenter">
+                <dl>
+                    <dd style="display: block"><img src="../img/oa_ios.png"/></dd>
+                    <dd><img src="../img/oa_apk.png"/></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!--right over-->
+</div>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('.download_box').find('ul li').click(function(){
+            var $this = $(this);
+            var en = $this.index();
+            $this.addClass('current').siblings().removeClass('current');
+            $('.code_box').find('dd').eq(en).show().siblings().hide();
+        });
+    });
+</script>
+</body>
+</html>
