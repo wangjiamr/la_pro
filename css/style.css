@@ -895,6 +895,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 }
 .icon-input:before {
 	content: "\e647";
+    margin-left:-8px;
 }
 .icon-upload:before {
 	content: "\e961";
@@ -934,7 +935,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .home_page{padding:10px 50px;}
 .form_page{padding:10px 50px;}
 .nav_tools{border-top:1px solid #d6d6d6;padding:15px 0 100px 0;}
-.tool_nav li{margin-bottom:15px;position: relative;}
+.tool_nav li{margin-bottom:12px;position: relative;}
 .tool_nav li a{display: block;height:32px;line-height:32px;color:#333;}
 .tool_nav li a .circle_ico{margin:0 10px 0 30px;border-color:#aaa;}
 .tool_nav li.apply_ico a .circle_ico{border-color:#06c;}
@@ -994,7 +995,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .oa_logo .logo_img img{width:40px;margin:-10px 0 0 -20px;}
 .oa_logo .logo_img,.mini_left .oa_logo .logo_txt,.mini_left .oa_logo .color-3,.mini_left .user_info p,.mini_left .user_info span{display: none;}
 .mini_left .oa_logo .logo_img,.mini_left .user_info a.font20{display:inline-block;}
-.mini_left .user_info{padding:0;padding-top:10px;text-align: center;line-height:40px;position: relative;}
+.mini_left .user_info{height:40px;padding:0;padding-top:10px;text-align: center;line-height:30px;position: relative;}
 /*工作台右侧*/
 .Title{height:40px;line-height:40px;border-bottom:1px solid #aaa;background: none;}
 .Title a{color:#224477;}
