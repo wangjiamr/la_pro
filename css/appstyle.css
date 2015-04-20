@@ -548,7 +548,6 @@ a.no{cursor:default;}
 .oa_apk,.oa_ios{display:none;position: absolute;width:140px;height:140px;right:-141px;z-index:100;top:50%;margin-top:-100px;}
 .oa_ios{right:-280px;}
 .oa_apk img,.oa_ios img{width:140px;height:140px;}
-.oa_apk em,.oa_ios em{display:block;height:20px;line-height:20px;background:#fff;text-align: center;color:#333;}
 .download:hover .oa_apk,.download:hover .oa_ios{display: block;}
 
 
