@@ -544,11 +544,12 @@ a.no{cursor:default;}
 .IntTip{position: absolute;line-height:0;font-size:0;width:20px;height:20px;z-index:10;right:-5px;top:-2px;padding:0!important;background:url("../images/int-tip.gif") no-repeat center center;}
 .IntW .ask-pop{width:240px;background:none;background-color:#fff;border:1px solid #ccc;border-radius:4px;padding:5px;height:auto;color:#666;box-shadow:-1px 1px 1px #ccc;}
 
-
-
-
-
-
+/*下载二维码*/
+.oa_apk,.oa_ios{display:none;position: absolute;width:140px;height:140px;right:-141px;z-index:100;top:50%;margin-top:-100px;}
+.oa_ios{right:-280px;}
+.oa_apk img,.oa_ios img{width:140px;height:140px;}
+.oa_apk em,.oa_ios em{display:block;height:20px;line-height:20px;background:#fff;text-align: center;color:#333;}
+.download:hover .oa_apk,.download:hover .oa_ios{display: block;}
 
 
 
