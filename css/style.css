@@ -262,7 +262,7 @@ em.color_2{color:#bbb;background:none;}
 .inner_td .form_logo{z-index:1;width:32px;height:32px;top:4px;right:-4px;}
 .inner_td .form_logo img{width:32px;height:32px;}
 .inner_td .form_logo em,.form_top .form_logo em{font-size:20px;position:absolute;top:50%;left:50%;margin:-10px 0 0 -10px;z-index: 2;}
-.form_edit_box .form-main{margin:20px 30px 40px 40px;}
+.form_edit_box .form-main{margin:20px 30px 70px 40px;}
 .form_bottom .Btn{height:30px;line-height:30px;width:80px;margin:12px 5px 0;}
 .form_bottom .Btn.Btn-commit{background:#54c34e;}
 .form_bottom .btn-quit{background:#bbb;}
