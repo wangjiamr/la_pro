@@ -398,6 +398,7 @@ td .search{width:auto;}
 .go_down{top:150%;transition:0.8s;-webkit-transition:0.8s;}
 
 /*订购信息*/
+
 .order_main{padding:7px 0 0 40px;}
 .account_tab{width:520px;background: #f6f6f6;position: relative;right:-277px;}
 .account_tab th{width:60px;}
