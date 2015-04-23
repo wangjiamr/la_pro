@@ -398,7 +398,8 @@ td .search{width:auto;}
 .go_down{top:150%;transition:0.8s;-webkit-transition:0.8s;}
 
 /*订购信息*/
-
+.Vouchers{border:1px dashed #ccc;border-radius:3px;width:220px;min-height:50px;line-height:20px;background-color:#f9fbfe;padding:10px;position: relative;margin-top:-70px;right:-300px;}
+.Vouchers em{font-family:arial;padding-left:10px;}
 .order_main{padding:7px 0 0 40px;}
 .account_tab{width:520px;background: #f6f6f6;position: relative;right:-277px;}
 .account_tab th{width:60px;}
