@@ -192,7 +192,7 @@ td .search{width:auto;}
 .processlist{width:288px;border:2px solid #ccc;padding:10px 2px 0 10px;padding-top:70px;margin:70px 20px 0 0;position: relative;border-radius:4px;background:#fff;}
 .processlist.current{border-color:#06c;}
 .processlist_inner{background:#fff;padding:20px 0;border-radius:4px;}
-.process-in{position:absolute;width:9999px;}
+.process-in{position:absolute;width:999999px;}
 .process-in:hover .ico-delete4{display: inline-block;}
 .pro_title{margin-top:-110px;margin-left:25px;margin-bottom:20px;}
 .pro_title .int{border-radius:4px;background:url("../img/mask10.png") repeat;border:1px solid transparent;}
@@ -201,7 +201,6 @@ td .search{width:auto;}
 .processlist.current .pro_title a{color:#06c;}
 .processlist .pro_title a i,.processlist.current .pro_title a .icon-unlocked,.processlist.current .pro_title a .icon-lock{display: none;}
 .processlist.current .pro_title a .icon-unlocked,.processlist .pro_title a i.icon-lock{display: inline-block;}
-.LastChange{position: absolute;bottom:-20px;left:0;right:0;}
 
 .item_box,.drag-box{padding:15px 0 0 10px;border:1px dashed #ccc;position:relative;margin:0 7px 30px 0;line-height:30px;color:#333;border-radius:3px;}
 .drag-box{background-color:#fefef1;border-color:#347cdc;}
@@ -399,6 +398,10 @@ td .search{width:auto;}
 .go_down{top:150%;transition:0.8s;-webkit-transition:0.8s;}
 
 /*订购信息*/
+.Vouchers{width:243px;height:150px;position: relative;margin-top:-70px;background:#FFC160;}
+.Vouchers .inner{height:148px;background:url("../img/v.png") no-repeat;color:#fff;}
+.Vouchers em{font-family:arial;padding-left:10px;position: relative;top:5px;font-size:40px;}
+.Vouchers p{text-indent:20px;line-height:22px;}
 .order_main{padding:7px 0 0 40px;}
 .account_tab{width:520px;background: #f6f6f6;position: relative;right:-277px;}
 .account_tab th{width:60px;}
@@ -499,6 +502,11 @@ a.no{cursor:default;}
 .th-select ul li{text-align: left;padding-left:10px;cursor: pointer;line-height:25px;marign:4px 0;}
 .th-select ul li:hover{background:#fff;}
 .th-tip{display:inline-block;width:0;height:0;font-size:0;line-height: 0;border-left: 5px solid #e9e9e9;border-right: 5px solid #e9e9e9;border-top: 5px solid #999;border-bottom:0;position:absolute;}
+.form_check{width:200px;margin:0 auto;}
+.form_check p{position: relative;z-index:200;}
+.form_check p .th-tip{position: relative;top:-2px;right:-5px;}
+.form_check.th-select:hover ul{display: block;font-size:12px;left:50%;margin-left:-100px;border-top:1px solid #999;padding-top:30px;top:-5px;}
+
 .scrollTable .th-select .th-tip{top:50%;right:5px;margin-top:-2px;}
 .scrollTable table.Thead th:hover ul{display: block;top:23px;}
 .scrollTable table.Thead th:hover .th-tip{border-top:0;border-left: 5px solid #e9e9e9;border-right: 5px solid #e9e9e9;border-bottom: 5px solid #999;}
@@ -545,22 +553,19 @@ a.no{cursor:default;}
 .IntTip{position: absolute;line-height:0;font-size:0;width:20px;height:20px;z-index:10;right:-5px;top:-2px;padding:0!important;background:url("../images/int-tip.gif") no-repeat center center;}
 .IntW .ask-pop{width:240px;background:none;background-color:#fff;border:1px solid #ccc;border-radius:4px;padding:5px;height:auto;color:#666;box-shadow:-1px 1px 1px #ccc;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*下载二维码*/
+.download a{margin-left:20px;}
+.mini_left .download a{margin:0;}
+.download_box{width:400px;height:470px;position: absolute;left:50%;top:50%;margin:-235px 0 0 -215px;}
+.download_box ul li{width:40%;height:50px;line-height:50px;border-bottom:2px solid transparent;margin-bottom:-1px;position: relative;}
+.download_box ul li.current{border-bottom:2px solid #337ddc;}
+.download_box ul li a{color:#aaa;}
+.download_box ul li.current a{color:#337ddc;}
+.code_box{border:1px solid #aaa;height:400px;background:#fff;}
+.download_box ul li em{display:none;border-right:7px solid transparent;border-left:7px solid transparent;border-top:7px solid #337ddc;position: absolute;bottom:-7px;left:50%;margin-left:-3px;}
+.download_box ul li.current em{display:inline-block;}
+.code_box dd{display: none;}
+.code_box dd img{margin-top:65px;}
 
 
 
