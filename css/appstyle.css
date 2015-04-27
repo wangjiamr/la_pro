@@ -192,7 +192,7 @@ td .search{width:auto;}
 .processlist{width:288px;border:2px solid #ccc;padding:10px 2px 0 10px;padding-top:70px;margin:70px 20px 0 0;position: relative;border-radius:4px;background:#fff;}
 .processlist.current{border-color:#06c;}
 .processlist_inner{background:#fff;padding:20px 0;border-radius:4px;}
-.process-in{position:absolute;width:9999px;}
+.process-in{position:absolute;width:999999px;}
 .process-in:hover .ico-delete4{display: inline-block;}
 .pro_title{margin-top:-110px;margin-left:25px;margin-bottom:20px;}
 .pro_title .int{border-radius:4px;background:url("../img/mask10.png") repeat;border:1px solid transparent;}
