@@ -543,10 +543,10 @@ a.no{cursor:default;}
 .allList{padding:10px 0 10px 0;border:1px solid #ccc;margin-left:37px;border-radius:4px;}
 .allList li{float: left;width:150px;line-height:25px;font-size:12px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;margin-left:10px;}
 .allList li .phone-number{font-size:13px;margin-right:7px;}
-.Tablebody .Tablebody{}
 .Tablebody .Tablebody .Tablebody{margin-top:0;}
 .Tablebody .Tablebody .Tablebody td{border-top:0;}
 .Tablebody .Tablebody td{height:35px;}
+.Tablebody.Tablefixed .Tablebody td{height:34px;border-top:1px solid #999;}
 .InDiv{width:570px;position: relative;overflow: hidden;height:36px;}
 .InMain{width:1550px;margin-left:-1px;height:36px;position: absolute;}
 .InMain table.Thead{width:1550px;position: relative;}
