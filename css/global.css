@@ -400,6 +400,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .explorer a img{vertical-align: bottom;margin-bottom:-10px;}
 .arrow-t{display:inline-block;width:0;border-left:10px solid #888;border-right: 10px solid #888;border-bottom: 10px solid #999;position: absolute;top:-10px;left:50%;margin-left:-5px;}
 .c_btn{display:inline-block;min-width:50px;height:24px;line-height:24px;padding:0 10px;border:1px solid #ccc;border-radius:3px;color: #888;font-size:12px;text-align:center;}
+.c_btn:hover{opacity:0.8;}
 .sure{background:#0066cc;color:#fff;border-color:#06c;}
 .confrim{width:320px;height:120px;border-radius:4px;margin:-60px 0 0 -160px;}
 .confrim p.marr10{position: absolute;bottom:10px;width: 100%;right:0;}
