@@ -501,6 +501,7 @@ a.no{cursor:default;}
 .th-select ul{width:100%;position:absolute;background:#e9e9e9;left:-1px;border:1px solid #999;border-top:0;display: none;z-index: 20;}
 .th-select ul li{text-align: left;padding-left:10px;cursor: pointer;line-height:25px;marign:4px 0;}
 .th-select ul li:hover{background:#fff;}
+.Tablebody .th-select{width:99px;}
 .th-tip{display:inline-block;width:0;height:0;font-size:0;line-height: 0;border-left: 5px solid #e9e9e9;border-right: 5px solid #e9e9e9;border-top: 5px solid #999;border-bottom:0;position:absolute;}
 .form_check{width:200px;margin:0 auto;}
 .form_check p{position: relative;z-index:10;}
@@ -544,16 +545,18 @@ a.no{cursor:default;}
 .allList li{float: left;width:150px;line-height:25px;font-size:12px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;margin-left:10px;}
 .allList li .phone-number{font-size:13px;margin-right:7px;}
 .Tablebody .Tablebody .Tablebody{margin-top:0;}
-.Tablebody .Tablebody .Tablebody td{border-top:0;}
-.Tablebody .Tablebody td{height:35px;}
+.Tablebody .Tablebody .Tablebody td{border-top:0;border-bottom:0;}
+.Tablebody .Tablebody td{height:36px;}
 .Tablebody.Tablefixed .Tablebody td{height:34px;border-top:1px solid #999;}
-.InDiv{width:570px;position: relative;overflow: hidden;height:36px;}
+.InDiv{width:569px;position: relative;overflow: hidden;height:36px;}
 .InMain{width:1550px;margin-left:-1px;height:36px;position: absolute;}
 .InMain table.Thead{width:1550px;position: relative;}
 .scrollTable-y{width:940px;height:318px;overflow:hidden;overflow-y:auto;}
 .scrollTable table th{height:34px;}
+.scrollTable table td.firstTh{border-top:0;height:34px;}
 .scrollTable-y tr:hover,.th-select ul li.current{background:#ece6e6;}
 .scrollTable table td.no-td{color:#d1d1d5;}
+.scrollTable table td.firstTd{border-width:0 0 1px 0;}
 .Tablebody .Tablebody .Tablebody td span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;max-width:49px;}
 .IntW{padding-right:1px;position: relative;}
 .IntTip{position: absolute;line-height:0;font-size:0;width:20px;height:20px;z-index:10;right:-5px;top:-2px;padding:0!important;background:url("../images/int-tip.gif") no-repeat center center;}
