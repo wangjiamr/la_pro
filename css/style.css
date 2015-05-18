@@ -364,6 +364,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_link ul li:hover .MakeBtn{right:0;transition:0.3s;}
 .data_link .Icon.ico-delete{position: absolute;top: 50%;left:50%;margin:-8px 0 0 -8px;}
 .item_box .Icon.ico-delete{position: relative;top:-2px;left:0;margin:0;}
+.item_box .alignright .Icon.ico-delete{top:2px;}
 .data_link .MakeBtn .edit{border:0;background:#347cdc;}
 .data_link .MakeBtn a,.data_link li:hover .MakeBtn a{display:inline-block;margin:0;text-indent: 0;font-size:14px;color:#fff;}
 .data_left li{padding-right:45px;}
