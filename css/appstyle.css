@@ -249,8 +249,9 @@ td .search{width:auto;}
 /*填写表单*/
 .form-edit{margin:0 auto;}
 .form-top,.form-txt{width:100%;}
-.form-top th{font-size:12px;height:45px;width:100px;text-align: left;}
-.form-top td{color:#888;padding-right:20px;}
+.form-top{margin-left:20px;}
+.form-top th{font-size:12px;height:60px;width:50px;text-align: left;}
+.form-top td{color:#888;padding-right:40px;height:60px;}
 .form-txt thead th,.form-txt tfoot th{background-color:#f2f2f2;line-height:40px;padding-left:10px;}
 .form-txt td{height:40px;padding-left:10px;color:#666;padding-top:10px;}
 .score tr td{border-bottom:1px solid #ccc;padding-bottom:20px;}
@@ -327,7 +328,8 @@ td .search{width:auto;}
 .form_tab td .td_inner .has-general input.int{width:100%;}
 .form_tab_title span{display:inline-block;text-align:center;padding:20px 0;font-size:24px;width:49%;}
 .form_tab_title span.first{border-right:1px dashed #ccc;width:49.9%;}
-.score li{line-height:18px;text-align:left;margin:7px 0 7px 2px;word-break: break-all;word-wrap: break-word;}
+.score li{line-height:24px;text-align:left;margin:7px 0 7px 2px;word-break: break-all;word-wrap: break-word;}
+.score p{line-height:19px;}
 .module table .radio{position: relative;top:7px;}
 .module .ico-add{line-height:20px;height:20px;position: relative;vertical-align: middle;margin-left:3px;}
 .Number{display:block;width:21px;position:absolute;left:-21px;top:0;bottom:0;text-align: center;;background:#e3e3e3;color:#666;outline: 1px dashed #ccc;outline-width:1px 0;}
