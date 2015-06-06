@@ -250,8 +250,8 @@ td .search{width:auto;}
 .form-edit{margin:0 auto;}
 .form-top,.form-txt{width:100%;}
 .form-top{margin-left:20px;}
-.form-top th{font-size:12px;height:60px;width:50px;text-align: left;}
-.form-top td{color:#888;padding-right:40px;height:60px;}
+.form-top th{font-size:12px;height:60px;width:55px;text-align: left;}
+.form-top td{color:#888;padding-right:40px;height:60px;width:219px;}
 .form-txt thead th,.form-txt tfoot th{background-color:#f2f2f2;line-height:40px;padding-left:10px;}
 .form-txt td{height:40px;padding-left:10px;color:#666;padding-top:10px;}
 .score tr td{border-bottom:1px solid #ccc;padding-bottom:20px;}
