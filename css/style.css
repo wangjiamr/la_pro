@@ -188,7 +188,7 @@ em.color_2{color:#bbb;background:none;}
 /*apply*/
 .form_box{position: relative;}
 .form_list li{width:18%;min-width:16%;height:160px;float: left;text-align: center;margin:10px 0 0 10px;position: relative;background: #fff;transition:0.3s;}
-.form_list li p.font16{width:130px;margin:0 auto;height:20px;line-height:20px;}
+.form_list li p.font16{width:90%;margin:0 auto;height:20px;line-height:20px;}
 .form_list li a{display: block;padding-top:33px;color:#333;}
 .form_box .r_btn{right:-5px;bottom:0;}
 .form_list.show li:nth-child(2n){-webkit-animation: fadeInRight .5s .2s ease-in-out both;animation: fadeInRight .5s .2s ease-in-out both;}
@@ -936,8 +936,9 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .home_page{padding:10px 50px;}
 .form_page{padding:10px 50px;}
 .nav_tools{border-top:1px solid #d6d6d6;padding:15px 0 100px 0;}
+.left_bottom .tool_nav li.download{margin-top:17px;}
 .tool_nav li{margin-bottom:12px;position: relative;}
-.tool_nav li a{display: block;height:32px;line-height:32px;color:#333;}
+.tool_nav li a{display: block;color:#333;}/*height:32px;line-height:32px;*/
 .tool_nav li a .circle_ico{margin:0 10px 0 30px;border-color:#aaa;}
 .tool_nav li.apply_ico a .circle_ico{border-color:#06c;}
 .title_tip{position: absolute;background: url("../img/mask70.png") repeat;border-radius:3px;width:50px;height:30px;line-height:30px;
