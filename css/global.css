@@ -349,6 +349,8 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-user2{background-position:-52px -249px;}
 .ico-ok{width:26px;height:26px;background-position:-44px -266px;margin-left:3px;}
 .right_arrow{width:20px;height:100px;background-position:-44px -476px;position: absolute;right:0;top:50%;margin-top:-50px;}
+.mark{position: relative;display: inline-block;color:#6c9b21!important;margin-left:10px;}
+.mark img{vertical-align: middle;margin-right:5px;}
 /*表单图标背景和ico*/
 .bg{display: inline-block;width:48px;height:48px;text-align: center;line-height: 48px;position: relative;border-radius:50em;}
 .ico{width: 22px;height:22px;vertical-align: -6px;position:absolute;top: 50%;left:50%;margin:-11px 0 0 -11px;}
