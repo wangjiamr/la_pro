@@ -1038,6 +1038,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .bottom_app .new_btn{padding:0 20px;height:30px;line-height:30px;border-radius:2px;position:relative;bottom:-10px;}
 .work_list tbody tr:hover .inner .R-btns,.work_list tbody tr:hover .inner .Btns_r{width:50px;transition:0.3s;}
 .work_list tbody tr:hover .inner .Btns_r{width:80px;}
+.work_list tbody tr:hover .inner .Btn_Two{width:160px;}
 .work_list tbody tr .inner .R-btns i{line-height:3;}
 .work_list tbody tr.current .AppTable{background:#fff;}
 .work_list tbody tr.current .AppTable thead th{height:30px;padding-top: 0;}
