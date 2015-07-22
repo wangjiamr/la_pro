@@ -424,6 +424,14 @@ td .search{width:auto;}
 .account_de td font{color:#53a000;}
 .account_de tbody tr:nth-child(2n) td{background-color:#f9fbfe;}
 .account_de .select{background:none;}
+.account_de div.processBox{width:300px;height:130px;border:1px solid #ddd;box-shadow:0 0 2px #ccc;position: absolute;background:#fff;z-index: 20;right:-65px;top:25px;display: none;}
+.account_de .current div.processBox{display: block;}
+.processBox td{height:25px;padding:1px 10px 0 10px;background:0!important;border:0;}
+.processBox .jspVerticalBar{width:5px;}
+.processBox .jspTrack{background:#f5f5f5;}
+.account_de tr:last-child div.processBox{top:-140px;}
+
+
 .choose_main ul li{display: inline-block;padding: 10px 40px;margin:0 30px;cursor: pointer;}
 .choose_one,.choose_two{width:614px;height:245px;padding-top:40px;background:url("../img/choose_one.png");margin:0 auto;display: none;position: relative;right:-20px;}
 .choose_two{background:url("../img/choose_two.png");margin-top:2px;}
