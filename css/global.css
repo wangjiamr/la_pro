@@ -361,6 +361,11 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-5{background-position:-109px -88px;}
 .ico-6{background-position:-109px -110px;}
 .ico-7{background-position:-109px -132px;}
+
+.Prompt{display:inline-block;width:6px;height:6px;font-size: 0;background: url("../img/circle.png");position: relative;}
+.nav_tools li.workDesk .Prompt{top:-5px;right:-4px;}
+
+
 @font-face {
 	font-family: 'hwxh';
 	src:url('hwxh.eot?-klml34');
