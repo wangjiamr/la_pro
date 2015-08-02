@@ -158,7 +158,7 @@ a.tags:hover,a.keywords:hover{text-decoration:underline;}
 .l_th i,.l_th ul,.l_th ul li,.l_th ul li a{text-decoration: none;}
 .no_indent{text-indent: 0!important;}
 .txt_hidden,.ser_Results li,.UserName,.prompt_main p,.high_table .table_head .list_table th .inner_td,.high_table .table_main .list_table td .inner_td
-,.form_list li p.font16,.list_table.search_list tbody div.inner_td,.choose_city_list p b,.dropDown dl dd a{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+,.form_list li p.font16,.list_table.search_list tbody div.inner_td,.choose_city_list p b,.dropDown dl dd a,.moreForm ul li a{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix{zoom:1;}

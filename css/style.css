@@ -949,13 +949,15 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 li.nav_a a .circle_ico{background:none;border-color:#e8e8e8;color:#aaa;}
 li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;color:#fff;background:#06c;}
 .circle_ico{display:inline-block;width:30px;height:30px;border:1px solid #ddd;border-radius:50%;line-height:32px;text-align: center;color: #fff;
-    transition:all 0.4s ease-in-out;vertical-align:-2px;}
+    transition:all 0.4s ease-in-out;vertical-align:-2px;position: relative;}
 .tool_nav li a:hover .circle_ico,.tool_nav li.current .circle_ico{background:#fff;color:#424954;transition:all 0.4s ease-in-out;border-color:#424954;}
 .work_list .circle_ico2{font-size:16px;color:#bbb;}
 .nav_tools li.workDesk{border-top:1px solid #5e646e;padding-top:13px;padding-bottom:15px;}
 .nav_tools li.workDesk.current{background:#7b8088;}
 .tool_nav .icon-laptop-chromebook{margin:0 15px 0 35px;vertical-align: middle;}
 .mini_left .tool_nav .icon-laptop-chromebook{margin-left:18px;}
+.circle_ico .icon-rotate-left{position: absolute;left:8px;top:3px;color:#666;}
+
 
 .I-con-home,.I-con-apply,.I-con-set,.I-con-ser{width:40px;height:40px;background-position: 0 0;}
 .I-con-apply{background-position:0 -40px;}
@@ -1009,8 +1011,18 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .Title .floatright a{color:#888;}
 .Title .floatright a.current{color:#0066cc;}
 .checkForm{height:26px;border-right:1px solid #ddd;padding-right:10px;margin:4px 20px 0 0;}
-.checkForm a{display: inline-block;height:24px;line-height:24px;border:1px solid #ddd;border-radius:2px;text-align: center;background: #fff;color:#666;margin-right:5px;padding:0 10px;}
+.checkForm a,.moreForm{display: inline-block;height:24px;line-height:24px;border:1px solid #ddd;border-radius:2px;text-align: center;background: #fff;color:#666;margin-right:5px;padding:0 10px;}
 .checkForm a.current{background:#eee;color:#333!important;}
+.moreForm{cursor: pointer;position: relative;z-index: 10;}
+.moreForm p{padding-right:14px;}
+.moreForm i{font-size:20px;position: absolute;right:2px;top:1px;}
+.moreForm .icon-arrow-drop-up,.moreForm:hover .icon-arrow-drop-down{display: none;}
+.moreForm:hover .icon-arrow-drop-up,.moreForm:hover ul{display: block;}
+.moreForm ul{position: absolute;background: #fff;top:25px;left:0;min-width: 150%;box-shadow: 0 0 3px #ccc;display: none;}
+.moreForm ul li{height:31px;}
+.moreForm ul li:hover a{background:#f5f5f5}
+.moreForm ul li a{min-width:100%;max-width:150px;text-align: left;border-width:0 0 1px 0;margin:0;padding:0;text-indent:10px;height:30px;line-height:30px;}
+
 
 .toggle_arrow{display: inline-block;font-size: 0;line-height: 0;border-left:5px solid #f5f5f5;border-right:5px solid #f5f5f5;border-top:5px solid #224477;margin-left:5px;position: relative;}
 .work_item{padding-bottom:70px;}
