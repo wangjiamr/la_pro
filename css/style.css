@@ -968,7 +968,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .I-con-mailed{background-position:-80px -20px;}
 .I-con-check{background-position:-80px -52px;}
 .I-con-checked{background-position:-80px -68px;}
-.Btns,.Btns a{display:inline-block;width:100px;height:30px;line-height:30px;color:#fff;position:relative;background: #44b849;border-radius:2px;z-index:10;}
+.Btns,.Btns a{display:inline-block;width:100px;height:100%;line-height:80px;color:#fff;position:relative;background: #44b849;border-radius:2px;z-index:10;}
 .Btns .a_txt{width:80px;height:30px;line-height:30px;text-align: center;}
 .Btns ul{width:78px;border:1px solid #aaa;border-radius:2px;position: absolute;left:0;top:32px;background:#fff;display: none;}
 .Btns ul li a{width:auto;height:29px;line-height:29px;display: block;text-align:left;padding-left:20px;margin:0 5px;border-bottom: 1px solid #ccc;background:none;color:#333;}
@@ -976,9 +976,9 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .Btns .toggle{text-align:center;height:30px;line-height:30px;padding:0!important;font-size:14px;width:19px;background:#1b8d1d;border-left:1px solid #18811a;position: absolute;right:0!important;top:0!important;border-radius:0 2px 2px 0;cursor: pointer;}
 .Btns .toggle .toggle_arrow{top:-2px;left:-1px;border:0!important;border-left:5px solid #1b8d1d!important;border-right:5px solid #1b8d1d!important;border-top: 5px solid #d1e8d2!important;margin:0!important;;}
 .Btns.current ul{display: block;}
-.Btns_r{position: absolute;right:0;height:50px;top:0;width:0;overflow:hidden;border-radius:0;transition:0.3s;}
+.Btns_r{position: absolute;right:0;height:100%;top:0;width:0;overflow:hidden;border-radius:0;transition:0.3s;}
 .Btns_r a.a_txt{width:60px;height:50px;line-height:50px;}
-.Btns_r .toggle{height:50px;line-height:50px;}
+.Btns_r .toggle{height:100%;line-height:80px;}
 .Btns_r ul{top:50px;}
 .Btns_r.current{overflow:visible;}
 .BtnRevoke a.a_txt{width:80px;text-align: center;background:#e9505f;}
@@ -1030,8 +1030,8 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .work_list thead th{height:30px;}
 .work_list tbody th,.work_list tbody td{border-bottom:1px solid #d5d5d5;}
 .work_list tbody th{height:50px;text-align: center;}
-.work_list tbody td .inner{min-height:50px;padding:0 20px;position:relative;}
-.work_list tbody td .inner .icon-paper-clip{position: absolute;top:18px;left:-1px;color:#06c;}
+.work_list tbody td .inner{min-height:50px;padding:0 10px;position:relative;padding:10px 0;}
+.work_list tbody td .inner .icon-paper-clip{position: relative;top:0;margin:0 0 0 10px;color:#06c;}
 .work_list.list_item tbody td .inner{min-height:50px;overflow:hidden;}
 .work_list tbody td .inner p.color-8 span{color:#333;padding:0 6px;}
 .work_list tbody td .inner .toggle{position: absolute;right:5px;top:6px;padding:10px;}
@@ -1039,7 +1039,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .work_list tbody td .inner .toggle.current .icon-arrow-drop-up,.work_list tbody td .inner .toggle .icon-arrow-drop-down,a.current .icon-arrow-drop-up,a .icon-arrow-drop-down{display:inline-block;}
 .work_list tbody td .inner .toggle_arrow{border:0;border-top:5px solid #fff;border-bottom:5px solid #fff;border-left:5px solid #aaa;}
 .work_list tbody tr:hover td,.work_list tbody tr:hover th{background-color:#eee}
-.work_list tbody td .inner p.color-8,.work_list tbody td .inner p.color-8 span{height:50px;line-height:50px;}
+.work_list tbody td .inner p.color-8,.work_list tbody td .inner p.color-8 span,.formName{height:30px;line-height:30px;}
 .work_list tbody td .inner p.color-8 span{overflow:hidden;}
 
 .work_list tbody td .inner p.color-8 span.username{width:60px;}
@@ -1063,8 +1063,8 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .work_list tbody tr .inner .R-btns i{line-height:3;}
 .work_list tbody tr.current .AppTable{background:#fff;}
 .work_list tbody tr.current .AppTable thead th{height:30px;padding-top: 0;}
-
-
+.formName{padding-left:6px;color:#2a2a2a;}
+.Preview .Btns{height:30px;line-height:30px;}
 
 
 
