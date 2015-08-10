@@ -1052,7 +1052,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .form_Preview table th{width:60px;text-align: left;color:#888;}
 .work_list tbody tr:hover .form_Preview table tr td{background:none;}
 .list_item tbody th,.list_item tbody td{border:1px solid #d5d5d5;background:#fff;}
-.work_list tbody td .inner .R-btns{width:0;line-height:80px;overflow:hidden;background-color:#aaa;color:#fff;right:0;transition:0.3s;}
+.work_list tbody td .inner .R-btns{width:0;height:40px;line-height:40px;overflow:hidden;background-color:#aaa;color:#fff;right:20px;transition:0.3s;top:20px;}
 .bottom_app{height:60px;border-top:1px solid #aaa;position:fixed;left:60px;bottom:0;right:0;background:#ccc;overflow: hidden;z-index:20;transition:all 0.25s ease-in-out;}
 .bottom_app.current{border-top:1px solid #06c;background:#fff;transition:all 0.25s ease-in-out;}
 .bottom_app .int-txt{width:30%;border:0;border-right:1px solid #ccc;height:50px;padding:5px;background:none;}
