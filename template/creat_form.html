@@ -609,7 +609,7 @@
                                             <option>邮编</option>
                                        </select>
                                     </div>
-                                    <p class="mart5"><textarea class="int" style="height: 50px;"></textarea></p>
+                                    <p class="mart5"><textarea class="int textarea" style="height: 50px;"></textarea></p>
                                 </div>
                                 <div class="module mart20">
                                     <p class="font14">必填设置</p>
@@ -714,6 +714,7 @@
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script src='../js/autosize.js'></script>
 <script type="text/javascript">
     function Jscroll(){
         $('.jscroll').jScrollPane({
@@ -722,6 +723,7 @@
         });
     }
     Jscroll();
+    autosize(document.querySelectorAll('.textarea'));
 </script>
 </body>
 </html>

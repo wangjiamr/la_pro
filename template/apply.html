@@ -11,7 +11,7 @@
 <body>
 <div class="layout">
     <!--left begin-->
-    <div class="layout_left">
+    <div class="layout_left " style="width:159px;">
         <div class="oa_logo">
             <a href="#" class="block mart20 marl30">
                 <p class="logo_txt"><img src="../img/logo_1.png" /></p>
@@ -20,29 +20,40 @@
         </div>
         <div class="nav_tools">
             <ul class="tool_nav font14">
-                <li>
-                    <a href="javascript:;"><span class="circle_ico font18"><i class="icon-laptop-chromebook"></i></span><em>工作台</em></a>
+                <li class="workDesk current">
+                    <a href="javascript:;" class="font20"><i class="icon-laptop-chromebook"></i><em>工作台</em><em class="Prompt"></em></a>
                     <span class="title_tip"><i class="toggle_arrow"></i>工作台</span>
                 </li>
             </ul>
+            <p class="line" style="margin-top:-11px;"></p>
             <ul class="tool_nav nav_list font14">
                 <li>
-                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-upload2"></i></span><em>申请记录</em></a>
-                    <span class="title_tip"><i class="toggle_arrow"></i>申请记录</span>
+                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-upload2"></i></span><em>申请</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>申请</span>
                 </li>
                 <li>
-                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-clipboard"></i></span><em>审批记录</em></a>
-                    <span class="title_tip"><i class="toggle_arrow"></i>审批记录</span>
+                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-clipboard"></i></span><em>审批</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>审批</span>
                 </li>
                 <li class="current">
-                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-exit marl5"></i></span><em>经办记录</em></a>
-                    <span class="title_tip"><i class="toggle_arrow"></i>经办记录</span>
+                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-exit marl5"></i></span><em>经办</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>经办</span>
                 </li>
                 <li>
-                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-eye-plus"></i></span><em>传阅记录</em></a>
-                    <span class="title_tip"><i class="toggle_arrow"></i>传阅记录</span>
+                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-eye-plus"></i></span><em>传阅</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>传阅</span>
+                </li>
+                <li class="">
+                    <a href="javascript:;"><span class="circle_ico font18 noborder nobg"><i class="icon-bin2"></i><i class="icon-rotate-left font14"></i></span><em>回收箱</em></a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>回收箱</span>
                 </li>
             </ul>
+            <!--<ul class="tool_nav font14">-->
+            <!--<li class="">-->
+            <!--<a href="javascript:;"><span class="circle_ico font16"><i class="icon-bin2"></i></span><em>回收箱</em></a>-->
+            <!--<span class="title_tip"><i class="toggle_arrow"></i>回收箱</span>-->
+            <!--</li>-->
+            <!--</ul>-->
         </div>
         <div class="left_bottom">
             <ul class="tool_nav font14">
@@ -61,16 +72,32 @@
                     <span class="title_tip"><i class="toggle_arrow"></i>智能搜索</span>
                 </li>
                 <li>
-                    <a href="javascript:;"><span class="circle_ico font16"><i class="icon-iset"></i></span><em>管理</em></a>
+                    <a href="javascript:;">
+                        <span class="circle_ico font16"><i class="icon-iset"></i></span>
+                        <em>管理</em>
+                    </a>
                     <span class="title_tip"><i class="toggle_arrow"></i>管理</span>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span class="circle_ico font12"><i class="icon-stats-dots"></i></span>
+                        <em>统计</em>
+                    </a>
+                    <span class="title_tip"><i class="toggle_arrow"></i>统计</span>
+                </li>
+                <li class="download" style="border-top:1px solid #5e646e;margin-bottom:10px;padding-top:8px;">
+                    <a href="javascript:;" class="">
+                        <span class="marl20 marr5"><img src="../img/phone.png" style="vertical-align: middle;"></span>
+                        <em>移动端下载</em>
+                    </a>
                 </li>
             </ul>
             <div class="user_info font14 clearfix">
                 <span class="UserImg floatleft marr10 ie-css3"><img src="../img/1.png"></span>
-                <p><em>欢迎回来</em></p>
-                <p class="font12"><a href="#">退出登录</a></p>
+                <p><em class="color-white">欢迎回来</em></p>
+                <p class="font12"><a href="#" class="color-a">退出登录</a></p>
                 <a href="javascript:;" class="font20 color-6"><i class="icon-input"></i></a>
-                <span class="title_tip"><i class="toggle_arrow"></i>退出登录</span>
+                <span class="title_tip"><i class="toggle_arrow"></i>退出</span>
             </div>
         </div>
     </div>
@@ -198,7 +225,7 @@
                                 <tr>
                                     <th>收款方</th>
                                     <td colspan="3">
-                                        <div class="has-general has-error marl8">
+                                        <div class="has-general has-error">
                                             <input type="text" class="int" placeholder="请输入角色名称...">
                                             <label class="tips">每月</label>
                                             <label class="control-label">提示信息</label>
@@ -312,7 +339,6 @@
                                             <label class="control-label">提示信息</label>
                                             <span>你还可以输入<em>140</em>个字</span>
                                         </div>
-
                                     </td>
                                 </tr>
                             </table>
@@ -366,6 +392,561 @@
                                         <a href="javascript:;" class="add">删除</a>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="请输入日期...">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="has-general">
+                                            <input type="text" class="int" placeholder="">
+                                            <label class="control-label">提示信息</label>
+                                        </div>
+                                    </td>
+                                    <td class="aligncenter">
+                                        <a href="javascript:;" class="add">删除</a>
+                                    </td>
+                                </tr>
                                 <!--<tr>-->
                                     <!--<td colspan="4">-->
                                         <!--<div class="has-general">-->
@@ -380,87 +961,87 @@
                             </tbody>
                         </table>
                         </div>
-                        <p class="font18 mart50 aligncenter">明细信息</p>
-                        <p class="font18 mart50 aligncenter">评分</p>
-                        <table class="form-txt score mart20">
-                            <thead>
-                                <tr>
-                                    <th class="width-40">编号</th>
-                                    <th class="width-120">指标描述</th>
-                                    <th>指标类型</th>
-                                    <th class="width-120">得分</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>类型一</td>
-                                    <td>
-                                        <ul class="score-list">
-                                            <li>1. 很好</li>
-                                            <li>2. 一般</li>
-                                            <li>3. 不好</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <div class="has-general">
-                                            <input type="text" class="int" placeholder="">
-                                            <label class="control-label">提示信息</label>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>类型二</td>
-                                    <td>
-                                        <ul class="score-list">
-                                            <li>1. 很好</li>
-                                            <li>2. 一般</li>
-                                            <li>3. 不好</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <p class="mart5"><label><input type="radio"> A</label></p>
-                                        <p class="mart5"><label><input type="radio"> B</label></p>
-                                        <p class="mart5"><label><input type="radio"> C</label></p>
-                                        <p class="mart5"><label><input type="radio"> D</label></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>类型三</td>
-                                    <td>
-                                        <ul class="score-list">
-                                            <li>1. 很好</li>
-                                            <li>2. 一般</li>
-                                            <li>3. 不好</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <div class="has-general has-error">
-                                            <textarea style="height:50px;"></textarea>
-                                            <label class="control-label">提示信息</label>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                            <tfoot><tr><th colspan="4"><span class="floatright">总计：3分</span></th></tr></tfoot>
-                        </table>
-                        <div class="form_txt">
-                            <p>表单说明：</p>
-                            <ol style="display: ;">
-                                <li>djdjjfj</li>
-                                <li>djdjjfj</li>
-                                <li>djdjjfj</li>
-                                <li>djdjjfj</li>
-                                <li>djdjjfj</li>
-                                <li>djdjjfj</li>
-                                <li>djdjjfj</li>
-                                <li>djdjjfj</li>
-                                <li>djdjjfj</li>
-                                <li>djdjjfj</li>
-                            </ol>
-                        </div>
+                        <!--<p class="font18 mart50 aligncenter">明细信息</p>-->
+                        <!--<p class="font18 mart50 aligncenter">评分</p>-->
+                        <!--<table class="form-txt score mart20">-->
+                            <!--<thead>-->
+                                <!--<tr>-->
+                                    <!--<th class="width-40">编号</th>-->
+                                    <!--<th class="width-120">指标描述</th>-->
+                                    <!--<th>指标类型</th>-->
+                                    <!--<th class="width-120">得分</th>-->
+                                <!--</tr>-->
+                            <!--</thead>-->
+                            <!--<tbody>-->
+                                <!--<tr>-->
+                                    <!--<td>1</td>-->
+                                    <!--<td>类型一</td>-->
+                                    <!--<td>-->
+                                        <!--<ul class="score-list">-->
+                                            <!--<li>1. 很好</li>-->
+                                            <!--<li>2. 一般</li>-->
+                                            <!--<li>3. 不好</li>-->
+                                        <!--</ul>-->
+                                    <!--</td>-->
+                                    <!--<td>-->
+                                        <!--<div class="has-general">-->
+                                            <!--<input type="text" class="int" placeholder="">-->
+                                            <!--<label class="control-label">提示信息</label>-->
+                                        <!--</div>-->
+                                    <!--</td>-->
+                                <!--</tr>-->
+                                <!--<tr>-->
+                                    <!--<td>2</td>-->
+                                    <!--<td>类型二</td>-->
+                                    <!--<td>-->
+                                        <!--<ul class="score-list">-->
+                                            <!--<li>1. 很好</li>-->
+                                            <!--<li>2. 一般</li>-->
+                                            <!--<li>3. 不好</li>-->
+                                        <!--</ul>-->
+                                    <!--</td>-->
+                                    <!--<td>-->
+                                        <!--<p class="mart5"><label><input type="radio"> A</label></p>-->
+                                        <!--<p class="mart5"><label><input type="radio"> B</label></p>-->
+                                        <!--<p class="mart5"><label><input type="radio"> C</label></p>-->
+                                        <!--<p class="mart5"><label><input type="radio"> D</label></p>-->
+                                    <!--</td>-->
+                                <!--</tr>-->
+                                <!--<tr>-->
+                                    <!--<td>3</td>-->
+                                    <!--<td>类型三</td>-->
+                                    <!--<td>-->
+                                        <!--<ul class="score-list">-->
+                                            <!--<li>1. 很好</li>-->
+                                            <!--<li>2. 一般</li>-->
+                                            <!--<li>3. 不好</li>-->
+                                        <!--</ul>-->
+                                    <!--</td>-->
+                                    <!--<td>-->
+                                        <!--<div class="has-general has-error">-->
+                                            <!--<textarea style="height:50px;"></textarea>-->
+                                            <!--<label class="control-label">提示信息</label>-->
+                                        <!--</div>-->
+                                    <!--</td>-->
+                                <!--</tr>-->
+                            <!--</tbody>-->
+                            <!--<tfoot><tr><th colspan="4"><span class="floatright">总计：3分</span></th></tr></tfoot>-->
+                        <!--</table>-->
+                        <!--<div class="form_txt">-->
+                            <!--<p>表单说明：</p>-->
+                            <!--<ol style="display: ;">-->
+                                <!--<li>djdjjfj</li>-->
+                                <!--<li>djdjjfj</li>-->
+                                <!--<li>djdjjfj</li>-->
+                                <!--<li>djdjjfj</li>-->
+                                <!--<li>djdjjfj</li>-->
+                                <!--<li>djdjjfj</li>-->
+                                <!--<li>djdjjfj</li>-->
+                                <!--<li>djdjjfj</li>-->
+                                <!--<li>djdjjfj</li>-->
+                                <!--<li>djdjjfj</li>-->
+                            <!--</ol>-->
+                        <!--</div>-->
                     </div>
                 </div>
                 <!--表单详情over-->
@@ -648,12 +1229,13 @@
                     </table>
                 </div>
                 <!--附件over-->
-                <div class="form_bottom alignright clearfix" style="padding-right:36px;">
+                <div class="form_bottom alignright clearfix" style="padding-right:20px;">
                     <a href="javascript:;" class="add" id="add_acc"><i class="Icon ico-acc"></i> 添加附件</a>
                     <span class="floatleft mart20 marl20">已上传<em class="add"> 0 </em>个附件</span>
                     <a href="javascript:;" class="add marl10">查看</a>
                     <a href="javascript:;" class="add marl10" id="slideup">收起</a>
                     <a href="javascript:;" class="Btn btn-quit bg-success">上传完毕</a>
+                    <a href="javascript:;" class="Btn btn-quit bg-success">保存草稿</a>
                     <a href="javascript:;" class="Btn btn-quit">取消发送</a>
                     <a href="javascript:;" class="Btn">下一步</a>
                 </div>
@@ -661,7 +1243,7 @@
         </div>
         <!--填写内容第一步over-->
         <!--填写内容第二步begin-->
-        <div class="form_edit_box" style="display:none;position: absolute;top: 0;bottom:0;left:50%;margin-left:-400px;z-index: 100;">
+        <div class="form_edit_box" style="display:block;position: absolute;top: 0;bottom:0;left:50%;margin-left:-400px;z-index: 100;">
             <div class="form_in">
                 <ul class="form_top alignright clearfix">
                     <li><em>1</em>填写表单</li>
@@ -852,6 +1434,7 @@
                 <div class="form_bottom aligncenter">
                     <a href="javascript:;" class="Btn">上一步</a>
                     <a href="javascript:;" class="Btn Btn-commit">提交申请</a>
+                    <a href="javascript:;" class="Btn btn-sure">保存草稿</a>
                 </div>
                 <!--提交状态提示图begin-->
                 <div class="sending" style="display:none;">
@@ -866,7 +1449,7 @@
         <!--填写内容第二步over-->
     </div>
     <!--right over-->
-    <div class="mask" style="display:none;"></div>
+    <div class="mask" style="display:block;"></div>
 </div>
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
