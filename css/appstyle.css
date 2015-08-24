@@ -117,7 +117,13 @@ td .search{width:auto;}
 .Approval table th{width:100px;padding-right:10px;text-align: right;}
 .Approval table th,.Approval table td{vertical-align: top;}
 .Approval_inner{width:650px;min-height:150px;border:1px solid #ccc;border-radius:3px;}
-.Approval_inner textarea{width:98%;height:99px;padding:5px;display:block;border:0;margin:0 auto;color:#888;}
+.Approval_inner textarea,.txtBox{width:98%;height:99px;padding:5px;display:block;border:0;margin:0 auto;color:#888;}
+/*.txtBox{padding:0;}*/
+.txtBox .int{width:100%;margin:-10px 0 0 -5px;border:0;}
+.txtBoxList li{display: inline-block;height:30px;line-height:30px;background:#ddd;border-radius:20px;padding:0 5px 0 10px;color:#333;}
+.txtBoxList li i{cursor: pointer;color:#3163a5;opacity: 0;}
+.txtBoxList li:hover i{opacity:1;}
+
 .Approval table td div.mart10 a i{vertical-align:-2px;}
 .acc_list{padding-left:10px;border-top:1px solid #aaa;}
 .Annex_list,.Annex_list ul{padding-left: 0;}
