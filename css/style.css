@@ -891,7 +891,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .form_page{padding:10px 50px;}
 .nav_tools{padding:0 0 100px 0;}
 
-.left_bottom .tool_nav li.download{margin-top:17px;}
+/*.left_bottom .tool_nav li.download{margin-top:17px;}*/
 .tool_nav li{margin-bottom:10px;position: relative;}
 .tool_nav li a{display: block;color:#fff;}/*height:32px;line-height:32px;*/
 .tool_nav li a .circle_ico{margin:0 10px 0 30px;border-color:#aaa;}
