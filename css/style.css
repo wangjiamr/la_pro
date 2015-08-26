@@ -27,7 +27,7 @@
 .ico-right{background-position:-31px 0;right:67px;}
 /*色球*/
 .color_mark em{font-size:14px;}
-.color_mark .Icon{width:14px;height:14px;border-radius:50%;behavior: url(../css/PIE.htc);background:none;vertical-align: -2px;margin-right:5px;}
+.color_mark .Icon{width:14px;height:14px;border-radius:50%;background:none;vertical-align: -2px;margin-right:5px;}
 .color_0.Icon{background-color:#ffa700;}
 .color_2.Icon{background-color:#bbb;}
 .color_1.Icon{background-color:#8fc31f;}
