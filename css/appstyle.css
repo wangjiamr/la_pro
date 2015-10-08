@@ -423,7 +423,7 @@ td .search{width:auto;}
 .tab_nav li a{display: inline-block;min-width:60px;height:28px;line-height: 28px;padding:0 6px;color: #666;text-align: center;}
 .tab_nav li a:hover{background-color: #cbe2fa;}
 .tab_nav li.current a{background-color: #347cdc;color:#fff;}
-.account_de{width:98%;}
+.account_de{width:100%;}
 .account_de thead th{line-height:40px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;color:#333;background-color:#eee;}
 .account_de th,.account_de td{padding-left:10px;}
 .account_de td{height:40px;border-bottom:1px solid #ddd;}
