@@ -1077,7 +1077,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .form_txt ol{padding-left:25px;}
 .form_txt ol li{line-height:25px;}
 
-.right_bar{width:140px;background:#686d76;position: absolute;top:0;right:-110px;top:0;bottom:0;z-index:10;}
+.right_bar{width:140px;background:#686d76;position: absolute;top:0;right:-140px;top:0;bottom:0;z-index:10;}
 .right_bar_in{color:#fff;width:100%;height:100%;}
 .arrowR{display:inline-block;width:21px;height:80px;position: absolute;top:50%;margin-top:-40px;left:-21px;background: url("../img/arrowR.png") 0 0;z-index: 10;}
 .right_bar.current{right:0;}
