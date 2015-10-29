@@ -257,7 +257,7 @@ td .search{width:auto;}
 .form-edit{margin:0 auto;}
 .form-top,.form-txt{width:100%;}
 .form-top{margin-left:20px;}
-.form-top th{font-size:12px;height:60px;width:65px;text-align: left;}
+.form-top th{font-size:12px;height:60px;width:76px;text-align: left;}
 .form-top td{color:#888;padding-right:40px;height:60px;width:254px;}
 .form-txt thead th,.form-txt tfoot th{background-color:#f2f2f2;line-height:40px;padding-left:10px;}
 .form-txt td{height:40px;padding-left:10px;color:#666;padding-top:10px;}
@@ -265,7 +265,7 @@ td .search{width:auto;}
 .score-list{font-size:14px;line-height:30px;}
 .score tbody tr:last-child td{border:0;}
 .form-txt tfoot th{padding-right:30px;color:#333;font-size:14px;}
-.form-edit label input{margin-right:5px;}
+.form-edit label input{margin-right:5px;vertical-align: 0;}
 .form-edit .search input,.form-edit .search{height:26px;line-height:normal;}
 .form-edit .search button{padding:0;}
 .form-edit .int,.form-txt .int,.process_li .int{border-width:0 0 1px 0;}
@@ -309,8 +309,8 @@ td .search{width:auto;}
 .form_tab td .td_inner .options p.has_two label{width:40%;}
 .form_tab td .td_inner .options p.has_three label{width:30%;}
 .form_tab td .td_inner .options p.has_four label{width:22%;}
-.form-top div.options label{display: inline-block;height:18px;line-height:18px;overflow: hidden;}
-
+.form-top div.options label{height:18px;line-height:18px;overflow: hidden;}
+.form-top div.options label input{vertical-align: 0;}
 
 
 .form_tab td .td_inner input.int,.module input.int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:2px;}
