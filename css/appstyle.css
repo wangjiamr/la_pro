@@ -591,7 +591,7 @@ a.no{cursor:default;}
 .download_box ul li em{display:none;border-right:7px solid transparent;border-left:7px solid transparent;border-top:7px solid #337ddc;position: absolute;bottom:-7px;left:50%;margin-left:-3px;}
 .download_box ul li.current em{display:inline-block;}
 .code_box dd{display: none;}
-.code_box dd img{margin-top:65px;}
+.code_box dd img{margin-top:30px;width:350px;}
 .check_field{padding:10px 15px;}
 .check_list{padding:10px 0;}
 .check_list label{display:inline-block;margin:0 5px 10px 0;width:80px;height:20px;line-height:20px;overflow: hidden;}
