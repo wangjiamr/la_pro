@@ -40,7 +40,10 @@
 .ser_Results{width:100%;position: absolute;background: #fff;border-style: solid;border-width:1px;border-radius:5px;}
 .search .ser_Results{left:-1px;top:26px;z-index:200;display:none;padding:5px 0;}
 .search .ser_Results.groupList{top:inherit;bottom:26px;padding:0;}
-.ser_Results li{line-height: 26px;padding-left:10px;color:#888;cursor: pointer;display: block;}
+.ser_Results li{line-height: 26px;padding-left:10px;color:#888;display: block;}
+.ser_Results li a{color:#888;}
+.ser_Results li a.font20{opacity: 0;}
+.ser_Results li:hover a.font20{opacity: 1;}
 .ser_Results li:hover,.ser_Results li.current,.ser_Results li:hover em{color:#333;background:#e8e8e8!important;}
 .ser_Results li.current em{color:red;}
 .ser_Results li:hover,.ser_Results li.current{background-color: #ccc;}

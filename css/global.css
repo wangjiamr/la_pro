@@ -78,7 +78,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 a.color-6.current{color:#0066cc!important;}
 .color-8,.color-8 a{color:#888!important;}
 .color-a,.color-a td *{color:#aaa!important;;}
-.color-347cdc,.ser_Results li em,.add,.item_box span:hover{color:#347cdc!important;}
+.color-347cdc,.ser_Results li em,.add,.item_box span:hover,.ser_Results li a:hover{color:#347cdc!important;}
 .nodata{color:#ccc;padding-top: 100px;}
 a.add:hover,a.more:hover{text-decoration: underline;}
 .more,.top_nav a.more{color:#06c;}
