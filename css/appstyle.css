@@ -435,7 +435,7 @@ td .search{width:auto;}
 .account_de tbody tr:nth-child(2n) td{background-color:#f9fbfe;}
 .account_de .select{background:none;}
 .account_de div.processBox{width:300px;height:130px;border:1px solid #ddd;box-shadow:0 0 2px #ccc;position: absolute;background:#fff;z-index: 20;right:-65px;top:25px;display: none;}
-.account_de .current div.processBox{display: block;}
+.account_de .current div.processBox,.hasProcess:hover div.processBox{display: block;}
 .processBox td{height:25px;padding:1px 10px 0 10px;background:0!important;border:0;}
 .processBox .jspVerticalBar{width:5px;}
 .processBox .jspTrack{background:#f5f5f5;}
