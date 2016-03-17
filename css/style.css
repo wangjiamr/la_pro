@@ -41,6 +41,7 @@ em.color_2{color:#bbb;background:none;}
 .User{*margin-top:-40px;}
 .search_out{width:900px;height:400px;position: absolute;left:50%;top:50%;margin:-200px 0 0 -450px;z-index: 22;}
 .new_search{margin-top: 100px;}
+.new_search div.clearfix{outline:1px solid #ddd;}
 .new_search input{width:90%;border:0;border-radius:0;background:#fff;height:80px;line-height:normal;font-size:20px;color:#333;}
 .new_search .new_btn{width:10%;height:80px;line-height:80px;position:relative;text-align: center;padding:0;border-radius:0;background:#fff;color:#ccc;font-size:40px;}
 .new_search .new_btn i{line-height:2;}
@@ -59,8 +60,13 @@ em.color_2{color:#bbb;background:none;}
 .search_main .new_search{margin:0;}
 .search_main .new_search input,.search_main .new_search .new_btn{width:5%;height:40px;line-height:40px;font-size:18px;}
 .search_main .new_search input{line-height: normal;width:95%;}
-
-
+.search_nav a{display: inline-block;border:1px solid #ccc;height:22px;line-height:22px;border-radius:2px;padding:0 10px;color:#888;margin:10px 0;}
+.search_nav a.current,.search_nav a:hover{background:#347cdc;color:#fff;border-color:#347cdc;}
+.search_tab{width:100%;}
+.search_tab th{width:80px;padding-right:10px;line-height:20px;}
+.search_tab th,.search_tab td{padding-bottom:15px;}
+.search_tab td a{display:inline-block;margin-right:10px;color:#666;}
+.search_tab td a:hover,.search_tab td a.current{color:#347cdc;}
 .new_main{width:1000px;margin:0 auto;min-height:200px;margin-top:80px;color:#fff;}
 .top_board{width:800px;margin:0 auto;height:100px;background:url("../img/mask4.png") repeat;border-radius:3px;opacity:0.9;}
 .top_board div{height:80px;width:50%;}
