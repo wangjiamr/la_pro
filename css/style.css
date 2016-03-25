@@ -1003,7 +1003,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .work_list tbody td .inner p.color-8,.work_list tbody td .inner p.color-8 span,.formName{height:30px;line-height:30px;}
 .work_list tbody td .inner p.color-8 span{overflow:hidden;}
 .Results_r table tr:hover td{background:none;}
-.Results_r table tr td .inner{margin-bottom:10px;}
+.Results_r table tr td .inner{margin-bottom:20px;}
 .Results_r tbody th,.Results_r tbody td{border-bottom:0;}
 .work_list tbody td .inner p.color-8 span.username{width:60px;}
 .work_list tbody td .inner p.color-8 span.applyname{width:100px;}
