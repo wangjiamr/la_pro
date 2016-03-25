@@ -63,7 +63,7 @@ em.color_2{color:#bbb;background:none;}
 .search_nav a{display: inline-block;border:1px solid #ccc;height:22px;line-height:22px;border-radius:2px;padding:0 10px;color:#888;margin:10px 0;}
 .search_nav a.current,.search_nav a:hover{background:#347cdc;color:#fff;border-color:#347cdc;}
 .search_tab{width:100%;}
-.search_tab th{width:80px;padding-right:10px;line-height:20px;}
+.search_tab th{width:60px;padding-right:10px;line-height:20px;}
 .search_tab th,.search_tab td{padding-bottom:15px;}
 .search_tab td a{display:inline-block;margin-right:10px;color:#666;}
 .search_tab td a:hover,.search_tab td a.current{color:#347cdc;}
@@ -306,7 +306,6 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Re_item .tab_nav li.current a{background-color: #347cdc;color:#fff;}
 .Re_item .tab_nav li.current{background:none;}
 .Re_item .ser_Results li{margin-left:3px;}
-.Results_r{border-left:1px solid #ccc;width:888px;}
 /*.account_tab{width:100%;color: #fff;}*/
 /*.account_tab th,.account_tab td{padding:0 0 10px 0;color:#fff;height:10px;}*/
 /*.account_tab th{padding-left:10px;}*/
@@ -987,7 +986,7 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .moreForm .jscroll .jspTrack{background: #f5f5f5;}
 
 .toggle_arrow{display: inline-block;font-size: 0;line-height: 0;border-left:5px solid #f5f5f5;border-right:5px solid #f5f5f5;border-top:5px solid #224477;margin-left:5px;position: relative;}
-.work_item{padding-bottom:70px;}
+.work_item{padding-bottom:10px;}
 .work_list{width:100%;}
 .work_list thead th{height:30px;}
 .work_list tbody th,.work_list tbody td{border-bottom:1px solid #d5d5d5;}
@@ -1003,11 +1002,13 @@ li.nav_a a:hover .circle_ico,li.nav_a.current a .circle_ico{border-color:#06c;co
 .work_list tbody tr:hover td,.work_list tbody tr:hover th{background-color:#eee}
 .work_list tbody td .inner p.color-8,.work_list tbody td .inner p.color-8 span,.formName{height:30px;line-height:30px;}
 .work_list tbody td .inner p.color-8 span{overflow:hidden;}
-
+.Results_r table tr:hover td{background:none;}
+.Results_r table tr td .inner{margin-bottom:20px;}
+.Results_r tbody th,.Results_r tbody td{border-bottom:0;}
 .work_list tbody td .inner p.color-8 span.username{width:60px;}
 .work_list tbody td .inner p.color-8 span.applyname{width:100px;}
 .work_list.list_item tbody td .inner p.color-8{height:50px;line-height:50px;}
-.form_Preview{width:60%;padding:5px 15px;background: #fff;position: relative;}
+.form_Preview{width:60%;padding:5px 10px;background: #fff;position: relative;}
 .work_list tbody tr.current th{vertical-align: top;padding-top:18px;}
 .form_Preview table{width:100%;}
 .form_Preview table th,.form_Preview table td,.work_list tbody tr.current .form_Preview table th{padding:0;border:0;background:none;height:30px;vertical-align: inherit;}
