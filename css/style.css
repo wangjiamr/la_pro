@@ -65,7 +65,7 @@ em.color_2{color:#bbb;background:none;}
 .search_tab{width:100%;}
 .search_tab th{width:60px;padding-right:10px;line-height:20px;}
 .search_tab th,.search_tab td{padding-bottom:15px;}
-.search_tab td a{display:inline-block;margin:5px;color:#666;}
+.search_tab td a{display:inline-block;margin:5px;color:#666;width:100px;}
 .search_tab td a:hover,.search_tab td a.current{color:#347cdc;}
 .new_main{width:1000px;margin:0 auto;min-height:200px;margin-top:80px;color:#fff;}
 .top_board{width:800px;margin:0 auto;height:100px;background:url("../img/mask4.png") repeat;border-radius:3px;opacity:0.9;}
